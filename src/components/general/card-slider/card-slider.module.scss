@@ -1,0 +1,13 @@
+ 
+.show_slider {
+    display: none;
+}
+
+@include respond-to('xs') {
+    .show_slider {
+        display: block
+    }
+    .wrapper__content {
+        display: none;
+    }
+}

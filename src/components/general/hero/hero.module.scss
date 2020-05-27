@@ -1,0 +1,27 @@
+// Home
+.wrapper_home {
+  width: 100%;
+  height: 565px;
+}
+.text_home {
+  font-family: BreePeru;
+  font-size: 41px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+.content_home {
+  position: absolute;
+  width: 100%;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.img {
+  object-fit: cover;
+  height: inherit;
+  width: 100%;
+  object-position: center;
+}

@@ -1,0 +1,59 @@
+/* MEDIA QUERIES */
+
+@mixin respond-to($breakpoint) {
+    @if $breakpoint=="xs" {
+        @media (max-width: 576px) {
+            @content;
+        }
+    }
+    @else if $breakpoint=="sm" {
+        @media (max-width: 768px) {
+            @content;
+        }
+    }
+    @else if $breakpoint=="md" {
+        @media (max-width: 992px) {
+            @content;
+        }
+    }
+    @else if $breakpoint=="lg" {
+        @media (max-width: 1200px) {
+            @content;
+        }
+    }
+    @else if $breakpoint=="xl" {
+        @media (min-width: 1201px) {
+            @content;
+        }
+    }
+    @else {
+        @media ($breakpoint) {
+            @content;
+        }
+    }
+}
+
+
+/* @include respond-to('mobile') {} */
+
+
+/* CENTERING */
+
+@mixin centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+/*
+.parent {
+position: relative;
+}
+.child {
+@include centered;
+}
+*/
