@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "titulo": "Norma sanitaria para restaurantes",
+        "fecha": "13 de mayo, 2020",
+        "resumen": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua….",
+        "imagen": "https://picsum.photos/400/400?random=1",
+        "alt": "alt-medidas",
+        "categoria": "Nuevo",
+        "slug": "norma-sanitaria-para-restaurantes"
+    },
+    {
+        "id": 2,
+        "titulo": "Reglamento para agencia de viajes y turismo",
+        "fecha": "13 de mayo, 2020",
+        "resumen": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua….",
+        "imagen": "https://picsum.photos/400/400?random=1",
+        "alt": "alt-medidas",
+        "categoria": "Nuevo",
+        "slug": "reglamento-para-agencia-de-viajes-y-turismo"
+    },
+    {
+        "id": 3,
+        "titulo": "Protocolo sanitario para hoteles",
+        "fecha": "13 de mayo, 2020",
+        "resumen": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua….",
+        "imagen": "https://picsum.photos/400/400?random=1",
+        "alt": "alt-medidas",
+        "categoria": "Lo más visto",
+        "slug": "protocolo-sanitario-para-hoteles"
+    },
+    {
+        "id": 4,
+        "titulo": "Reactivación de actividad artesanal",
+        "fecha": "13 de mayo, 2020",
+        "resumen": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua….",
+        "imagen": "https://picsum.photos/400/400?random=1",
+        "alt": "alt-medidas",
+        "categoria": "Lo más visto",
+        "slug": "reactivacion-de-actividad-artesanal"
+    },
+    {
+        "id": 5,
+        "titulo": "Acceso gratuito a los sitios arqueológicos, museos, entre otros.",
+        "fecha": "13 de mayo, 2020",
+        "resumen": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua….",
+        "imagen": "https://picsum.photos/400/400?random=1",
+        "alt": "alt-medidas",
+        "categoria": "Lo más visto",
+        "slug": "acceso-gratuito-a-los-sitios-arqueologicos-museos-entre-otros"
+    }
+]

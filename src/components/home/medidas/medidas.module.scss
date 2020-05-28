@@ -2,3 +2,19 @@
   padding: 65px 0px;
   background-color: $dark-yellow;
 }
+.title {
+  font-family: BreePeru;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  width: 70%;
+  margin: auto;
+}
+.card_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}

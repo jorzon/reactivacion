@@ -10,11 +10,13 @@
   font-family: ClanOffc;
   font-size: 16px;
 }
+
 .wrapper_footer_subscribe:hover {
   background-color: transparent;
   color: $pink;
   transition: all 200ms ease-in-out;
 }
+
 // Button Home Hero
 .wrapper_home_hero {
   width: 180px;
@@ -28,4 +30,39 @@
   border: solid 2px $pink;
   transition: all 200ms ease-in-out;
   margin-top: 30px;
+}
+
+//Button Home Medidas
+.wrapper_home_medidas {
+  width: 224px;
+  height: 53px;
+  border-radius: 24px;
+  background-color: $pale-green;
+  border: solid 2px $pale-green;
+  color: white;
+  font-family: ClanOffc;
+  font-size: 15px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto 0px auto;
+  transition: all 200ms ease-in-out;
+}
+
+.wrapper_home_medidas:hover {
+  background-color: transparent;
+  transition: all 200ms ease-in-out;
+}
+
+//Button Home Medidas Card
+.wrapper_home_medidas_card {
+  width: 103px;
+  height: 28.6px;
+  border-radius: 23px;
+  background-color: $red;
+  font-family: ClanOffc;
+  font-size: 10px;
+  font-weight: 500;
+  color: white;
 }

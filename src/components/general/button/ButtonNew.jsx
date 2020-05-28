@@ -26,7 +26,7 @@ Button.defaultProps = {
   className: "",
   url: "#",
   action: false,
-  click: "",
+  click: () => null,
   href: false,
   to: "#",
 };

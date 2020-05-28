@@ -23,3 +23,20 @@ export const ButtonHomeHero = () => {
         </Button>
     )
 }
+
+export const ButtonHomeMedidas = () => {
+    return (
+        <Button className={styles.wrapper_home_medidas}>
+            Ver todas las notas
+        </Button>
+    )
+}
+
+export const ButtonHomeMedidasCard = () => {
+    return (
+        <Button action className={styles.wrapper_home_medidas_card}>
+            Leer más
+        </Button>
+    )
+}
+
