@@ -4,6 +4,7 @@ import Hero from './Hero';
 import styles from './hero.module.scss'
 import Text from 'components/general/text/Text';
 import {ButtonHomeHero} from 'components/general/button/button.stories.js'
+import banner from 'aasets/img/slider.jpg'
 
 export default {
     title: 'Hero',
@@ -14,7 +15,7 @@ export const HeroHome = () => {
     return (
         <Hero
             className={styles.wrapper_home}
-            image="http://mmsolutions.com.pe/turismo-comunitario/src/assets/img/slider.jpg"
+            image={banner}
             alt="ofertas-banner"
         >
             <div className={styles.content_home}>
