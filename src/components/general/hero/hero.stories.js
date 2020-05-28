@@ -4,7 +4,7 @@ import Hero from './Hero';
 import styles from './hero.module.scss'
 import Text from 'components/general/text/Text';
 import {ButtonHomeHero} from 'components/general/button/button.stories.js'
-import banner from 'aasets/img/slider.jpg'
+import banner from 'assets/img/slider.jpg'
 
 export default {
     title: 'Hero',
