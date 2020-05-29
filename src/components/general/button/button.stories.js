@@ -1,11 +1,10 @@
 import React from 'react'
-import { withKnobs, text, boolean } from "@storybook/addon-knobs";
 import styles from './newbutton.module.scss'
 import Button from './ButtonNew';
+import { MemoryRouter } from 'react-router-dom'
 
 export default {
-    title: 'Button',
-    decorators: [withKnobs]
+    title: 'Button'
 };
 
 export const ButtonFooterSubscribe = () => {
@@ -26,9 +25,11 @@ export const ButtonHomeHero = () => {
 
 export const ButtonHomeMedidas = () => {
     return (
-        <Button className={styles.wrapper_home_medidas}>
-            Ver todas las notas
-        </Button>
+        <MemoryRouter>
+            <Button className={styles.wrapper_home_medidas}>
+                Ver todas las notas
+            </Button>
+        </MemoryRouter>
     )
 }
 

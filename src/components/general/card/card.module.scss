@@ -57,8 +57,20 @@
   margin-top: 15px;
 }
 
-.icon_medidas {
+.button_medidas {
   color: #bcbbbb;
+  background-color: transparent;
+  width: 29px;
+  height: 29px;
+  border: 1px solid #bcbbbb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+}
+
+.icon_medidas {
+  font-size: 13px;
 }
 
 .wrapper_medidas_lg {
@@ -81,9 +93,72 @@
   padding: 24px 15px;
 }
 
+.wrapper_notas_sm {
+  width: 273px;
+  height: 267px;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 20px 10px 0px 10px;
+  position: relative;
+}
+
+.wrapper_notas_lg {
+  width: 566px;
+  height: 267px;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 20px 10px 0px 10px;
+  position: relative;
+}
+
+.title_notas_sm {
+  font-family: ClanOffc;
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+}
+
+.title_notas_lg {
+  font-family: ClanOffc;
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+  width: 69%;
+}
+
+.content_notas {
+  padding: 15px 20px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+@include respond-to("md") {
+  .wrapper_notas_lg {
+    height: 267px;
+    width: auto;
+  }
+  .wrapper_notas_sm {
+    height: 168px;
+    width: 172px;
+  }
+  .wrapper_notas_sm,
+  .wrapper_notas_lg {
+    margin: 20px 5px 0px 5px;
+  }
+  .title_notas_sm {
+    font-size: 14px;
+  }
+}
+
 @include respond-to("xs") {
   .wrapper_medidas_lg {
     width: 377px;
     height: 338px;
+  }
+  .wrapper_notas {
+    margin: auto;
   }
 }

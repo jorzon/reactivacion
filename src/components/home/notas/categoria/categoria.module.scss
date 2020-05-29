@@ -1,0 +1,29 @@
+.wrapper_circle {
+  width: 34px;
+  height: 34px;
+  background-color: $red;
+  border-radius: 25px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper_button {
+  width: 117px;
+  height: 46px;
+  background-color: $red;
+  color: white;
+  border-radius: 25px;
+  font-family: ClanOffc;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+@include respond-to("md") {
+  .wrapper_button {
+    width: 81px;
+    height: 32px;
+    font-size: 12px;
+  }
+}

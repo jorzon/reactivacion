@@ -3,6 +3,7 @@ import Seo from "components/general/seo/Seo";
 import Layout from "components/layout/Layout";
 import { HeroHome } from "components/general/hero/hero.stories.js";
 import Medidas from "components/home/medidas/Medidas";
+import Notas from "components/home/notas/Notas";
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
       />
       <HeroHome />
       <Medidas />
+      <Notas/>
     </Layout>
   );
 };

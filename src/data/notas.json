@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "titulo": "Estás son las cinco lagunas más grandes del país",
+        "imagen": "https://picsum.photos/400/400?random=1",
+        "alt": "alt-notas",
+        "categoria": "imagen",
+        "slug": "nota-1"
+    },
+    {
+        "id": 2,
+        "titulo": "Prepárate para mochilear por San Martín",
+        "imagen": "https://picsum.photos/400/400?random=1",
+        "alt": "alt-notas",
+        "categoria": "video",
+        "slug": "nota-2"
+    },
+    {
+        "id": 3,
+        "titulo": "Descubre cuántos kilómetros recorre el tren Lima - Huancayo",
+        "imagen": "https://picsum.photos/400/400?random=1",
+        "alt": "alt-notas",
+        "categoria": "imagen",
+        "slug": "nota-3"
+    },
+    {
+        "id": 4,
+        "titulo": "Piura, la región del eterno verano ",
+        "imagen": "https://picsum.photos/400/400?random=1",
+        "alt": "alt-notas",
+        "categoria": "nota",
+        "slug": "nota-4"
+    },
+    {
+        "id": 5,
+        "titulo": "Aprende un poco más sobre cuatro auquénidos",
+        "imagen": "https://picsum.photos/400/400?random=1",
+        "alt": "alt-notas",
+        "categoria": "video",
+        "slug": "nota-5"
+    },
+    {
+        "id": 6,
+        "titulo": "Te presentamos las tres montañas más altas del Perú",
+        "imagen": "https://picsum.photos/400/400?random=1",
+        "alt": "alt-notas",
+        "categoria": "nota",
+        "slug": "nota-6"
+    }
+]

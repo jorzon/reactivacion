@@ -13,7 +13,7 @@ import iperu from "assets/img/iperu.webp";
 import promperu from "assets/img/promperu.webp";
 import marcaperu from "assets/img/perumarca.webp";
 // import SubscribeInput from 'components/footer/subscribe-input/SubscribeInput'
-import H5 from "components/general/h5/H5";
+import Text from "components/general/text/Text";
 import SocialICon from "components/footer/social-icon/SocialIcon";
 import SubFooter from "components/footer/subfooter/SubFooter";
 import { ButtonFooterSubscribe } from "components/general/button/button.stories.js";
@@ -35,15 +35,13 @@ const Footer = () => {
               </button>
             </a>
             <div className={styles.help__mobile}>
-              <H5 title="¿Necesitas ayuda?" />
+              <Text className={styles.h5} content="¿Necesitas ayuda?" />
               <p className={styles.ayuda_p}>Escríbenos las 24 horas</p>
             </div>
           </div>
           <div className={styles.wrapper__links}>
             <div className={styles.inner_wrapper__links}>
-              <div className={styles.h5}>
-                <H5 title="Información para tu viaje" />
-              </div>
+              <Text className={styles.h5} content="Información para tu viaje" />
               <ul className={styles.list}>
                 <a
                   className={styles.list__link}
@@ -88,12 +86,12 @@ const Footer = () => {
                   </button>
                 </a>
                 <div>
-                  <H5 title="¿Necesitas ayuda?" />
+                  <Text className={styles.h5} content="¿Necesitas ayuda?" />
                   <p className={styles.ayuda_p}>Escríbenos las 24 horas</p>
                 </div>
               </div>
               <div className={styles.social}>
-                <H5 title="Síguenos" />
+                <Text className={styles.h5} content="Síguenos" />
                 <ul className={styles.social_list}>
                   <SocialICon
                     xclassname="fb"
@@ -158,7 +156,7 @@ const Footer = () => {
           <div className={styles.wrapper__subscribe}>
             <div className={styles.inner_wrapper__subscribe}>
               <div className={styles.h5}>
-                <H5 title="¡Suscríbete para recibir nuevas ofertas y novedades!" />
+                <Text content="¡Suscríbete para recibir nuevas ofertas y novedades!" />
               </div>
               {/* <SubscribeInput /> */}
               <div className={styles.sub_button}>

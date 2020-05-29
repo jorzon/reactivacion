@@ -27,6 +27,8 @@ const Medidas = () => {
                 date={post.fecha}
                 description={post.resumen}
                 category={post.categoria}
+                slug={post.slug}
+                alt2={post.alt}
               />
             ) : (
               <CardMedidasLg
@@ -35,6 +37,8 @@ const Medidas = () => {
                 date={post.fecha}
                 description={post.resumen}
                 category={post.categoria}
+                slug={post.slug}
+                alt2={post.alt}
               />
             )
           )}

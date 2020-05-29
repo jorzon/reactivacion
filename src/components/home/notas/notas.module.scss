@@ -1,0 +1,44 @@
+.wrapper {
+  padding: 100px 0px;
+}
+.title {
+  font-family: BreePeru;
+  font-size: 36px;
+  font-weight: bold;
+  color: $dark-grey;
+  text-align: center;
+}
+.subtitle {
+  font-family: ClanOffcNews;
+  font-size: 18px;
+  font-weight: normal;
+  color: $dark-grey;
+  text-align: center;
+  margin: 15px auto 0px auto;
+  width: 55%;
+  line-height: 1.3;
+}
+.card_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 50px auto 0px auto;
+  width: 90%;
+}
+
+@include respond-to("md") {
+  .title {
+    font-size: 24px;
+  }
+  .subtitle {
+    font-size: 14px;
+    width: 79%;
+  }
+}
+
+@include respond-to("xs") {
+    .card_container {
+      justify-content: space-between;
+    }
+  }
