@@ -24,7 +24,7 @@ const Notas = () => {
                 key={post.id}
                 title={post.titulo}
                 category={post.categoria}
-                slug={post.slug}
+                slug="/single"
                 alt={post.alt}
                 picture
               />
@@ -33,7 +33,7 @@ const Notas = () => {
                 key={post.id}
                 title={post.titulo}
                 category={post.categoria}
-                slug={post.slug}
+                slug="/single"
                 alt={post.alt}
                 video
               />
@@ -42,7 +42,7 @@ const Notas = () => {
                 key={post.id}
                 title={post.titulo}
                 category={post.categoria}
-                slug={post.slug}
+                slug="/single"
                 alt={post.alt}
               />
             )
@@ -51,7 +51,7 @@ const Notas = () => {
               key={post.id}
               title={post.titulo}
               category={post.categoria}
-              slug={post.slug}
+              slug="/single"
               alt={post.alt}
               picture
             />
@@ -60,7 +60,7 @@ const Notas = () => {
               key={post.id}
               title={post.titulo}
               category={post.categoria}
-              slug={post.slug}
+              slug="/single"
               alt={post.alt}
               video
             />
@@ -69,7 +69,7 @@ const Notas = () => {
               key={post.id}
               title={post.titulo}
               category={post.categoria}
-              slug={post.slug}
+              slug="/single"
               alt={post.alt}
             />
           )
