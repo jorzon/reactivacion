@@ -1,0 +1,23 @@
+.wrapper {
+  background-color: $yellow;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 10px 90px 10px;
+}
+
+.title {
+  font-family: BreePeru;
+  font-size: 33px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+.cards {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}

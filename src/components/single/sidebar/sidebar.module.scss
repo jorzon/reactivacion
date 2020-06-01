@@ -1,0 +1,44 @@
+.wrapper {
+  width: 214px;
+  height: 605px;
+  border-radius: 5px;
+  box-shadow: 0 0 8px 0 rgba(219, 219, 219, 0.5);
+  background-color: #ffffff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.note {
+  margin-bottom: 18px;
+}
+
+.heading {
+  font-family: BreePeru;
+  font-size: 16px;
+  font-weight: bold;
+  color: $pink;
+  margin-bottom: 22px;
+}
+
+.title {
+  font-family: ClanOffc;
+  font-size: 12px;
+  font-weight: 500;
+  color: $dark-grey;
+}
+
+.date {
+  font-family: ClanOffcNews;
+  font-size: 10px;
+  font-weight: normal;
+  color: #bcbbbb;
+  margin-top: 10px;
+}
+
+.hr {
+  border: none;
+  border-bottom: solid 1px #ededed;
+  margin: 15px 0px 0px 0px;
+}

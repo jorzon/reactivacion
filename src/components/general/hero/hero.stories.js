@@ -1,10 +1,10 @@
 import React from 'react'
-import { withKnobs, text, number } from "@storybook/addon-knobs";
+import { withKnobs, text, boolean } from "@storybook/addon-knobs";
 import Hero from './Hero';
 import styles from './hero.module.scss'
 import Text from 'components/general/text/Text';
-import {ButtonHomeHero} from 'components/general/button/button.stories.js'
-import banner from 'assets/img/slider.jpg'
+import { ButtonHomeHero } from 'components/general/button/button.stories.js'
+import banner_home from 'assets/img/slider.jpg'
 
 export default {
     title: 'Hero',
@@ -15,14 +15,28 @@ export const HeroHome = () => {
     return (
         <Hero
             className={styles.wrapper_home}
-            image={banner}
-            alt="ofertas-banner"
+            image={banner_home}
+            alt="home-banner"
         >
             <div className={styles.content_home}>
                 <Text className={styles.text_home} content="Nos estamos preparando" />
-                <ButtonHomeHero/>
+                <ButtonHomeHero />
             </div>
         </Hero>
+    )
+}
+
+export const HeroSingle = ({
+    alt = text("Alt", "alt-de-la-imagen"),
+    image = text("Image", banner_home)
+
+}) => {
+    return (
+        <Hero
+            className={styles.wrapper_single}
+            image={image}
+            alt={alt}
+        />
     )
 }
 

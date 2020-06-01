@@ -23,6 +23,12 @@
   width: 100%;
   object-fit: cover;
   object-position: top;
+  transition: width 300ms ease-in-out;
+}
+
+.img_medidas:hover {
+  width: 115%;
+  transition: width 300ms ease-in-out;
 }
 
 .title_medidas {
@@ -133,6 +139,14 @@
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
+  width: 100%;
+  box-shadow: inset 0px 1000px 1000px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 300ms ease-in-out;
+}
+
+.content_notas:hover {
+  box-shadow: inset 0px 1000px 1000px rgba(0, 0, 0, 0.7);
+  transition: box-shadow 300ms ease-in-out;
 }
 
 @include respond-to("md") {

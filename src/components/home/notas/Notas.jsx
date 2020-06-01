@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./notas.module.scss";
-import LimitWrapper from "components/general/limit-wrapper/LimitWrapper";
 import Text from "components/general/text/Text";
 import {
   CardNotasSm,
@@ -19,7 +18,35 @@ const Notas = () => {
       />
       <div className={styles.card_container}>
         {data.map((post) =>
-          post.categoria === "imagen" ? (
+          post.id == 1 || post.id == 6 ? (
+            post.categoria === "imagen" ? (
+              <CardNotasLg
+                key={post.id}
+                title={post.titulo}
+                category={post.categoria}
+                slug={post.slug}
+                alt={post.alt}
+                picture
+              />
+            ) : post.categoria === "video" ? (
+              <CardNotasLg
+                key={post.id}
+                title={post.titulo}
+                category={post.categoria}
+                slug={post.slug}
+                alt={post.alt}
+                video
+              />
+            ) : (
+              <CardNotasLg
+                key={post.id}
+                title={post.titulo}
+                category={post.categoria}
+                slug={post.slug}
+                alt={post.alt}
+              />
+            )
+          ) : post.categoria === "imagen" ? (
             <CardNotasSm
               key={post.id}
               title={post.titulo}
