@@ -1,50 +1,56 @@
 [
     {
         "id": 1,
-        "titulo": "Estás son las cinco lagunas más grandes del país",
-        "imagen": "https://picsum.photos/400/400?random=1",
-        "alt": "alt-notas",
-        "categoria": "imagen",
-        "slug": "nota-1"
+        "titulo": "Ejercicio y comida saludable: el secreto para estar listo antes del viaje",
+        "imagen": "http://mmsolutions.com.pe/img/landing-reactivacion/nota1/mujer-saludable.jpg",
+        "alt": "ejercicio-comida-saludable",
+        "categoria": "info",
+        "slug": "ejercicio-y-comida-saludable",
+        "date": "1 de junio, 2020"
     },
     {
         "id": 2,
-        "titulo": "Prepárate para mochilear por San Martín",
-        "imagen": "https://picsum.photos/400/400?random=1",
-        "alt": "alt-notas",
-        "categoria": "video",
-        "slug": "nota-2"
+        "titulo": "Programar con anticipación tu viaje por el Perú te ahorra dinero",
+        "imagen": "http://mmsolutions.com.pe/img/landing-reactivacion/nota2/terrazas-machupicchu.JPG",
+        "alt": "programar-tu-viaje",
+        "categoria": "info",
+        "slug": "programar-con-anticipación-tu-viaje-por-el-Perú",
+        "date": "1 de junio, 2020"
     },
     {
         "id": 3,
-        "titulo": "Descubre cuántos kilómetros recorre el tren Lima - Huancayo",
-        "imagen": "https://picsum.photos/400/400?random=1",
-        "alt": "alt-notas",
-        "categoria": "imagen",
-        "slug": "nota-3"
+        "titulo": "Agencias de viaje listas para sacar a flote al turismo interno",
+        "imagen": "http://mmsolutions.com.pe/img/landing-reactivacion/nota3/agencia-de-viajes.jpg",
+        "alt": "agencias-de-viaje ",
+        "categoria": "info",
+        "slug": "agencias-de-viaje-listas",
+        "date": "1 de junio, 2020"
     },
     {
         "id": 4,
-        "titulo": "Piura, la región del eterno verano ",
-        "imagen": "https://picsum.photos/400/400?random=1",
-        "alt": "alt-notas",
+        "titulo": "Ejercicio y comida saludable: el secreto para estar listo antes del viaje",
+        "imagen": "http://mmsolutions.com.pe/img/landing-reactivacion/nota1/mujer-saludable.jpg",
+        "alt": "ejercicio-comida-saludable",
         "categoria": "nota",
-        "slug": "nota-4"
+        "slug": "ejercicio-y-comida-saludable",
+        "date": "1 de junio, 2020"
     },
     {
         "id": 5,
-        "titulo": "Aprende un poco más sobre cuatro auquénidos",
-        "imagen": "https://picsum.photos/400/400?random=1",
-        "alt": "alt-notas",
-        "categoria": "video",
-        "slug": "nota-5"
+        "titulo": "Programar con anticipación tu viaje por el Perú te ahorra dinero",
+        "imagen": "http://mmsolutions.com.pe/img/landing-reactivacion/nota2/terrazas-machupicchu.JPG",
+        "alt": "programar-tu-viaje",
+        "categoria": "nota",
+        "slug": "programar-con-anticipación-tu-viaje-por-el-Perú",
+        "date": "1 de junio, 2020"
     },
     {
         "id": 6,
-        "titulo": "Te presentamos las tres montañas más altas del Perú",
-        "imagen": "https://picsum.photos/400/400?random=1",
-        "alt": "alt-notas",
+        "titulo": "Agencias de viaje listas para sacar a flote al turismo interno",
+        "imagen": "http://mmsolutions.com.pe/img/landing-reactivacion/nota3/agencia-de-viajes.jpg",
+        "alt": "agencias-de-viaje ",
         "categoria": "nota",
-        "slug": "nota-6"
+        "slug": "agencias-de-viaje-listas",
+        "date": "1 de junio, 2020"
     }
 ]

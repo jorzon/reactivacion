@@ -48,3 +48,11 @@ export const ButtonSingle = ({ content, yellow, pink }) => {
         </Button>
     )
 }
+
+export const ButtonFooter = ({ content, green, pink }) => {
+    return (
+        <Button anchor className={green ? styles.wrapper_footer_green : pink ? styles.wrapper_footer_pink : ''}>
+            {content}
+        </Button>
+    )
+}

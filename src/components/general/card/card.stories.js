@@ -7,7 +7,7 @@ import Text from "components/general/text/Text";
 import { ButtonHomeMedidasCard } from "components/general/button/button.stories.js";
 import { ChipMedidas } from "components/general/chip/chip.stories.js";
 import ShareButton from "components/general/share-button/ShareButton";
-import { CategoriaNota, CategoriaImagen, CategoriaVideo } from "components/home/notas/categoria/categoria.stories.js";
+import { CategoriaTexto, CategoriaImagen, CategoriaVideo } from "components/home/notas/categoria/categoria.stories.js";
 
 export default {
     title: 'Card',
@@ -26,7 +26,7 @@ export const CardMedidasSm = ({
 
     return (
         <MemoryRouter>
-            <Card to={slug}>
+            <Card anchor to={slug}>
                 <div className={styles.wrapper_medidas_sm}>
                     <div className={styles.head_medidas_sm}>
                         <ChipMedidas title={category} />
@@ -35,7 +35,7 @@ export const CardMedidasSm = ({
                     <div className={styles.content_medidas_sm}>
                         <Text className={styles.title_medidas} content={title} />
                         <Text className={styles.date_medidas} content={date} />
-                        <Text className={styles.description_medidas} content={description} />
+                        {/*<Text className={styles.description_medidas} content={description} />*/}
                         <div>
                             <div className={styles.footer_medidas}>
                                 <ButtonHomeMedidasCard />
@@ -60,7 +60,7 @@ export const CardMedidasLg = ({
 }) => {
 
     return (
-        <Card to={slug}>
+        <Card anchor to={slug}>
             <div className={styles.wrapper_medidas_lg}>
                 <div className={styles.head_medidas_lg}>
                     <ChipMedidas title={category} />
@@ -69,7 +69,7 @@ export const CardMedidasLg = ({
                 <div className={styles.content_medidas_lg}>
                     <Text className={styles.title_medidas} content={title} />
                     <Text className={styles.date_medidas} content={date} />
-                    <Text className={styles.description_medidas} content={description} />
+                    {/*<Text className={styles.description_medidas} content={description} />*/}
                     <div>
                         <div className={styles.footer_medidas}>
                             <ButtonHomeMedidasCard />
@@ -88,7 +88,8 @@ export const CardNotasSm = ({
     image = text("Imagen", "https://picsum.photos/400/400?random=1"),
     alt = text("Alt", "Alt-de-la-imagen"),
     video = boolean("Es Video", false),
-    picture = boolean("Es Imagen", false)
+    picture = boolean("Es Imagen", false),
+    content = text("Boton", "Ver Boton")
 }) => {
 
     return (
@@ -99,7 +100,7 @@ export const CardNotasSm = ({
                     {
                         video ? <CategoriaVideo /> :
                             picture ? <CategoriaImagen /> :
-                                <CategoriaNota />
+                                <CategoriaTexto content={content} />
                     }
                 </div>
                 <img className={styles.img_medidas} src={image} alt={alt} />
@@ -114,7 +115,8 @@ export const CardNotasLg = ({
     image = text("Imagen", "https://picsum.photos/400/400?random=1"),
     alt = text("Alt", "Alt-de-la-imagen"),
     video = boolean("Es Video", false),
-    picture = boolean("Es Imagen", false)
+    picture = boolean("Es Imagen", false),
+    content = text("Boton", "Ver Boton")
 }) => {
 
     return (
@@ -126,7 +128,7 @@ export const CardNotasLg = ({
                     {
                         video ? <CategoriaVideo /> :
                             picture ? <CategoriaImagen /> :
-                                <CategoriaNota />
+                                <CategoriaTexto content={content} />
                     }
                 </div>
                 <img className={styles.img_medidas} src={image} alt={alt} />

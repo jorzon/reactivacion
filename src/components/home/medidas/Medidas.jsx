@@ -20,25 +20,25 @@ const Medidas = () => {
         />
         <div className={styles.card_container}>
           {data.map((post) =>
-            post.categoria === "Nuevo" ? (
+            post.categoria === "Turismo" ? (
               <CardMedidasSm
                 key={post.id}
                 title={post.titulo}
                 date={post.fecha}
-                description={post.resumen}
                 category={post.categoria}
                 slug={post.slug}
                 alt={post.alt}
+                image={post.imagen}
               />
             ) : (
               <CardMedidasLg
                 key={post.id}
                 title={post.titulo}
                 date={post.fecha}
-                description={post.resumen}
                 category={post.categoria}
                 slug={post.slug}
                 alt={post.alt}
+                image={post.imagen}
               />
             )
           )}

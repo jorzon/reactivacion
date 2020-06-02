@@ -19,23 +19,15 @@ const Notas = () => {
       <div className={styles.card_container}>
         {data.map((post) =>
           post.id == 1 || post.id == 6 ? (
-            post.categoria === "imagen" ? (
+            post.categoria === "info" ? (
               <CardNotasLg
                 key={post.id}
                 title={post.titulo}
                 category={post.categoria}
                 slug="/single"
                 alt={post.alt}
-                picture
-              />
-            ) : post.categoria === "video" ? (
-              <CardNotasLg
-                key={post.id}
-                title={post.titulo}
-                category={post.categoria}
-                slug="/single"
-                alt={post.alt}
-                video
+                image={post.imagen}
+                content="Ver infografia"
               />
             ) : (
               <CardNotasLg
@@ -44,25 +36,19 @@ const Notas = () => {
                 category={post.categoria}
                 slug="/single"
                 alt={post.alt}
+                image={post.imagen}
+                content="Ver Nota"
               />
             )
-          ) : post.categoria === "imagen" ? (
+          ) : post.categoria === "info" ? (
             <CardNotasSm
               key={post.id}
               title={post.titulo}
               category={post.categoria}
               slug="/single"
               alt={post.alt}
-              picture
-            />
-          ) : post.categoria === "video" ? (
-            <CardNotasSm
-              key={post.id}
-              title={post.titulo}
-              category={post.categoria}
-              slug="/single"
-              alt={post.alt}
-              video
+              image={post.imagen}
+              content="Ver infografia"
             />
           ) : (
             <CardNotasSm
@@ -71,15 +57,11 @@ const Notas = () => {
               category={post.categoria}
               slug="/single"
               alt={post.alt}
+              image={post.imagen}
+              content="Ver Nota"
             />
           )
         )}
-        {/* <CardNotasLg picture />
-        <CardNotasSm video />
-        <CardNotasSm picture />
-        <CardNotasSm />
-        <CardNotasSm video />
-        <CardNotasLg /> */}
       </div>
     </section>
   );

@@ -1,52 +1,52 @@
 [
     {
         "id": 1,
-        "titulo": "Norma sanitaria para restaurantes",
-        "fecha": "13 de mayo, 2020",
-        "resumen": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua….",
-        "imagen": "https://picsum.photos/400/400?random=1",
-        "alt": "alt-medidas",
-        "categoria": "Nuevo",
-        "slug": "norma-sanitaria-para-restaurantes"
+        "titulo": "Decreto Legislativo que dispone la reactivación y promoción de la actividad artesanal a cargo del Ministerio de Comercio Exterior y Turismo",
+        "fecha": "1 de junio, 2020",
+        "resumen": "El Decreto Legislativo que puedes ver a continuación tiene por objeto establecer medidas que permitan la reactivación y promoción económica de la actividad artesanal…",
+        "imagen": "http://mmsolutions.com.pe/img/landing-reactivacion/medidas/1-mujer-artesana.jpg",
+        "alt": "decreto-legislativo-actividad-artesanal",
+        "categoria": "Turismo",
+        "slug": "https://busquedas.elperuano.pe/normaslegales/decreto-legislativo-que-dispone-la-reactivacion-y-promocion-decreto-legislativo-n-1475-1865986-3/"
     },
     {
         "id": 2,
-        "titulo": "Reglamento para agencia de viajes y turismo",
-        "fecha": "13 de mayo, 2020",
+        "titulo": "Decreto Legislativo que dispone el acceso gratuito temporal a los sitios arqueológicos, museos, lugares históricos y áreas naturales protegidas",
+        "fecha": "1 de junio, 2020",
         "resumen": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua….",
-        "imagen": "https://picsum.photos/400/400?random=1",
-        "alt": "alt-medidas",
-        "categoria": "Nuevo",
-        "slug": "reglamento-para-agencia-de-viajes-y-turismo"
+        "imagen": "http://mmsolutions.com.pe/img/landing-reactivacion/medidas/2-turistas-pachacamac.jpg",
+        "alt": "decreto-legislativo-sitios-arqueologicos",
+        "categoria": "Turismo",
+        "slug": "https://busquedas.elperuano.pe/normaslegales/decreto-legislativo-que-dispone-el-acceso-gratuito-temporal-decreto-legislativo-n-1507-1866220-8/"
     },
     {
         "id": 3,
-        "titulo": "Protocolo sanitario para hoteles",
-        "fecha": "13 de mayo, 2020",
+        "titulo": "Lineamientos para la vigilancia, prevención y control de la salud de los trabajadores con riesgo de exposición a COVID-19",
+        "fecha": "1 de junio, 2020",
         "resumen": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua….",
-        "imagen": "https://picsum.photos/400/400?random=1",
-        "alt": "alt-medidas",
-        "categoria": "Lo más visto",
-        "slug": "protocolo-sanitario-para-hoteles"
+        "imagen": "http://mmsolutions.com.pe/img/landing-reactivacion/medidas/3-control-de-trabajadores.jpg",
+        "alt": "lineamientos-para-la-vigilancia",
+        "categoria": "Reanudación",
+        "slug": "https://www.gob.pe/institucion/minsa/normas-legales/564878-265-2020-minsa"
     },
     {
         "id": 4,
-        "titulo": "Reactivación de actividad artesanal",
-        "fecha": "13 de mayo, 2020",
+        "titulo": "Guía técnica para los restaurantes y servicios afines con modalidad de servicio a domicilio",
+        "fecha": "1 de junio, 2020",
         "resumen": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua….",
-        "imagen": "https://picsum.photos/400/400?random=1",
-        "alt": "alt-medidas",
-        "categoria": "Lo más visto",
-        "slug": "reactivacion-de-actividad-artesanal"
+        "imagen": "http://mmsolutions.com.pe/img/landing-reactivacion/medidas/4-servicio-delivery.jpg",
+        "alt": "guia-restaurantes",
+        "categoria": "Restaurantes",
+        "slug": "https://www.gob.pe/institucion/minsa/normas-legales/544212-250-2020-minsa"
     },
     {
         "id": 5,
-        "titulo": "Acceso gratuito a los sitios arqueológicos, museos, entre otros.",
-        "fecha": "13 de mayo, 2020",
+        "titulo": "Protocolo sanitario sectorial ante el COVID-19 para hoteles categorizados",
+        "fecha": "1 de junio, 2020",
         "resumen": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua….",
-        "imagen": "https://picsum.photos/400/400?random=1",
-        "alt": "alt-medidas",
-        "categoria": "Lo más visto",
-        "slug": "acceso-gratuito-a-los-sitios-arqueologicos-museos-entre-otros"
+        "imagen": "http://mmsolutions.com.pe/img/landing-reactivacion/medidas/5-medidas-preventivas-hoteles.jpg",
+        "alt": "protocolo-sanitario",
+        "categoria": "Hoteles",
+        "slug": "https://cdn.www.gob.pe/uploads/document/file/694765/RM_N__080.pdf"
     }
 ]

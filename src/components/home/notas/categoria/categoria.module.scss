@@ -10,14 +10,15 @@
 }
 
 .wrapper_button {
-  width: 117px;
+  width: 135px;
   height: 46px;
-  background-color: $red;
+  background-color: #e13b3d;
   color: white;
   border-radius: 25px;
   font-family: ClanOffc;
   font-size: 15px;
   font-weight: 500;
+  padding: 0px 10px;
 }
 
 @include respond-to("md") {

@@ -7,10 +7,10 @@ export default {
     title: 'Categoria'
 };
 
-export const CategoriaNota = () => {
+export const CategoriaTexto = ({content}) => {
     return (
         <button className={styles.wrapper_button}>
-            Ver nota
+            {content}
         </button>
     )
 }
