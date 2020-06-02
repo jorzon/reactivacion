@@ -41,3 +41,10 @@ export const ButtonHomeMedidasCard = () => {
     )
 }
 
+export const ButtonSingle = ({ content, yellow, pink }) => {
+    return (
+        <Button anchor className={yellow ? styles.wrapper_single_yellow : pink ? styles.wrapper_single_pink : ''}>
+            {content}
+        </Button>
+    )
+}

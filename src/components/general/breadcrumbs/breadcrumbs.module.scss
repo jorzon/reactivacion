@@ -1,31 +1,10 @@
-.wrapper{
-    position: absolute;
-    max-width: 350px;
-    height: 30px;
-    display: flex;
-    align-items: center;
-    top: 100px;
+.wrapper {
+  margin-top: 30px;
+  font-family: ClanOffcNews;
+  font-size: 12px;
+  font-weight: normal;
+  color: $sky-blue;
 }
-
-.content{
-    color: white;
-    font-family: ClanOffc;
-    font-size: 14px;
-}
-
-.contenttwo{
-    color: $pale-green;
-    font-family: ClanOffc;
-    font-size: 14px;
-}
-
-@include respond-to('xs') {
-    .wrapper{
-        bottom: auto;
-        top: 85px;
-    }
-    .inner_wrapper{
-        margin-bottom: 50px;
-        margin-top: 0px;
-    }
+.active {
+  color: $dark-grey;
 }

@@ -66,3 +66,27 @@
   font-weight: 500;
   color: white;
 }
+
+//Button Single
+.wrapper_single_yellow {
+  width: 78px;
+  height: 27px;
+  border-radius: 13.5px;
+  background-color: $yellow;
+  font-family: ClanOffcNews;
+  font-size: 12px;
+  font-weight: normal;
+  color: white;
+  margin-right: 10px;
+}
+.wrapper_single_pink {
+  width: 78px;
+  height: 27px;
+  border-radius: 13.5px;
+  background-color: $pink;
+  font-family: ClanOffcNews;
+  font-size: 12px;
+  font-weight: normal;
+  color: white;
+  margin-right: 10px;
+}

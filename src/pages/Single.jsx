@@ -1,8 +1,7 @@
 import React from "react";
 import Seo from "components/general/seo/Seo";
 import Layout from "components/layout/Layout";
-import { HeroSingle } from "components/general/hero/hero.stories.js";
-import Sidebar from "components/single/sidebar/Sidebar";
+import MainContent from "components/single/main-content/MainContent";
 import Notas from "components/single/notas/Notas";
 
 const Single = () => {
@@ -18,8 +17,7 @@ const Single = () => {
         ogImage=""
         hashTag=""
       />
-      <Sidebar/>
-      <HeroSingle />
+      <MainContent />
       <Notas/>
     </Layout>
   );

@@ -5,9 +5,8 @@ import styles from './card.module.scss'
 import Card from './Card';
 import Text from "components/general/text/Text";
 import { ButtonHomeMedidasCard } from "components/general/button/button.stories.js";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faShareAlt } from "@fortawesome/free-solid-svg-icons";
 import { ChipMedidas } from "components/general/chip/chip.stories.js";
+import ShareButton from "components/general/share-button/ShareButton";
 import { CategoriaNota, CategoriaImagen, CategoriaVideo } from "components/home/notas/categoria/categoria.stories.js";
 
 export default {
@@ -40,9 +39,7 @@ export const CardMedidasSm = ({
                         <div>
                             <div className={styles.footer_medidas}>
                                 <ButtonHomeMedidasCard />
-                                <button className={styles.button_medidas}>
-                                    <FontAwesomeIcon className={styles.icon_medidas} icon={faShareAlt} />
-                                </button>
+                                <ShareButton />
                             </div>
                         </div>
                     </div>
@@ -76,9 +73,7 @@ export const CardMedidasLg = ({
                     <div>
                         <div className={styles.footer_medidas}>
                             <ButtonHomeMedidasCard />
-                            <button className={styles.button_medidas}>
-                                <FontAwesomeIcon className={styles.icon_medidas} icon={faShareAlt} />
-                            </button>
+                            <ShareButton />
                         </div>
                     </div>
                 </div>

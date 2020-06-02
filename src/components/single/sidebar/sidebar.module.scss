@@ -8,6 +8,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-right: 25px;
 }
 
 .note {
@@ -41,4 +42,13 @@
   border: none;
   border-bottom: solid 1px #ededed;
   margin: 15px 0px 0px 0px;
+}
+
+@include respond-to('lg') {
+  .wrapper {
+    margin-right: 0px;
+    margin-left: 25px;
+    order: 1;
+    margin-top: 60px;
+  }
 }

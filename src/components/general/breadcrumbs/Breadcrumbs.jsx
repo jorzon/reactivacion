@@ -1,21 +1,23 @@
-import React from 'react'
-import styles from './breadcrumbs.module.scss'
-import { Link } from 'react-router-dom';
-
-
-
+import React from "react";
+import styles from "./breadcrumbs.module.scss";
+import { Link } from "react-router-dom";
 
 const Breadcrumbs = ({ content, slug }) => {
-    return (
-        <div className={styles.wrapper}>
-            <Link to={'/'} className={styles.content}>Home >&nbsp;</Link>
-            <Link to={'/' + slug} className={styles.contenttwo}>{content}</Link>
-        </div>
-    )
-}
-
-Breadcrumbs.defaultProps = {
-    content: 'Link'
+  return (
+    <div className={styles.wrapper}>
+      <Link to={"/"}>
+        Home >&nbsp;
+      </Link>
+      <Link to={"/" + slug} className={styles.active}>
+        {content}
+      </Link>
+    </div>
+  );
 };
 
-export default Breadcrumbs
+Breadcrumbs.defaultProps = {
+  content: "Nombre de la nota",
+  slug: "single"
+};
+
+export default Breadcrumbs;
