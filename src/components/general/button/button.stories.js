@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './newbutton.module.scss'
 import Button from './ButtonNew';
 import { MemoryRouter } from 'react-router-dom'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default {
     title: 'Button'
@@ -18,7 +19,7 @@ export const ButtonFooterSubscribe = () => {
 export const ButtonHomeHero = () => {
     return (
         <Button anchor url="https://www.ytuqueplanes.com/suscribete.aspx" className={styles.wrapper_home_hero}>
-            Ver Más
+            Ver más
         </Button>
     )
 }
@@ -49,9 +50,10 @@ export const ButtonSingle = ({ content, yellow, pink }) => {
     )
 }
 
-export const ButtonFooter = ({ content, green, pink }) => {
+export const ButtonFooter = ({ content, green, pink, icon }) => {
     return (
         <Button anchor className={green ? styles.wrapper_footer_green : pink ? styles.wrapper_footer_pink : ''}>
+            <FontAwesomeIcon className={styles.icon} icon={icon}/>
             {content}
         </Button>
     )

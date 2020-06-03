@@ -4,9 +4,9 @@
 .content_container {
   display: flex;
   align-items: center;
-  min-height: 302px;
-  height: 300px;
   padding: 50px 0px 25px 0px;
+  min-height: 250px;
+  height: 250px;
 }
 .content {
   height: 100%;
@@ -23,6 +23,7 @@
   font-size: 12px;
   letter-spacing: 0.3px;
   color: $transparent-grey;
+  cursor: pointer;
 }
 .ul {
   margin-top: 25px;
@@ -94,7 +95,32 @@
   align-items: center;
   margin-top: 90px;
 }
-
+.subfooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  flex-wrap: wrap;
+}
+.subfooter_link {
+  font-family: ClanOffc;
+  font-size: 12px;
+  font-weight: 500;
+  color: $transparent-grey;
+  cursor: pointer;
+  text-align: center;
+}
+.subfooter_span {
+  font-family: ClanOffcNews;
+  font-size: 12px;
+  font-weight: bold;
+  color: $dark-grey;
+}
+.hr {
+  border: none;
+  border-bottom: solid 1px #ededed;
+  margin: 15px 0px 0px 0px;
+}
 @include respond-to("md") {
   .content_container {
     flex-wrap: wrap;
@@ -119,5 +145,12 @@
   }
   .partner {
     margin-top: 25px;
+  }
+  .subfooter {
+    justify-content: center;
+    height: 80px;
+  }
+  .subfooter_link {
+    margin: 0px 5px;
   }
 }

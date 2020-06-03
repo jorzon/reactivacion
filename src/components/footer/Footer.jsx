@@ -38,7 +38,7 @@ const Footer = () => {
                 className={styles.title}
                 content="Asistencia al viajero 24 horas"
               />
-              <ButtonFooter green content="944492314" />
+              <ButtonFooter icon={faWhatsapp} green content="944492314" />
             </div>
             <div className={styles.content_contact}>
               <Text
@@ -72,6 +72,16 @@ const Footer = () => {
               <img className={styles.img_partner} src={promperu} alt="" />
               <img className={styles.img_partner} src={marcaperu} alt="" />
             </div>
+          </div>
+        </div>
+        <hr className={styles.hr} />
+        <div className={styles.subfooter}>
+          <div className={styles.subfooter_link}>Mapa de sitio</div>
+          <div className={styles.subfooter_link}>Aviso legal</div>
+          <div className={styles.subfooter_link}>Términos y Condiciones</div>
+          <div className={styles.subfooter_link}>
+            Todos los derechos reservados,{" "}
+            <span className={styles.subfooter_span}>ytuqueplanes 2020</span>
           </div>
         </div>
       </LimitWrapper>

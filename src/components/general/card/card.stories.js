@@ -33,14 +33,14 @@ export const CardMedidasSm = ({
                         <img className={styles.img_medidas} src={image} alt={alt} />
                     </div>
                     <div className={styles.content_medidas_sm}>
-                        <Text className={styles.title_medidas} content={title} />
-                        <Text className={styles.date_medidas} content={date} />
-                        {/*<Text className={styles.description_medidas} content={description} />*/}
                         <div>
-                            <div className={styles.footer_medidas}>
-                                <ButtonHomeMedidasCard />
-                                <ShareButton />
-                            </div>
+                            <Text className={styles.title_medidas} content={title} />
+                            <Text className={styles.date_medidas} content={date} />
+                        </div>
+                        {/*<Text className={styles.description_medidas} content={description} />*/}
+                        <div className={styles.footer_medidas}>
+                            <ButtonHomeMedidasCard />
+                            <ShareButton />
                         </div>
                     </div>
                 </div>
@@ -67,14 +67,14 @@ export const CardMedidasLg = ({
                     <img className={styles.img_medidas} src={image} alt={alt} />
                 </div>
                 <div className={styles.content_medidas_lg}>
-                    <Text className={styles.title_medidas} content={title} />
-                    <Text className={styles.date_medidas} content={date} />
-                    {/*<Text className={styles.description_medidas} content={description} />*/}
                     <div>
-                        <div className={styles.footer_medidas}>
-                            <ButtonHomeMedidasCard />
-                            <ShareButton />
-                        </div>
+                        <Text className={styles.title_medidas} content={title} />
+                        <Text className={styles.date_medidas} content={date} />
+                    </div>
+                    {/*<Text className={styles.description_medidas} content={description} />*/}
+                    <div className={styles.footer_medidas}>
+                        <ButtonHomeMedidasCard />
+                        <ShareButton />
                     </div>
                 </div>
             </div>

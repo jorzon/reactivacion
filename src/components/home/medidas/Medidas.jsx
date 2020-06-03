@@ -8,8 +8,31 @@ import {
 } from "components/general/card/card.stories.js";
 import { ButtonHomeMedidas } from "components/general/button/button.stories.js";
 import data from "data/medidas.json";
+import Slider from "react-slick";
 
 const Medidas = () => {
+  const settings = {
+    responsive: [
+      {
+        breakpoint: 999999,
+        settings: "unslick",
+      },
+      {
+        breakpoint: 769,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 2000,
+          variableWidth: true,
+          speed: 400,
+          infinite: true,
+          arrows: false,
+        },
+      },
+    ],
+  };
+
   return (
     <section className={styles.wrapper}>
       <LimitWrapper>
@@ -18,7 +41,8 @@ const Medidas = () => {
           content="Conoce las nuevas medidas que se están implementando para cuando
         volvamos a viajar"
         />
-        <div className={styles.card_container}>
+
+        <Slider className={styles.card_container} {...settings}>
           {data.map((post) =>
             post.categoria === "Turismo" ? (
               <CardMedidasSm
@@ -42,7 +66,7 @@ const Medidas = () => {
               />
             )
           )}
-        </div>
+        </Slider>
         <ButtonHomeMedidas />
       </LimitWrapper>
     </section>

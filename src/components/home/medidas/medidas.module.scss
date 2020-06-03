@@ -18,3 +18,12 @@
   flex-wrap: wrap;
   margin-top: 50px;
 }
+@include respond-to("xs") {
+  .card_container {
+    max-height: 400px;
+  }
+  .title{
+    font-size: 24px;
+    width: auto;
+  }
+}

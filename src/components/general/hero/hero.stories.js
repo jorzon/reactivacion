@@ -5,6 +5,7 @@ import styles from './hero.module.scss'
 import Text from 'components/general/text/Text';
 import { ButtonHomeHero } from 'components/general/button/button.stories.js'
 import banner_home from 'assets/img/slider.jpg'
+import banner_mobile from 'assets/img/banner.jpeg'
 
 export default {
     title: 'Hero',
@@ -14,9 +15,11 @@ export default {
 export const HeroHome = () => {
     return (
         <Hero
+            home
             className={styles.wrapper_home}
-            image={banner_home}
             alt="home-banner"
+            video="http://mmsolutions.com.pe/img/landing-reactivacion/paisajes-del-peru.mp4"
+            image={banner_mobile}
         >
             <div className={styles.content_home}>
                 <Text className={styles.text_home} content="Nos estamos preparando" />

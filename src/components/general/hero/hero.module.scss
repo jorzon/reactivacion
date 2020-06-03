@@ -9,6 +9,7 @@
   font-weight: bold;
   color: white;
   text-align: center;
+  margin-top: 150px;
 }
 .content_home {
   position: absolute;
@@ -19,11 +20,15 @@
   flex-direction: column;
   justify-content: center;
 }
-.img {
+.img,
+.video, .img_home {
   object-fit: cover;
   height: inherit;
   width: 100%;
   object-position: center;
+}
+.img_home {
+  display: none;
 }
 
 //Single
@@ -32,4 +37,15 @@
   height: 197px;
   border-radius: 4px;
   overflow: auto;
+}
+@include respond-to("xs") {
+  .text_home {
+    margin-top: 330px;
+  }
+  .img_home {
+    display: block;
+  }
+  .video {
+    display: none;
+  }
 }
