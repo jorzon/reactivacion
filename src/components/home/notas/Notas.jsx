@@ -37,7 +37,7 @@ const Notas = () => {
                 slug={post.slug}
                 alt={post.alt}
                 image={post.imagen}
-                content="Ver Nota"
+                content="Ver nota"
               />
             )
           ) : post.categoria === "Infografía" ? (
@@ -58,7 +58,7 @@ const Notas = () => {
               slug={post.slug}
               alt={post.alt}
               image={post.imagen}
-              content="Ver Nota"
+              content="Ver nota"
             />
           )
         )}

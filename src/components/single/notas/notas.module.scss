@@ -22,3 +22,8 @@
   align-items: center;
   flex-wrap: wrap;
 }
+@include respond-to("xs") {
+  .cards {
+    max-height: 300px;
+  }
+}

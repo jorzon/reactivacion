@@ -1,7 +1,6 @@
-import React from 'react'
+import React, { useState, Fragment } from 'react'
 import styles from './newbutton.module.scss'
 import Button from './ButtonNew';
-import { MemoryRouter } from 'react-router-dom'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default {
@@ -26,11 +25,9 @@ export const ButtonHomeHero = () => {
 
 export const ButtonHomeMedidas = () => {
     return (
-        <MemoryRouter>
-            <Button className={styles.wrapper_home_medidas}>
-                Ver todas las notas
-            </Button>
-        </MemoryRouter>
+        <Button to="/ver-todo" className={styles.wrapper_home_medidas}>
+            Ver todas las notas
+        </Button>
     )
 }
 
@@ -53,8 +50,44 @@ export const ButtonSingle = ({ content, yellow, pink }) => {
 export const ButtonFooter = ({ content, green, pink, icon, url }) => {
     return (
         <Button anchor url={url} className={green ? styles.wrapper_footer_green : pink ? styles.wrapper_footer_pink : ''}>
-            <FontAwesomeIcon className={styles.icon} icon={icon}/>
+            <FontAwesomeIcon className={styles.icon} icon={icon} />
             {content}
         </Button>
+    )
+}
+
+export const ButtonFilter = ({ filter1, filter2 }) => {
+    const [isActive1, setIsActive1] = useState(true)
+
+    const handleIsActive1 = () => {
+        setIsActive1(true)
+        setIsActive2(false)
+        filter1()
+    }
+
+    const [isActive2, setIsActive2] = useState(false)
+
+    const handleIsActive2 = () => {
+        setIsActive2(true)
+        setIsActive1(false)
+        filter2()
+    }
+    return (
+        <Fragment>
+            <Button
+                isActive1={isActive1}
+                action
+                onClick={handleIsActive1}
+                className={isActive1 ? styles.wrapper_filter_active : styles.wrapper_filter}>
+                Comunicados
+            </Button>
+            <Button
+                isActive2={isActive2}
+                action
+                onClick={handleIsActive2}
+                className={isActive2 ? styles.wrapper_filter_active : styles.wrapper_filter}>
+                Notas
+            </Button>
+        </Fragment>
     )
 }

@@ -15,7 +15,7 @@ const Text = ({ content, headingLevel, className }) => {
     )
 }
 Text.defaultProps = {
-    content: 'Here goes a text or a heading'
+    content: ''
 };
 
 export default Text

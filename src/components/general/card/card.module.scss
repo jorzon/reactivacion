@@ -160,7 +160,7 @@
     width: auto;
   }
   .wrapper_notas_sm {
-    width: 141px;
+    width: 145px;
     height: 168px;
   }
   .wrapper_notas_sm,
@@ -177,19 +177,25 @@
   }
 }
 @include respond-to("xs") {
-  .wrapper_medidas_lg {
-    width: 220px;
-    height: 339px;
+  .wrapper_medidas_lg,
+  .wrapper_medidas_sm {
+    width: 290px;
+    height: 286px;
   }
-  .head_medidas_lg {
-    height: 129px;
+  .head_medidas_lg,
+  .head_medidas_sm {
+    height: 143px;
     position: relative;
   }
-  .content_medidas_lg {
-    height: 210px;
-    padding: 24px 15px;
+  .content_medidas_lg,
+  .content_medidas_sm {
+    height: 143px;
+    padding: 15px 15px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+  }
+  .title_medidas {
+    font-size: 11px;
   }
 }
