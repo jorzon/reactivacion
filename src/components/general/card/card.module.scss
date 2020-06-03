@@ -154,31 +154,42 @@
   box-shadow: inset 0px 1000px 1000px rgba(0, 0, 0, 0.7);
   transition: box-shadow 300ms ease-in-out;
 }
-
 @include respond-to("md") {
   .wrapper_notas_lg {
     height: 267px;
     width: auto;
   }
   .wrapper_notas_sm {
+    width: 141px;
     height: 168px;
-    width: 172px;
   }
   .wrapper_notas_sm,
   .wrapper_notas_lg {
     margin: 20px 5px 0px 5px;
   }
   .title_notas_sm {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
-
-@include respond-to("xs") {
-  .wrapper_medidas_lg {
-    width: 377px;
-    height: 338px;
-  }
+@media (max-width: 953px) and (min-width: 477px) {
   .wrapper_notas {
     margin: auto;
+  }
+}
+@include respond-to("xs") {
+  .wrapper_medidas_lg {
+    width: 220px;
+    height: 339px;
+  }
+  .head_medidas_lg {
+    height: 129px;
+    position: relative;
+  }
+  .content_medidas_lg {
+    height: 210px;
+    padding: 24px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 }

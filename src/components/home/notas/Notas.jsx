@@ -19,43 +19,43 @@ const Notas = () => {
       <div className={styles.card_container}>
         {data.map((post) =>
           post.id == 1 || post.id == 6 ? (
-            post.categoria === "info" ? (
+            post.categoria === "Infografía" ? (
               <CardNotasLg
                 key={post.id}
                 title={post.titulo}
                 category={post.categoria}
-                slug="/single"
+                slug={post.slug}
                 alt={post.alt}
                 image={post.imagen}
-                content="Ver infografia"
+                content="Ver infografía"
               />
             ) : (
               <CardNotasLg
                 key={post.id}
                 title={post.titulo}
                 category={post.categoria}
-                slug="/single"
+                slug={post.slug}
                 alt={post.alt}
                 image={post.imagen}
                 content="Ver Nota"
               />
             )
-          ) : post.categoria === "info" ? (
+          ) : post.categoria === "Infografía" ? (
             <CardNotasSm
               key={post.id}
               title={post.titulo}
               category={post.categoria}
-              slug="/single"
+              slug={post.slug}
               alt={post.alt}
               image={post.imagen}
-              content="Ver infografia"
+              content="Ver infografía"
             />
           ) : (
             <CardNotasSm
               key={post.id}
               title={post.titulo}
               category={post.categoria}
-              slug="/single"
+              slug={post.slug}
               alt={post.alt}
               image={post.imagen}
               content="Ver Nota"

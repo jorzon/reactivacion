@@ -50,9 +50,9 @@ export const ButtonSingle = ({ content, yellow, pink }) => {
     )
 }
 
-export const ButtonFooter = ({ content, green, pink, icon }) => {
+export const ButtonFooter = ({ content, green, pink, icon, url }) => {
     return (
-        <Button anchor className={green ? styles.wrapper_footer_green : pink ? styles.wrapper_footer_pink : ''}>
+        <Button anchor url={url} className={green ? styles.wrapper_footer_green : pink ? styles.wrapper_footer_pink : ''}>
             <FontAwesomeIcon className={styles.icon} icon={icon}/>
             {content}
         </Button>

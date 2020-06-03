@@ -26,7 +26,6 @@
   margin: 50px auto 0px auto;
   width: 90%;
 }
-
 @include respond-to("md") {
   .title {
     font-size: 24px;
@@ -36,9 +35,14 @@
     width: 79%;
   }
 }
-
-@include respond-to("xs") {
-    .card_container {
-      justify-content: space-between;
-    }
+@media (max-width: 992px) and (min-width: 953px) {
+  .card_container {
+    justify-content: center;
   }
+}
+@include respond-to("xs") {
+  .card_container {
+    justify-content: space-between;
+    width: 95%;
+  }
+}

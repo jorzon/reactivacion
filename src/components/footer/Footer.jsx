@@ -38,34 +38,58 @@ const Footer = () => {
                 className={styles.title}
                 content="Asistencia al viajero 24 horas"
               />
-              <ButtonFooter icon={faWhatsapp} green content="944492314" />
+              <ButtonFooter
+                url="https://ytuqueplanes.com/suscribete.aspx"
+                icon={faWhatsapp}
+                green
+                content="944492314"
+              />
             </div>
             <div className={styles.content_contact}>
               <Text
                 className={styles.title}
                 content="Recibe nuevas ofertas y novedades"
               />
-              <ButtonFooter pink content="Suscribirme" />
+              <ButtonFooter
+                url="https://ytuqueplanes.com/suscribete.aspx"
+                pink
+                content="Suscribirme"
+              />
             </div>
           </div>
           <div className={styles.content}>
             <Text className={styles.title} content="Síguenos" />
             <div className={styles.social}>
-              <button className={styles.icon_fb}>
+              <a
+                href="https://www.facebook.com/pages/Visit-Peru/524042817717056"
+                className={styles.icon_fb}
+              >
                 <FontAwesomeIcon icon={faFacebookF} />
-              </button>
-              <button className={styles.icon_twi}>
+              </a>
+              <a
+                href="https://twitter.com/conoceelperu"
+                className={styles.icon_twi}
+              >
                 <FontAwesomeIcon icon={faTwitter} />
-              </button>
-              <button className={styles.icon_ig}>
+              </a>
+              <a
+                href="https://www.instagram.com/ytuqueplanes/ "
+                className={styles.icon_ig}
+              >
                 <FontAwesomeIcon icon={faInstagram} />
-              </button>
-              <button className={styles.icon_yt}>
+              </a>
+              <a
+                href="http://www.youtube.com/visitperu"
+                className={styles.icon_yt}
+              >
                 <FontAwesomeIcon icon={faYoutube} />
-              </button>
-              <button className={styles.icon_spo}>
+              </a>
+              <a
+                href="https://open.spotify.com/user/yt%C3%BAqu%C3%A9planes/playlist/7pTRlBhxN2YhkEqtwu0T4k "
+                className={styles.icon_spo}
+              >
                 <FontAwesomeIcon icon={faSpotify} />
-              </button>
+              </a>
             </div>
             <div className={styles.partner}>
               <img className={styles.img_partner} src={iperu} alt="" />

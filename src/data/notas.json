@@ -2,19 +2,19 @@
     {
         "id": 1,
         "titulo": "Ejercicio y comida saludable: el secreto para estar listo antes del viaje",
-        "imagen": "http://mmsolutions.com.pe/img/landing-reactivacion/nota1/mujer-saludable.jpg",
+        "imagen": "http://mmsolutions.com.pe/img/landing-reactivacion/nota1/mujer-saludable-card.jpg",
         "alt": "ejercicio-comida-saludable",
-        "categoria": "info",
+        "categoria": "Nota",
         "slug": "ejercicio-y-comida-saludable",
         "date": "1 de junio, 2020"
     },
     {
         "id": 2,
         "titulo": "Programar con anticipación tu viaje por el Perú te ahorra dinero",
-        "imagen": "http://mmsolutions.com.pe/img/landing-reactivacion/nota2/terrazas-machupicchu.JPG",
+        "imagen": "http://mmsolutions.com.pe/img/landing-reactivacion/nota2/terrazas-machupicchu-card.jpg",
         "alt": "programar-tu-viaje",
-        "categoria": "info",
-        "slug": "programar-con-anticipación-tu-viaje-por-el-Perú",
+        "categoria": "Nota",
+        "slug": "programar-con-anticipación-tu-viaje-por-el-perú",
         "date": "1 de junio, 2020"
     },
     {
@@ -22,26 +22,26 @@
         "titulo": "Agencias de viaje listas para sacar a flote al turismo interno",
         "imagen": "http://mmsolutions.com.pe/img/landing-reactivacion/nota3/agencia-de-viajes.jpg",
         "alt": "agencias-de-viaje ",
-        "categoria": "info",
+        "categoria": "Nota",
         "slug": "agencias-de-viaje-listas",
         "date": "1 de junio, 2020"
     },
     {
         "id": 4,
         "titulo": "Ejercicio y comida saludable: el secreto para estar listo antes del viaje",
-        "imagen": "http://mmsolutions.com.pe/img/landing-reactivacion/nota1/mujer-saludable.jpg",
+        "imagen": "http://mmsolutions.com.pe/img/landing-reactivacion/nota1/mujer-saludable-card.jpg",
         "alt": "ejercicio-comida-saludable",
-        "categoria": "nota",
-        "slug": "ejercicio-y-comida-saludable",
+        "categoria": "Infografía",
+        "slug": "ejercicio-y-comida-saludable2",
         "date": "1 de junio, 2020"
     },
     {
         "id": 5,
         "titulo": "Programar con anticipación tu viaje por el Perú te ahorra dinero",
-        "imagen": "http://mmsolutions.com.pe/img/landing-reactivacion/nota2/terrazas-machupicchu.JPG",
+        "imagen": "http://mmsolutions.com.pe/img/landing-reactivacion/nota2/terrazas-machupicchu-card.jpg",
         "alt": "programar-tu-viaje",
-        "categoria": "nota",
-        "slug": "programar-con-anticipación-tu-viaje-por-el-Perú",
+        "categoria": "Infografía",
+        "slug": "programar-con-anticipación-tu-viaje-por-el-perú2",
         "date": "1 de junio, 2020"
     },
     {
@@ -49,8 +49,8 @@
         "titulo": "Agencias de viaje listas para sacar a flote al turismo interno",
         "imagen": "http://mmsolutions.com.pe/img/landing-reactivacion/nota3/agencia-de-viajes.jpg",
         "alt": "agencias-de-viaje ",
-        "categoria": "nota",
-        "slug": "agencias-de-viaje-listas",
+        "categoria": "Infografía",
+        "slug": "agencias-de-viaje-listas2",
         "date": "1 de junio, 2020"
     }
 ]
