@@ -9,7 +9,7 @@ const Header = () => {
     <LimitWrapper>
       <nav className={styles.wrapper}>
         <Link to="/">
-          <img src={Logo} alt="ytuqueplanes-logo" />
+          <img className={styles.logo} src={Logo} alt="ytuqueplanes-logo" />
         </Link>
       </nav>
     </LimitWrapper>

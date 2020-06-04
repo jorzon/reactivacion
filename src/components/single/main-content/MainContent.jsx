@@ -17,6 +17,7 @@ const MainContent = ({
   content,
   content2,
   subtitle,
+  shortname
 }) => {
   return (
     <LimitWrapper>
@@ -24,7 +25,7 @@ const MainContent = ({
         <Sidebar />
         <div className={styles.content}>
           <img className={styles.img} src={banner} alt="" />
-          <Breadcrumbs content={title} slug={slug} />
+          <Breadcrumbs content={shortname} slug={slug} />
           <Text className={styles.title} content={title} />
           <Text className={styles.date} content={date} />
           {content.map((post) => (

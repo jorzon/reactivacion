@@ -43,7 +43,7 @@ const Medidas = () => {
         />
 
         <Slider className={styles.card_container} {...settings}>
-          {data.map((post) =>
+          {data.slice(0, 5).map((post) =>
             post.categoria === "Turismo" ? (
               <CardMedidasSm
                 key={post.id}

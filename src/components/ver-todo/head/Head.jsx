@@ -10,7 +10,15 @@ import {
 import data from "data/medidas.json";
 import data2 from "data/notas.json";
 
-const Head = ({ notasActive }) => {
+const Head = () => {
+  const [numberOfItems, setNumberOfItems] = useState(5);
+  const [hideButton, setHideButton] = useState(false);
+
+  const handleShowMore = () => {
+    numberOfItems < 15 ? setNumberOfItems(numberOfItems + 5) : "";
+    numberOfItems >= 10 ? setHideButton(true) : "";
+  };
+
   const [filterNotas, setFilterNotas] = useState(true);
   const [filterInfo, setFilterInfo] = useState(false);
 
@@ -28,7 +36,7 @@ const Head = ({ notasActive }) => {
       <div className={styles.wrapper}>
         <Text
           className={styles.title}
-          content="Conoce las nuevas medidas que de están implementando para cuando volcamos a viajar"
+          content="Conoce las nuevas medidas que de están implementando para cuando volvamos a viajar"
         />
         <div className={styles.button}>
           <ButtonFilter
@@ -38,29 +46,31 @@ const Head = ({ notasActive }) => {
         </div>
       </div>
       <div className={filterNotas ? styles.wrapper_cards : styles.wrapper_hide}>
-        {data.map((post) =>
-          post.categoria === "Turismo" ? (
-            <CardMedidasSm
-              key={post.id}
-              title={post.titulo}
-              date={post.fecha}
-              category={post.categoria}
-              slug={post.slug}
-              alt={post.alt}
-              image={post.imagen}
-            />
-          ) : (
-            <CardMedidasLg
-              key={post.id}
-              title={post.titulo}
-              date={post.fecha}
-              category={post.categoria}
-              slug={post.slug}
-              alt={post.alt}
-              image={post.imagen}
-            />
-          )
-        )}
+        {data
+          .slice(0, numberOfItems)
+          .map((post) =>
+            post.categoria === "Turismo" ? (
+              <CardMedidasSm
+                key={post.id}
+                title={post.titulo}
+                date={post.fecha}
+                category={post.categoria}
+                slug={post.slug}
+                alt={post.alt}
+                image={post.imagen}
+              />
+            ) : (
+              <CardMedidasLg
+                key={post.id}
+                title={post.titulo}
+                date={post.fecha}
+                category={post.categoria}
+                slug={post.slug}
+                alt={post.alt}
+                image={post.imagen}
+              />
+            )
+          )}
       </div>
       <div className={filterInfo ? styles.wrapper_cards : styles.wrapper_hide}>
         {data2.map((post) =>
@@ -87,6 +97,9 @@ const Head = ({ notasActive }) => {
           )
         )}
       </div>
+      {!hideButton && (
+        <button className={styles.button_show} onClick={handleShowMore}>Ver más</button>
+      )}
     </LimitWrapper>
   );
 };

@@ -30,6 +30,7 @@ const Single = () => {
             content={post.texto.map((parrafo) => parrafo)}
             content2={post.texto2.map((parrafo) => parrafo)}
             subtitle={post.subtitle}
+            shortname={post.shortname}
           />
         </Route>
       ))}

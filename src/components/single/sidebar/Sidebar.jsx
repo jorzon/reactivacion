@@ -6,7 +6,7 @@ const Sidebar = () => {
   return (
     <aside className={styles.wrapper}>
       <div className={styles.content}>
-        <Text className={styles.heading} content="Lo más visto" />
+        <Text className={styles.heading} content="Más notas" />
         <div className={styles.note}>
           <Text
             className={styles.title}
@@ -33,7 +33,7 @@ const Sidebar = () => {
         </div>
       </div>
       <div className={styles.content}>
-        <Text className={styles.heading} content="Nuevo" />
+        <Text className={styles.heading} content="Infografías" />
         <div className={styles.note}>
           <Text
             className={styles.title}
