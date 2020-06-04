@@ -78,21 +78,23 @@ const Head = () => {
           .map((post) =>
             post.categoria === "Nota" ? (
               <CardMedidasSm
+                notaVerTodo
                 key={post.id}
                 title={post.titulo}
                 date={post.fecha}
                 category={post.categoria}
-                slug={"#/ver-todo" + post.slug}
+                slug={"/ver-todo" + post.slug}
                 alt={post.alt}
                 image={post.imagen}
               />
             ) : (
               <CardMedidasLg
+                notaVerTodo
                 key={post.id}
                 title={post.titulo}
                 date={post.fecha}
                 category={post.categoria}
-                slug={"#/ver-todo" + post.slug}
+                slug={"/ver-todo" + post.slug}
                 alt={post.alt}
                 image={post.imagen}
               />
