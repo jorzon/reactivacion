@@ -6,7 +6,10 @@ const Breadcrumbs = ({ content, slug }) => {
   return (
     <div className={styles.wrapper}>
       <Link to={"/"}>
-        Home > Notas >&nbsp;
+        Home > &nbsp;
+      </Link>
+      <Link to={"/ver-todo"}>
+        Notas >&nbsp;
       </Link>
       <Link to={"/" + slug} className={styles.active}>
         {content}

@@ -7,6 +7,7 @@ import { ButtonHomeHero } from 'components/general/button/button.stories.js'
 import banner_home from 'assets/img/slider.jpg'
 import banner_mobile from 'assets/img/banner.jpeg'
 import video_home from 'assets/img/paisajes-del-peru.mp4'
+import Logo from "assets/img/ytqp-logo.png";
 
 export default {
     title: 'Hero',
@@ -23,6 +24,7 @@ export const HeroHome = () => {
             image={banner_mobile}
         >
             <div className={styles.content_home}>
+                <img className={styles.logo} src={Logo} alt="ytuqueplanes-logo" />
                 <Text className={styles.text_home} content="Nos estamos preparando" />
                 <ButtonHomeHero />
             </div>

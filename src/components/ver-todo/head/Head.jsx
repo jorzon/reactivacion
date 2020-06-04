@@ -73,32 +73,36 @@ const Head = () => {
           )}
       </div>
       <div className={filterInfo ? styles.wrapper_cards : styles.wrapper_hide}>
-        {data2.map((post) =>
-          post.categoria === "Nota" ? (
-            <CardMedidasSm
-              key={post.id}
-              title={post.titulo}
-              date={post.fecha}
-              category={post.categoria}
-              slug={post.slug}
-              alt={post.alt}
-              image={post.imagen}
-            />
-          ) : (
-            <CardMedidasLg
-              key={post.id}
-              title={post.titulo}
-              date={post.fecha}
-              category={post.categoria}
-              slug={post.slug}
-              alt={post.alt}
-              image={post.imagen}
-            />
-          )
-        )}
+        {data2
+          .slice(0, numberOfItems)
+          .map((post) =>
+            post.categoria === "Nota" ? (
+              <CardMedidasSm
+                key={post.id}
+                title={post.titulo}
+                date={post.fecha}
+                category={post.categoria}
+                slug={post.slug}
+                alt={post.alt}
+                image={post.imagen}
+              />
+            ) : (
+              <CardMedidasLg
+                key={post.id}
+                title={post.titulo}
+                date={post.fecha}
+                category={post.categoria}
+                slug={post.slug}
+                alt={post.alt}
+                image={post.imagen}
+              />
+            )
+          )}
       </div>
       {!hideButton && (
-        <button className={styles.button_show} onClick={handleShowMore}>Ver más</button>
+        <button className={styles.button_show} onClick={handleShowMore}>
+          Ver más
+        </button>
       )}
     </LimitWrapper>
   );

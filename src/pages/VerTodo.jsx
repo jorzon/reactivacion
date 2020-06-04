@@ -6,7 +6,7 @@ import MainContent from "components/ver-todo/main-content/MainContent";
 
 const VerTodo = () => {
   return (
-    <Layout>
+    <Layout single to="/" content="inicio">
       <Seo
         title=""
         desc=""
