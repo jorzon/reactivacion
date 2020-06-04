@@ -7,14 +7,13 @@ import data from "data/notas.json";
 
 const Routes = () => {
     return (
-        <>
+        <Fragment>
             <Route exact path='/' component={Home} />
             <Route exact path='/ver-todo' component={VerTodo} />
             {data.map(post =>
-                <Route key={post.id} exact path={'/' + post.slug} component={Single} />
+                <Route key={post.id} exact path={'/ver-todo' + post.slug} component={Single} />
             )}
-
-        </>
+        </Fragment>
     )
 }
 

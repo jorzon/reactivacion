@@ -55,7 +55,7 @@ const Head = () => {
                 title={post.titulo}
                 date={post.fecha}
                 category={post.categoria}
-                slug={post.slug}
+                slug={"#/ver-todo" + post.slug}
                 alt={post.alt}
                 image={post.imagen}
               />
@@ -65,7 +65,7 @@ const Head = () => {
                 title={post.titulo}
                 date={post.fecha}
                 category={post.categoria}
-                slug={post.slug}
+                slug={"#/ver-todo" + post.slug}
                 alt={post.alt}
                 image={post.imagen}
               />
@@ -82,7 +82,7 @@ const Head = () => {
                 title={post.titulo}
                 date={post.fecha}
                 category={post.categoria}
-                slug={post.slug}
+                slug={"#/ver-todo" + post.slug}
                 alt={post.alt}
                 image={post.imagen}
               />
@@ -92,7 +92,7 @@ const Head = () => {
                 title={post.titulo}
                 date={post.fecha}
                 category={post.categoria}
-                slug={post.slug}
+                slug={"#/ver-todo" + post.slug}
                 alt={post.alt}
                 image={post.imagen}
               />

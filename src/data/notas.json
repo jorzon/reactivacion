@@ -6,7 +6,7 @@
         "imagen": "http://mmsolutions.com.pe/img/landing-reactivacion/nota1/mujer-saludable-card.jpg",
         "alt": "ejercicio-comida-saludable",
         "categoria": "Nota",
-        "slug": "ejercicio-y-comida-saludable",
+        "slug": "/ejercicio-y-comida-saludable",
         "date": "1 de junio, 2020",
         "texto": [
             {
@@ -54,7 +54,7 @@
         "imagen": "http://mmsolutions.com.pe/img/landing-reactivacion/nota2/terrazas-machupicchu-card.jpg",
         "alt": "programar-tu-viaje",
         "categoria": "Nota",
-        "slug": "programar-con-anticipación-tu-viaje-por-el-perú",
+        "slug": "/programar-con-anticipación-tu-viaje-por-el-perú",
         "date": "1 de junio, 2020",
         "texto": [
             {
@@ -88,7 +88,7 @@
         "imagen": "http://mmsolutions.com.pe/img/landing-reactivacion/nota3/agencia-de-viajes.jpg",
         "alt": "agencias-de-viaje ",
         "categoria": "Infografía",
-        "slug": "agencias-de-viaje-listas",
+        "slug": "/agencias-de-viaje-listas",
         "date": "1 de junio, 2020",
         "texto": [
             {
@@ -119,7 +119,7 @@
         "imagen": "http://mmsolutions.com.pe/img/landing-reactivacion/nota1/mujer-saludable-card.jpg",
         "alt": "ejercicio-comida-saludable",
         "categoria": "Infografía",
-        "slug": "ejercicio-y-comida-saludable2",
+        "slug": "/ejercicio-y-comida-saludable2",
         "date": "1 de junio, 2020",
         "texto": [
             {
@@ -167,7 +167,7 @@
         "imagen": "http://mmsolutions.com.pe/img/landing-reactivacion/nota2/terrazas-machupicchu-card.jpg",
         "alt": "programar-tu-viaje",
         "categoria": "Infografía",
-        "slug": "programar-con-anticipación-tu-viaje-por-el-perú2",
+        "slug": "/programar-con-anticipación-tu-viaje-por-el-perú2",
         "date": "1 de junio, 2020",
         "texto": [
             {
@@ -201,7 +201,7 @@
         "imagen": "http://mmsolutions.com.pe/img/landing-reactivacion/nota3/agencia-de-viajes.jpg",
         "alt": "agencias-de-viaje ",
         "categoria": "Nota",
-        "slug": "agencias-de-viaje-listas2",
+        "slug": "/agencias-de-viaje-listas2",
         "date": "1 de junio, 2020",
         "texto": [
             {

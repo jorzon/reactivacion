@@ -10,7 +10,7 @@ const Single = () => {
   return (
     <Layout single to="/ver-todo" content="notas">
       {data.map((post) => (
-        <Route key={post.id} path={"/" + post.slug}>
+        <Route key={post.id} path={"/ver-todo" + post.slug}>
           <Seo
             title={post.titulo}
             desc=""
@@ -31,6 +31,7 @@ const Single = () => {
             content2={post.texto2.map((parrafo) => parrafo)}
             subtitle={post.subtitle}
             shortname={post.shortname}
+            notes={data}
           />
         </Route>
       ))}

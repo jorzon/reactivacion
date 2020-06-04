@@ -17,15 +17,16 @@ const MainContent = ({
   content,
   content2,
   subtitle,
-  shortname
+  shortname,
+  notes
 }) => {
   return (
     <LimitWrapper>
       <section className={styles.wrapper}>
-        <Sidebar />
+        <Sidebar notes={notes} />
         <div className={styles.content}>
           <img className={styles.img} src={banner} alt="" />
-          <Breadcrumbs content={shortname} slug={slug} />
+          <Breadcrumbs content={shortname} slug={"ver-todo" + slug} />
           <Text className={styles.title} content={title} />
           <Text className={styles.date} content={date} />
           {content.map((post) => (
@@ -42,13 +43,13 @@ const MainContent = ({
             </Fragment>
           )}
 
-          <div className={styles.tags}>
+          {/* <div className={styles.tags}>
             <div className={styles.button}>
-              {/* <ButtonSingle yellow content="Nuevo" /> */}
+              <ButtonSingle yellow content="Nuevo" />
               <ButtonSingle pink content={category} />
             </div>
             <ShareButton />
-          </div>
+          </div> */}
           <hr className={styles.hr} />
           <Pagination />
         </div>
