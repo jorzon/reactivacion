@@ -55,7 +55,7 @@ const Head = () => {
                 title={post.titulo}
                 date={post.fecha}
                 category={post.categoria}
-                slug={"#/ver-todo" + post.slug}
+                slug={post.slug}
                 alt={post.alt}
                 image={post.imagen}
               />
@@ -65,7 +65,7 @@ const Head = () => {
                 title={post.titulo}
                 date={post.fecha}
                 category={post.categoria}
-                slug={"#/ver-todo" + post.slug}
+                slug={post.slug}
                 alt={post.alt}
                 image={post.imagen}
               />

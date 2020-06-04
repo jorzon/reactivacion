@@ -25,7 +25,7 @@ const Pagination = () => {
             className={styles.pag_title}
             content="Ut enim ad minima veniam…"
           />
-          <Text className={styles.pag_subtitle} content="Anterior nota" />
+          <Text className={styles.pag_subtitle} content="Siguiente nota" />
         </div>
         <button className={styles.arrow_right}>
           <FontAwesomeIcon icon={faArrowRight} />
