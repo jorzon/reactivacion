@@ -18,7 +18,10 @@ const MainContent = ({
   content2,
   subtitle,
   shortname,
-  notes
+  notes,
+  pagination,
+  previous,
+  next
 }) => {
   return (
     <LimitWrapper>
@@ -43,7 +46,9 @@ const MainContent = ({
             </Fragment>
           )}
 
-          {/* <div className={styles.tags}>
+          {/* 
+          key={post.id}
+          <div className={styles.tags}>
             <div className={styles.button}>
               <ButtonSingle yellow content="Nuevo" />
               <ButtonSingle pink content={category} />
@@ -51,7 +56,7 @@ const MainContent = ({
             <ShareButton />
           </div> */}
           <hr className={styles.hr} />
-          <Pagination />
+          <Pagination pagination={pagination} previous={previous} next={next}/>
         </div>
       </section>
     </LimitWrapper>

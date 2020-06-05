@@ -2,6 +2,7 @@ import React, { useState, Fragment } from 'react'
 import styles from './newbutton.module.scss'
 import Button from './ButtonNew';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
 export default {
     title: 'Button'
@@ -47,10 +48,12 @@ export const ButtonSingle = ({ content, yellow, pink }) => {
     )
 }
 
-export const ButtonFooter = ({ content, green, pink, icon, url }) => {
+export const ButtonFooter = ({ content, green, pink, wsp, url }) => {
     return (
         <Button anchor url={url} className={green ? styles.wrapper_footer_green : pink ? styles.wrapper_footer_pink : ''}>
-            <FontAwesomeIcon className={styles.icon} icon={icon} />
+            {
+                wsp ? <FontAwesomeIcon className={styles.icon} icon={faWhatsapp} /> : ''
+            }
             {content}
         </Button>
     )

@@ -8,7 +8,7 @@ import data from "data/notas.json";
 
 const Single = () => {
   return (
-    <Layout single to="/ver-todo" content="notas">
+    <Layout single to="/ver-todo" content="listado">
       {data.map((post) => (
         <Route key={post.id} path={"/ver-todo" + post.slug}>
           <Seo
@@ -32,6 +32,9 @@ const Single = () => {
             subtitle={post.subtitle}
             shortname={post.shortname}
             notes={data}
+            pagination={data}
+            previous={post.id - 1}
+            next={post.id + 1}
           />
         </Route>
       ))}

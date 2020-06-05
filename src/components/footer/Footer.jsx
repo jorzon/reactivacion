@@ -39,6 +39,7 @@ const Footer = () => {
                 content="Asistencia al viajero 24 horas"
               />
               <ButtonFooter
+                wsp
                 url="https://ytuqueplanes.com/suscribete.aspx"
                 icon={faWhatsapp}
                 green

@@ -20,54 +20,29 @@ export const CardMedidasSm = ({
     description = text("Resumen", "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua…."),
     image = text("Imagen", "https://picsum.photos/400/400?random=1"),
     alt = text("Alt", "Alt-de-la-imagen"),
-    category = text("Categoría", "Nuevo"),
-    notaVerTodo = boolean("es Nota?", false)
+    category = text("Categoría", "Nuevo")
 }) => {
 
     return (
-        <Fragment>
-            {
-                notaVerTodo ?
-                    <Card to={slug}>
-                        < div className={styles.wrapper_medidas_sm} >
-                            <div className={styles.head_medidas_sm}>
-                                <ChipMedidas title={category} />
-                                <img className={styles.img_medidas} src={image} alt={alt} />
-                            </div>
-                            <div className={styles.content_medidas_sm}>
-                                <div>
-                                    <Text className={styles.title_medidas} content={title} />
-                                    <Text className={styles.date_medidas} content={date} />
-                                </div>
-                                {/*<Text className={styles.description_medidas} content={description} />*/}
-                                <div className={styles.footer_medidas}>
-                                    <ButtonHomeMedidasCard />
-                                    {/*<ShareButton />*/}
-                                </div>
-                            </div>
-                        </div >
-                    </Card > :
-                    <Card anchor to={slug}>
-                        <div className={styles.wrapper_medidas_sm}>
-                            <div className={styles.head_medidas_sm}>
-                                <ChipMedidas title={category} />
-                                <img className={styles.img_medidas} src={image} alt={alt} />
-                            </div>
-                            <div className={styles.content_medidas_sm}>
-                                <div>
-                                    <Text className={styles.title_medidas} content={title} />
-                                    <Text className={styles.date_medidas} content={date} />
-                                </div>
-                                {/*<Text className={styles.description_medidas} content={description} />*/}
-                                <div className={styles.footer_medidas}>
-                                    <ButtonHomeMedidasCard />
-                                    {/*<ShareButton />*/}
-                                </div>
-                            </div>
-                        </div>
-                    </Card>
-            }
-        </Fragment>
+        <Card to={slug}>
+            < div className={styles.wrapper_medidas_sm} >
+                <div className={styles.head_medidas_sm}>
+                    <ChipMedidas title={category} />
+                    <img className={styles.img_medidas} src={image} alt={alt} />
+                </div>
+                <div className={styles.content_medidas_sm}>
+                    <div>
+                        <Text className={styles.title_medidas} content={title} />
+                        <Text className={styles.date_medidas} content={date} />
+                    </div>
+                    {/*<Text className={styles.description_medidas} content={description} />*/}
+                    <div className={styles.footer_medidas}>
+                        <ButtonHomeMedidasCard />
+                        {/*<ShareButton />*/}
+                    </div>
+                </div>
+            </div >
+        </Card >
     )
 }
 
@@ -78,55 +53,29 @@ export const CardMedidasLg = ({
     description = text("Resumen", "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua…."),
     image = text("Imagen", "https://picsum.photos/400/400?random=1"),
     alt = text("Alt", "Alt-de-la-imagen"),
-    category = text("Categoría", "Nuevo"),
-    notaVerTodo = boolean("es Nota?", false)
+    category = text("Categoría", "Nuevo")
 }) => {
 
     return (
-        <Fragment>
-            {
-                notaVerTodo ?
-                    <Card to={slug}>
-                        <div className={styles.wrapper_medidas_lg}>
-                            <div className={styles.head_medidas_lg}>
-                                <ChipMedidas title={category} />
-                                <img className={styles.img_medidas} src={image} alt={alt} />
-                            </div>
-                            <div className={styles.content_medidas_lg}>
-                                <div>
-                                    <Text className={styles.title_medidas} content={title} />
-                                    <Text className={styles.date_medidas} content={date} />
-                                </div>
-                                {/*<Text className={styles.description_medidas} content={description} />*/}
-                                <div className={styles.footer_medidas}>
-                                    <ButtonHomeMedidasCard />
-                                    {/*<ShareButton />*/}
-                                </div>
-                            </div>
-                        </div>
-                    </Card> :
-                    <Card anchor to={slug}>
-                        <div className={styles.wrapper_medidas_lg}>
-                            <div className={styles.head_medidas_lg}>
-                                <ChipMedidas title={category} />
-                                <img className={styles.img_medidas} src={image} alt={alt} />
-                            </div>
-                            <div className={styles.content_medidas_lg}>
-                                <div>
-                                    <Text className={styles.title_medidas} content={title} />
-                                    <Text className={styles.date_medidas} content={date} />
-                                </div>
-                                {/*<Text className={styles.description_medidas} content={description} />*/}
-                                <div className={styles.footer_medidas}>
-                                    <ButtonHomeMedidasCard />
-                                    {/*<ShareButton />*/}
-                                </div>
-                            </div>
-                        </div>
-                    </Card>
-            }
-        </Fragment>
-
+        <Card to={slug}>
+            <div className={styles.wrapper_medidas_lg}>
+                <div className={styles.head_medidas_lg}>
+                    <ChipMedidas title={category} />
+                    <img className={styles.img_medidas} src={image} alt={alt} />
+                </div>
+                <div className={styles.content_medidas_lg}>
+                    <div>
+                        <Text className={styles.title_medidas} content={title} />
+                        <Text className={styles.date_medidas} content={date} />
+                    </div>
+                    {/*<Text className={styles.description_medidas} content={description} />*/}
+                    <div className={styles.footer_medidas}>
+                        <ButtonHomeMedidasCard />
+                        {/*<ShareButton />*/}
+                    </div>
+                </div>
+            </div>
+        </Card>
     )
 }
 

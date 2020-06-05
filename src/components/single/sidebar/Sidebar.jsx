@@ -15,7 +15,7 @@ const Sidebar = ({ notes }) => {
           .filter(checkNotes)
           .slice(0, 3)
           .map((post) => (
-            <Link to={"/ver-todo" + post.slug} className={styles.note}>
+            <Link key={post.id} to={"/ver-todo" + post.slug} className={styles.note}>
               <Text className={styles.title} content={post.titulo} />
               <Text className={styles.date} content={post.date} />
               <hr className={styles.hr} />
@@ -28,7 +28,7 @@ const Sidebar = ({ notes }) => {
           .filter(checkInfo)
           .slice(0, 3)
           .map((post) => (
-            <Link to={"/ver-todo" + post.slug} className={styles.note}>
+            <Link key={post.id} to={"/ver-todo" + post.slug} className={styles.note}>
               <Text className={styles.title} content={post.titulo} />
               <Text className={styles.date} content={post.date} />
               <hr className={styles.hr} />
