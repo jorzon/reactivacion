@@ -56,7 +56,7 @@
         "alt": "actividades",
         "categoria": "Hoteles",
         "slug": "/manual-de-usuario-del-modulo-de-registro",
-        "shortname": "Resolución Ministerial MINCETUR",
+        "shortname": "Manual en hoteles categorizados",
         "url": "http://consultasenlinea.mincetur.gob.pe/ManualReanudacionActividades-Registro-V02.pdf"
     },
     {
@@ -152,7 +152,7 @@
         "alt": "archivos-hoteles",
         "categoria": "Hoteles",
         "slug": "/resolucion-ministerial-mincetur",
-        "shortname": "Protocolo sanitario para hoteles categorizados",
+        "shortname": "Resolución Ministerial MINCETUR",
         "url": "https://busquedas.elperuano.pe/normaslegales/establecen-criterios-de-focalizacion-territorial-y-la-obliga-resolucion-ministerial-n-081-2020-mincetur-1866182-1/"
     },
     {
@@ -164,7 +164,7 @@
         "alt": "medidas-preventivas-hoteles",
         "categoria": "Hoteles",
         "slug": "/protocolo-sanitario-sectorial-ante-el-COVID-19-para-hoteles-categorizados",
-        "shortname": "Manual en hoteles categorizados",
+        "shortname": "Protocolo sanitario para hoteles categorizados",
         "url": "https://cdn.www.gob.pe/uploads/document/file/694765/RM_N__080.pdf"
     },
     {

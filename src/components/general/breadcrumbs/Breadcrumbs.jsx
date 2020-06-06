@@ -9,7 +9,7 @@ const Breadcrumbs = ({ content, slug, tipo }) => {
         Home > &nbsp;
       </Link>
       <Link to={"/ver-todo"}>
-        Ver Todo >&nbsp;
+        Ver todo >&nbsp;
       </Link>
       <Link to={"/" + slug} className={styles.active}>
         {content}
