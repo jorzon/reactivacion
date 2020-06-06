@@ -64,8 +64,32 @@
   color: $dark-grey;
   margin: 20px 0px 20px 0px;
 }
-@include respond-to("xs"){
-  .text{
+@include respond-to("xs") {
+  .text {
     font-size: 12px;
   }
+}
+.download {
+  width: 180px;
+  height: 43px;
+  border-radius: 23px;
+  background-color: #e13b3d;
+  font-family: BreePeru;
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  border: solid 2px $red;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: all 200ms ease-in-out;
+  align-self: center;
+  margin: 15px 0px;
+}
+.download:hover {
+  background-color: transparent;
+  transition: all 200ms ease-in-out;
+  color: $red;
 }

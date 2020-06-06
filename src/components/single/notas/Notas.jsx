@@ -40,7 +40,7 @@ const Notas = () => {
               title={post.titulo}
               date={post.fecha}
               category={post.categoria}
-              slug={post.slug}
+              slug={"/comunicados" +post.slug}
               alt={post.alt}
               image={post.imagen}
             />

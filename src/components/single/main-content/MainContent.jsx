@@ -21,7 +21,8 @@ const MainContent = ({
   notes,
   pagination,
   previous,
-  next
+  next,
+  tipo
 }) => {
   return (
     <LimitWrapper>
@@ -29,7 +30,7 @@ const MainContent = ({
         <Sidebar notes={notes} />
         <div className={styles.content}>
           <img className={styles.img} src={banner} alt="" />
-          <Breadcrumbs content={shortname} slug={"ver-todo" + slug} />
+          <Breadcrumbs content={shortname} slug={"notas" + slug} />
           <Text className={styles.title} content={title} />
           <Text className={styles.date} content={date} />
           {content.map((post) => (
@@ -56,7 +57,7 @@ const MainContent = ({
             <ShareButton />
           </div> */}
           <hr className={styles.hr} />
-          <Pagination pagination={pagination} previous={previous} next={next}/>
+          <Pagination tipo="/notas" pagination={pagination} previous={previous} next={next}/>
         </div>
       </section>
     </LimitWrapper>

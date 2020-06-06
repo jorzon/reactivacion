@@ -2,14 +2,14 @@ import React from "react";
 import styles from "./breadcrumbs.module.scss";
 import { Link } from "react-router-dom";
 
-const Breadcrumbs = ({ content, slug }) => {
+const Breadcrumbs = ({ content, slug, tipo }) => {
   return (
     <div className={styles.wrapper}>
       <Link to={"/"}>
         Home > &nbsp;
       </Link>
       <Link to={"/ver-todo"}>
-        Notas >&nbsp;
+        Ver Todo >&nbsp;
       </Link>
       <Link to={"/" + slug} className={styles.active}>
         {content}

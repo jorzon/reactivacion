@@ -5,7 +5,7 @@ import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import Text from "components/general/text/Text";
 import { Link } from "react-router-dom";
 
-const Pagination = ({ pagination, previous, next }) => {
+const Pagination = ({ pagination, previous, next, tipo }) => {
   return (
     <div className={styles.pagination}>
       <div className={styles.left}>
@@ -14,7 +14,7 @@ const Pagination = ({ pagination, previous, next }) => {
             <Link
               className={styles.link}
               key={post.id}
-              to={"/ver-todo" + post.slug}
+              to={tipo + post.slug}
             >
               <button className={styles.arrow_left}>
                 <FontAwesomeIcon icon={faArrowLeft} />
@@ -35,7 +35,7 @@ const Pagination = ({ pagination, previous, next }) => {
             <Link
               className={styles.link}
               key={post.id}
-              to={"/ver-todo" + post.slug}
+              to={tipo + post.slug}
             >
               <div>
                 <Text className={styles.pag_title} content={post.shortname} />

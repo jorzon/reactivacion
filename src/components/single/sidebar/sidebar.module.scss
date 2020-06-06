@@ -10,8 +10,10 @@
   flex-direction: column;
   justify-content: space-between;
   margin-right: 25px;
+  position: sticky;
+  top: 140px;
 }
-.content{
+.content {
   margin-top: 15px;
 }
 .note {
@@ -47,11 +49,17 @@
   margin: 15px 0px 0px 0px;
 }
 
-@include respond-to('lg') {
+@include respond-to("lg") {
   .wrapper {
     margin-right: 0px;
     margin-left: 25px;
     order: 1;
     margin-top: 60px;
+  }
+}
+@include respond-to("xs") {
+  .wrapper {
+    width: 100%;
+    margin: 60px auto 0px auto;
   }
 }

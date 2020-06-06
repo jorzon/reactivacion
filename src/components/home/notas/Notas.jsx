@@ -24,7 +24,7 @@ const Notas = () => {
                 key={post.id}
                 title={post.titulo}
                 category={post.categoria}
-                slug={"/ver-todo" + post.slug}
+                slug={"/notas" + post.slug}
                 alt={post.alt}
                 image={post.imagen}
                 content="Ver infografía" 
@@ -34,7 +34,7 @@ const Notas = () => {
                 key={post.id}
                 title={post.titulo}
                 category={post.categoria}
-                slug={"/ver-todo" + post.slug}
+                slug={"/notas" + post.slug}
                 alt={post.alt}
                 image={post.imagen}
                 content="Ver nota"
@@ -45,7 +45,7 @@ const Notas = () => {
               key={post.id}
               title={post.titulo}
               category={post.categoria}
-              slug={"/ver-todo" + post.slug}
+              slug={"/notas" + post.slug}
               alt={post.alt}
               image={post.imagen}
               content="Ver infografía"
@@ -55,7 +55,7 @@ const Notas = () => {
               key={post.id}
               title={post.titulo}
               category={post.categoria}
-              slug={"/ver-todo" + post.slug}
+              slug={"/notas" + post.slug}
               alt={post.alt}
               image={post.imagen}
               content="Ver nota"

@@ -41,6 +41,13 @@
   align-items: center;
   color: white;
   margin-bottom: 50px;
+  transition: all 200ms ease-in-out;
+  border: solid 2px $pale-green;
+}
+.button_show:hover {
+  background-color: transparent;
+  color: $pale-green;
+  transition: all 200ms ease-in-out;
 }
 @include respond-to("lg") {
   .button {

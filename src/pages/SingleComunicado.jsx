@@ -1,16 +1,16 @@
 import React from "react";
 import Seo from "components/general/seo/Seo";
 import Layout from "components/layout/Layout";
-import MainContent from "components/single/main-content/MainContent";
+import MainContentComunicados from "components/single/main-content/MainContentComunicados";
 import Notas from "components/single/notas/Notas";
 import { Route } from "react-router-dom";
-import data from "data/notas.json";
+import data from "data/medidas.json";
 
-const Single = () => {
+const SingleComunicado = () => {
   return (
     <Layout single to="/ver-todo" content="listado">
       {data.map((post) => (
-        <Route key={post.id} path={"/notas" + post.slug}>
+        <Route key={post.id} path={"/comunicados" + post.slug}>
           <Seo
             title={post.titulo}
             desc=""
@@ -21,17 +21,13 @@ const Single = () => {
             ogImage=""
             hashTag=""
           />
-          <MainContent
+          <MainContentComunicados
             title={post.titulo}
             banner={post.imagen}
-            date={post.date}
-            slug={post.slug}
-            category={post.categoria}
-            content={post.texto.map((parrafo) => parrafo)}
-            content2={post.texto2.map((parrafo) => parrafo)}
-            subtitle={post.subtitle}
             shortname={post.shortname}
-            notes={data}
+            parrafo={post.resumen}
+            url={post.url}
+            slug={post.slug}
             pagination={data}
             previous={post.id - 1}
             next={post.id + 1}
@@ -43,4 +39,4 @@ const Single = () => {
   );
 };
 
-export default Single;
+export default SingleComunicado;
