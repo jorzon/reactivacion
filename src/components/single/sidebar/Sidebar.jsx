@@ -15,26 +15,34 @@ const Sidebar = ({ notes }) => {
           .filter(checkNotes)
           .slice(0, 3)
           .map((post) => (
-            <Link key={post.id} to={"/notas" + post.slug} className={styles.note}>
+            <Link
+              key={post.id}
+              to={"/notas" + post.slug}
+              className={styles.note}
+            >
               <Text className={styles.title} content={post.titulo} />
               <Text className={styles.date} content={post.date} />
               <hr className={styles.hr} />
             </Link>
           ))}
       </div>
-      <div className={styles.content}>
+      {/* <div className={styles.content}>
         <Text className={styles.heading} content="Infografías" />
         {notes
           .filter(checkInfo)
           .slice(0, 3)
           .map((post) => (
-            <Link key={post.id} to={"/notas" + post.slug} className={styles.note}>
+            <Link
+              key={post.id}
+              to={"/notas" + post.slug}
+              className={styles.note}
+            >
               <Text className={styles.title} content={post.titulo} />
               <Text className={styles.date} content={post.date} />
               <hr className={styles.hr} />
             </Link>
           ))}
-      </div>
+      </div> */}
     </aside>
   );
 };

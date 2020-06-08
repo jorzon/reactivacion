@@ -85,13 +85,13 @@
     },
     {
         "id": 3,
-        "titulo": "Agencias de viaje listas para sacar a flote al turismo interno",
+        "titulo": "Viajar por el Perú: otra forma de ayudar a tu país",
         "shortname": "Agencias de viaje listas",
-        "imagen": "http://mmsolutions.com.pe/img/landing-reactivacion/nota3/agencia-de-viajes.jpg",
+        "imagen": "http://mmsolutions.com.pe/img/landing-reactivacion/viajar.jpg",
         "alt": "agencias-de-viaje ",
         "tipo": "Notas",
         "categoria": "Infografía",
-        "slug": "/agencias-de-viaje-listas",
+        "slug": "/",
         "date": "1 de junio, 2020",
         "texto": [
             {
@@ -117,13 +117,13 @@
     },
     {
         "id": 4,
-        "titulo": "Ejercicio y comida saludable: el secreto para estar listo antes del viaje",
+        "titulo": "Higiene y seguridad, tus aliados cuando vuelvas a viajar",
         "shortname": "Ejercicio y comida saludable",
-        "imagen": "http://mmsolutions.com.pe/img/landing-reactivacion/nota1/mujer-saludable-card.jpg",
+        "imagen": "http://mmsolutions.com.pe/img/landing-reactivacion/higiene.jpg",
         "alt": "ejercicio-comida-saludable",
         "tipo": "Notas",
         "categoria": "Infografía",
-        "slug": "/ejercicio-y-comida-saludable2",
+        "slug": "/",
         "date": "1 de junio, 2020",
         "texto": [
             {
@@ -166,13 +166,13 @@
     },
     {
         "id": 5,
-        "titulo": "Programar con anticipación tu viaje por el Perú te ahorra dinero",
+        "titulo": "Economía peruana al ritmo de nuestro turismo",
         "shortname": "Programar con anticipación tu viaje",
-        "imagen": "http://mmsolutions.com.pe/img/landing-reactivacion/nota2/terrazas-machupicchu-card.jpg",
+        "imagen": "http://mmsolutions.com.pe/img/landing-reactivacion/economia.jpg",
         "alt": "programar-tu-viaje",
         "tipo": "Notas",
         "categoria": "Infografía",
-        "slug": "/programar-con-anticipación-tu-viaje-por-el-perú2",
+        "slug": "/",
         "date": "1 de junio, 2020",
         "texto": [
             {

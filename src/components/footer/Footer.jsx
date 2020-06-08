@@ -62,30 +62,40 @@ const Footer = () => {
             <Text className={styles.title} content="Síguenos" />
             <div className={styles.social}>
               <a
+                target="_blank"
+                rel="noopener noreferrer"
                 href="https://www.facebook.com/pages/Visit-Peru/524042817717056"
                 className={styles.icon_fb}
               >
                 <FontAwesomeIcon icon={faFacebookF} />
               </a>
               <a
+                target="_blank"
+                rel="noopener noreferrer"
                 href="https://twitter.com/conoceelperu"
                 className={styles.icon_twi}
               >
                 <FontAwesomeIcon icon={faTwitter} />
               </a>
               <a
+                target="_blank"
+                rel="noopener noreferrer"
                 href="https://www.instagram.com/ytuqueplanes/ "
                 className={styles.icon_ig}
               >
                 <FontAwesomeIcon icon={faInstagram} />
               </a>
               <a
+                target="_blank"
+                rel="noopener noreferrer"
                 href="http://www.youtube.com/visitperu"
                 className={styles.icon_yt}
               >
                 <FontAwesomeIcon icon={faYoutube} />
               </a>
               <a
+                target="_blank"
+                rel="noopener noreferrer"
                 href="https://open.spotify.com/user/yt%C3%BAqu%C3%A9planes/playlist/7pTRlBhxN2YhkEqtwu0T4k "
                 className={styles.icon_spo}
               >
