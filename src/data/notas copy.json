@@ -84,6 +84,122 @@
         "texto2": []
     },
     {
+        "id": 3,
+        "titulo": "Viajar por el Perú: otra forma de ayudar a tu país",
+        "shortname": "Agencias de viaje listas",
+        "imagen": "http://mmsolutions.com.pe/img/landing-reactivacion/viajar.jpg",
+        "alt": "agencias-de-viaje ",
+        "tipo": "Notas",
+        "categoria": "Infografía",
+        "slug": "/",
+        "date": "1 de junio, 2020",
+        "texto": [
+            {
+                "parrafo": "Las agencias de viaje, uno de los pilares del turismo interno, actualmente juegan su partido más complicado; sin embargo, no piensan tirar la toalla. Son empresas importantes en la etapa de reactivación del sector, con la experiencia en la gestión de líneas aéreas, hoteles y compañías de transporte; para que sea más sencillo el proceso vacacional por el Perú."
+            },
+            {
+                "parrafo": "Esta coyuntura es la oportunidad que tienen para demostrar que pueden seguir siendo la mano derecha de los viajeros peruanos, analizando sus exigencias y ofreciéndoles el mejor paquete turístico en el futuro, con vuelos disponibles, alojamiento y transporte. "
+            },
+            {
+                "parrafo": "Durante el confinamiento es importante mantener la comunicación con los clientes a través de las redes sociales. Esta temporada es una oportunidad para compartir anécdotas turísticas, fotos, videos, anuncios de las nuevas ideas que se van a poner en marcha en los próximos meses y hasta recorridos digitales guiados por algunas zonas del país."
+            },
+            {
+                "parrafo": "Se calcula que en el Perú operan cerca de 11 mil agencias de viaje, muchas son virtuales y desde el 15 de mayo deben formalizarse para garantizar la identificación de la empresa y su representante legal, de esta manera conseguirán ser inscritas en el Directorio Nacional de Prestadores de Servicios Turísticos Calificados, según el nuevo reglamento del Ministerio de Comercio Exterior y Turismo (Mincetur)."
+            },
+            {
+                "parrafo": "Además, con la formalización estos negocios van a tener la oportunidad de acceder a los programas de financiamiento que ofrece el gobierno peruano, como, por ejemplo, el Fondo de Apoyo Empresarial Mype. Llegó el momento del cambio, súmate a este esfuerzo en beneficio de la actividad turística del país."
+            },
+            {
+                "parrafo": "#PerúEstáEnNuestrosManos. Demuestra una vez más que los peruanos somos responsables y solidarios. De ti depende que más compatriotas estén libres del COVID-19. Recuerda, #YoMeQuedoEnCasa.  "
+            }
+        ],
+        "texto2": []
+    },
+    {
+        "id": 4,
+        "titulo": "Higiene y seguridad, tus aliados cuando vuelvas a viajar",
+        "shortname": "Ejercicio y comida saludable",
+        "imagen": "http://mmsolutions.com.pe/img/landing-reactivacion/higiene.jpg",
+        "alt": "ejercicio-comida-saludable",
+        "tipo": "Notas",
+        "categoria": "Infografía",
+        "slug": "/",
+        "date": "1 de junio, 2020",
+        "texto": [
+            {
+                "parrafo": "Próximamente llegará el día de volver a viajar por tu país y esa espera comienza a convertirse en ansiedad. Para cuando llegue ese momento debes estar preparado mental y físicamente, con ideas claras de cómo hacerlo de forma segura y con un cuerpo en perfectas condiciones para reiniciar la actividad física. Sácale el jugo a estos días para ejercitarte y poner a prueba estas ideas, que demuestran que tu casa también puede ser un efectivo gimnasio."
+            },
+            {
+                "parrafo": "Aprovecha cualquier tarea doméstica para moverte. Por ejemplo, al poner los platos en el lavadero eleva los talones y quédate parado en puntas, o haz sentadillas mientras pones ropa en la lavadora, de esta forma vas a fortalecer piernas y glúteos."
+            },
+            {
+                "parrafo": "Para trabajar los brazos, un buen reto mientras ves televisión es hacer planchas durante los comerciales. Recuerda siempre complementar tus ejercicios con rutinas de estiramiento para ayudar a mantener la flexibilidad que tu cuerpo necesita."
+            },
+            {
+                "parrafo": "Intenta sentarte en el borde de una silla sosteniéndote con las manos, estira tus piernas, baja el tronco doblando lentamente los codos y luego vuelve a enderezarlos. Otra opción es usar objetos caseros como botellas, latas o cajas para hacer repeticiones de levantamiento de peso, que dará fuerza y volumen a tus músculos."
+            },
+            {
+                "parrafo": "A tu lista de ejercicios caseros le puedes sumar el subir y bajar varias veces las escaleras, saltar la soga tres o cinco minutos a lo largo del día, trotar por una media hora en tu sala o incluso bailar."
+            },
+            {
+                "parrafo": "Mantener tu cuerpo activo te hará mucho más fácil emprender los viajes que están por llegar. Recuerda que el ejercicio estimula las defensas para prevenir los efectos o el contagio de muchas enfermedades. "
+            }
+        ],
+        "subtitle": "Bien alimentado",
+        "texto2": [
+            {
+                "parrafo": "Tener una alimentación saludable también te ayudará a estar listo en el momento en que se reactive el turismo. En tu desayuno no debe faltar leche o avena, pan, huevo y queso. Mientras que en el almuerzo, la carne, el pescado o el pollo tiene que ser acompañado con menestras, cereales, tubérculos o ensaladas. "
+            },
+            {
+                "parrafo": "Entre comidas, consume frutas. Los especialistas recomiendan las de color amarillo, naranja y verde, como el plátano, mandarina, naranja, limón o toronja. Son ricas en zinc, selenio, hierro y te brindan vitaminas A, C y E. "
+            },
+            {
+                "parrafo":"Otro aspecto que debes tener en cuenta es la hidratación. Se recomienda beber seis vasos de agua al día o tomar infusiones calientes, sobre todo ahora que el clima comienza a enfriarse con la llegada del invierno."
+            },
+            {
+                "parrafo":"Ponerte en forma no es complicado, solo depende de ti y de tu fuerza de voluntad para que estés listo cuando llegue el momento de armar tu maleta viajera. ¡Volverte a encontrar con el Perú es solo una cuestión de tiempo!"
+            },
+            {
+                "parrafo":"#PerúEstáEnNuestrosManos. Demuestra una vez más que los peruanos somos responsables y solidarios. De ti depende que más compatriotas estén libres del COVID-19. Recuerda, #YoMeQuedoEnCasa.  "
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "titulo": "Economía peruana al ritmo de nuestro turismo",
+        "shortname": "Programar con anticipación tu viaje",
+        "imagen": "http://mmsolutions.com.pe/img/landing-reactivacion/economia.jpg",
+        "alt": "programar-tu-viaje",
+        "tipo": "Notas",
+        "categoria": "Infografía",
+        "slug": "/",
+        "date": "1 de junio, 2020",
+        "texto": [
+            {
+                "parrafo": "Mantén vivo tu deseo de viajar por el Perú. Aprovecha la comodidad de tu hogar para informarte por internet sobre los lugares que deseas conocer y elige diversas promociones antes del regreso de la actividad turística. "
+            },
+            {
+                "parrafo": "En esta época, las empresas del sector buscan mostrar el lado solidario de su marca, ofreciendo tarifas para todos los bolsillos bajo el lema: compra hoy y viaja mañana. Un buen ejemplo son las aerolíneas, algunas han informado sobre una mayor flexibilidad en la compra de los pasajes, es decir, te podrían costar hasta un 20 % menos."
+            },
+            {
+                "parrafo": "Los hospedajes no se quedan atrás, sabemos que actualmente no están funcionando; sin embargo, varios ya brindan la posibilidad de hacer reservas a través de sus páginas web y en algunos casos incluso por la mitad del precio."
+            },
+            {
+                "parrafo": "También podrías adquirir a un costo menor paquetes turísticos que se activarán en los próximos meses o inicios del 2021, esto te va a permitir contar con mejores ubicaciones y horarios en los diversos atractivos turísticos del país."
+            },
+            {
+                "parrafo": "Cuando el turismo interno regrese, tus primeros viajes serán cerca a tu región, por eso hay empresas como las de alquiler de autos que han variado su rubro con el fin de ofrecer paseos locales por un costo de hasta 40 % menos de lo habitual."
+            },
+            {
+                "parrafo": "Estas son algunas de las iniciativas que contribuyen a la reactivación de la actividad turística del Perú y seguro próximamente también aparecerán las promociones 2x1, como se han implementado en México, o la oferta del pago de una parte de tus gastos viajeros, una medida que se va a aplicar en Italia. Así que anda programando de una vez tu próxima experiencia aventurera. ¡En la planificación está el ahorro!"
+            },
+            {
+                "parrafo": "#PerúEstáEnNuestrosManos. Demuestra una vez más que los peruanos somos responsables y solidarios. De ti depende que más compatriotas estén libres del COVID-19. Recuerda, #YoMeQuedoEnCasa.  "
+            }
+        ],
+        "texto2": []
+    },
+    {
         "id": 6,
         "titulo": "Agencias de viaje listas para sacar a flote al turismo interno",
         "shortname": "Agencias de viaje listas",
