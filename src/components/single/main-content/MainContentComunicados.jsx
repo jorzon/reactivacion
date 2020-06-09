@@ -26,7 +26,7 @@ const MainContentComunicados = ({
         {/* <Sidebar notes={notes} /> */}
         <div className={styles.content}>
           <img className={styles.img} src={banner} alt="" />
-          <Breadcrumbs content={shortname} slug={"comunicados" + slug} />
+          <Breadcrumbs comunicado content={shortname} slug={"comunicados" + slug} />
           <Text className={styles.title} content={title} />
           <Text className={styles.date} content={date} />
           <Text className={styles.text} content={parrafo} />
@@ -37,10 +37,10 @@ const MainContentComunicados = ({
             rel="noopener noreferrer"
             download
           >
-            Ver documento completo
+            Ver comunicado completo
           </a>
           <hr className={styles.hr} />
-          <Pagination tipo="/comunicados" pagination={pagination} previous={previous} next={next}/>
+          <Pagination comunicado tipo="/comunicados" pagination={pagination} previous={previous} next={next}/>
         </div>
       </section>
     </LimitWrapper>

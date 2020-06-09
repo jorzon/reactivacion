@@ -8,7 +8,7 @@ import data from "data/medidas.json";
 
 const SingleComunicado = () => {
   return (
-    <Layout single to="/ver-todo" content="listado">
+    <Layout single to="/ver-todo" content="comunicados">
       {data.map((post) => (
         <Route key={post.id} path={"/comunicados" + post.slug}>
           <Seo

@@ -36,7 +36,7 @@ const Head = () => {
       <div className={styles.wrapper}>
         <Text
           className={styles.title}
-          content="Conoce las nuevas medidas que de están implementando para cuando volvamos a viajar"
+          content="Conoce las nuevas medidas que se están implementando para cuando volvamos a viajar"
         />
         <div className={styles.button}>
           <ButtonFilter

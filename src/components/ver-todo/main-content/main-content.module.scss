@@ -1,0 +1,67 @@
+.title {
+    font-family: BreePeru;
+    font-size: 22px;
+    font-weight: bold;
+    color: $dark-grey;
+    text-align: center;
+    max-width: 50%;
+    margin: auto;
+    line-height: 1.2;
+  }
+  .wrapper {
+    width: 100%;
+    margin-top: 170px;
+  }
+  .button {
+    margin: 50px auto 0px auto;
+    display: flex;
+    width: 85%;
+  }
+  .wrapper_cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px auto 55px auto;
+  }
+  .wrapper_hide {
+    display: none;
+  }
+  .button_show {
+    width: 160px;
+    height: 53px;
+    border-radius: 24px;
+    background-color: $pale-green;
+    font-family: ClanOffc;
+    font-size: 15px;
+    font-weight: 500;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-bottom: 50px;
+    transition: all 200ms ease-in-out;
+    border: solid 2px $pale-green;
+  }
+  .button_show:hover {
+    background-color: transparent;
+    color: $pale-green;
+    transition: all 200ms ease-in-out;
+  }
+  @include respond-to("lg") {
+    .button {
+      margin: 50px auto 0px auto;
+      display: flex;
+      width: 90%;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  @include respond-to("md") {
+    .title {
+      max-width: 85%;
+      font-size: 20px;
+    }
+  }
+  

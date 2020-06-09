@@ -1,7 +1,6 @@
 import React from "react";
 import Seo from "components/general/seo/Seo";
 import Layout from "components/layout/Layout";
-import Head from "components/ver-todo/head/Head";
 import MainContent from "components/ver-todo/main-content/MainContent";
 
 const VerTodo = () => {
@@ -17,7 +16,6 @@ const VerTodo = () => {
         ogImage=""
         hashTag=""
       />
-      <Head/>
       <MainContent/>
     </Layout>
   );
