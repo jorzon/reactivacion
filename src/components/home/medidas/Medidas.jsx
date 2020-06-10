@@ -44,13 +44,14 @@ const Medidas = () => {
     };
     fetchData();
   }, []);
-
+  
   return (
     <section className={styles.wrapper}>
       <LimitWrapper>
         {/* {data.map((post) => (
           <Paragraph source={post.Parrafo} />
         ))} */}
+        {/* <Paragraph source={source} /> */}
         <Text
           className={styles.title}
           content="Conoce las nuevas medidas que se están implementando para cuando
