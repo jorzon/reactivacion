@@ -50,13 +50,13 @@
     },
     {
         "id": 2,
-        "titulo": "Programar con anticipación tu viaje por el Perú te ahorra dinero",
+        "titulo": "Un viaje virtual con tus lentes de realidad virtual hechas en casa",
         "shortname": "Programar con anticipación tu viaje",
-        "imagen": "http://mmsolutions.com.pe/img/landing-reactivacion/nota2/terrazas-machupicchu-card.jpg",
-        "alt": "programar-tu-viaje",
+        "imagen": "http://mmsolutions.com.pe/img/landing-reactivacion/nota2/montanas-kuelap.jpg",
+        "alt": "montanas-kuelap",
         "tipo": "Notas",
         "categoria": "Nota",
-        "slug": "/programar-con-anticipación-tu-viaje-por-el-perú",
+        "slug": "/un-viaje-virtual-con-tus-lentes-de-realidad-virtual",
         "date": "1 de junio, 2020",
         "texto": [
             {
@@ -111,6 +111,143 @@
             },
             {
                 "parrafo": "#PerúEstáEnNuestrosManos. Demuestra una vez más que los peruanos somos responsables y solidarios. De ti depende que más compatriotas estén libres del COVID-19. Recuerda, #YoMeQuedoEnCasa.  "
+            }
+        ],
+        "texto2": []
+    },
+    {
+        "id": 4,
+        "titulo": "Cuidar tu salud es simple, incluye la granadilla en tu alimentación",
+        "shortname": "Cuidar tu salud es simple",
+        "imagen": "http://mmsolutions.com.pe/img/landing-reactivacion/nota4/granadillas-plato.jpg",
+        "alt": "granadillas-plato",
+        "tipo": "Notas",
+        "categoria": "Nota",
+        "slug": "/cuidar-tu-salud-es-simple",
+        "date": "9 de junio, 2020",
+        "texto": [
+            {
+                "parrafo": "Llegas al mercado o supermercado, pasas por la zona de frutas y ves un gran número de granadillas debido a que es uno de los alimentos que se produce todo el año en el Perú. Si es tan fácil encontrarlas, entonces sácales el jugo literalmente. Esta superfruta no solo refresca tu garganta, también protege tu sistema digestivo."
+            },
+            {
+                "parrafo": "La granadilla te puede ayudar a prevenir el estreñimiento, los malestares de la gastritis y la acidez. Además, si la consumes con sus semillas le brinda a tu cuerpo un alto contenido de fibra, potasio, calcio, fósforo, hierro, vitaminas, proteínas y carbohidratos."
+            },
+            {
+                "parrafo": "Si tienes hijos, la granadilla no puede faltar en tu casa. Los pediatras le dicen la fruta de los niños, gracias a que ayuda en su proceso de crecimiento, los previene de la anemia y refuerza su visión. También olvídate de los somníferos y tranquilizantes, si incluyes esta superfruta en tu dieta diaria puedes reducir el insomnio, estrés y ansiedad."
+            },
+            {
+                "parrafo": "La granadilla se cultiva en Loreto, San Martín, Ucayali, Junín, Huánuco, entre otras regiones del país. En los últimos años se ha convertido en uno de los alimentos peruanos más exportados a países europeos como Holanda, España y Rusia."
+            },
+            {
+                "parrafo": "Su sabor dulce y rico aroma la convierten en el ingrediente ideal para postres como el mousse de granadilla. Para prepararlo en tu casa, debes licuar la pulpa de esta fruta, colarla y batirla por unos minutos en un recipiente con dos yemas de huevo, azúcar al gusto y crema de leche. Luego agrega gelatina sin sabor en polvo (grenetina) y congela la mezcla por unas dos horas hasta que cuaje."
+            },
+            {
+                "parrafo": "Otra alternativa es preparar un coctel. Cuela dos granadillas para obtener su jugo, viértelo en la licuadora, agrega un poco de jarabe de goma, hielo, agua, dos onzas de pisco y deja que el electrodoméstico haga el resto del trabajo. Una buena manera de hacer un brindis en el hogar."
+            },
+            {
+                "parrafo": "#PerúEstáEnNuestrosManos. Demuestra una vez más que los peruanos somos responsables y solidarios. De ti depende que más compatriotas estén libres del Coronavirus. Recuerda, #YoMeQuedoEnCasa."
+            }
+        ],
+        "texto2": []
+    },
+    {
+        "id": 5,
+        "titulo": "¡Como si estuvieras allí! Viaja a Ica y Callao sin salir de casa",
+        "shortname": "Viaja a Ica y Callao",
+        "imagen": "http://mmsolutions.com.pe/img/landing-reactivacion/nota5/familia-pelicula.jpg",
+        "alt": "familia-pelicula",
+        "tipo": "Notas",
+        "categoria": "Nota",
+        "slug": "/viaja-a-ica-y-callao",
+        "date": "9 de junio, 2020",
+        "texto": [
+            {
+                "parrafo": "Hacer un poco de turismo por Ica y el Callao nunca fue tan fácil: Siéntete un aventurero, descubre cinco destinos que puedes conocer haciendo un viaje 360° desde tu pantalla."
+            },
+            {
+                "parrafo": "Laguna de Huacachina: Observa desde las alturas este oasis iqueño rodeado de dunas, navega por su laguna en los botes pedalones e ingresa a la Biblioteca Abraham Valdelomar que tiene más de 10,000 libros de filosofía, literatura, geografía, historia, arqueología y arte. https://www.youtube.com/watch?v=ik64B5Spp34&feature=youtu.be"
+            },
+            {
+                "parrafo": "Reserva Nacional de Paracas: Inicia tu viaje contemplando El Candelabro, un geoglifo de 180 metros de largo que cubre gran parte de una duna. Luego elévate hasta el cielo y échale un vistazo panorámico al mar de esta reserva, en un ángulo que te darán ganas de saltar al agua de las playas Roja, Lagunillas y La Mina.https://www.youtube.com/watch?v=oSmniJ3E5-8&feature=youtu.be "
+            },
+            {
+                "parrafo": "Islas Ballestas: Súbete a la lancha y sé uno de los pasajeros que va al encuentro de estas islas llenas de lobos marinos, pingüinos de Humboldt, pelícanos y una enorme cantidad de aves guaneras. Agárrate fuerte de la embarcación, pues el viaje sobre el mar de Paracas es a toda velocidad, cuando llegues admira calmadamente el paisaje e ingresa a una de las cuevas de este destino iqueño. https://www.youtube.com/watch?v=s9D8V95pidA&feature=youtu.be"
+            },
+            {
+                "parrafo": "Fortaleza Real Felipe: Ingresa por el enorme portón de esta edificación militar del siglo XVIII, un grupo de militares te darán la bienvenida con su característico saludo marcial. Sube hasta la torre de esta fortaleza, observa los más de 20 cañones que la adornan y contempla el puerto del Callao desde la altura. En su interior encontrarás el Museo del Ejército del Perú, que conserva algunos de los objetos usados durante las batallas por la independencia de nuestro país.https://www.youtube.com/watch?v=J-s-A_8sj8Y&feature=youtu.be  "
+            },
+            {
+                "parrafo": "Museo Naval Submarino Abtao: Llegó el momento que sientas lo que es estar dentro de un submarino. Recorre los angostos pasillos de este museo marino, descubre en qué ambientes se encuentran los torpedos, ingresa al puesto de control, a la sala de motores y a otras áreas de la nave acuática que abrió sus escotillas al público en el 2004, tras casi 50 años de servicio. https://www.youtube.com/watch?v=v6mkOEl5mIo&feature=youtu.be"
+            },
+            {
+                "parrafo": "#PerúEstáEnNuestrosManos. Demuestra una vez más que los peruanos somos responsables y solidarios. De ti depende que más compatriotas estén libres del Coronavirus. Recuerda, #YoMeQuedoEnCasa. "
+            }
+        ],
+        "texto2": []
+    },
+    {
+        "id": 6,
+        "titulo": "Quinua, superalimento andino que nutre al mundo",
+        "shortname": "Quinua, superalimento andino",
+        "imagen": "http://mmsolutions.com.pe/img/landing-reactivacion/nota6/quinua-en-mano.jpg",
+        "alt": "quinua-en-mano",
+        "tipo": "Notas",
+        "categoria": "Nota",
+        "slug": "/quinua-superalimento-andino",
+        "date": "9 de junio, 2020",
+        "texto": [
+            {
+                "parrafo": "La quinua es uno de los principales alimentos del Perú, se cultiva desde hace más de 3,000 años en los alrededores del Lago Titicaca en Puno, una producción que actualmente se expande a Cusco, Apurímac, Junín, Arequipa, Ayacucho y Huancavelica. Los incas convirtieron a este supergrano en una de sus comidas esenciales, ahora esta delicia es un ingrediente importante en la gastronomía nacional y también puedes consumirla en snacks y complementos nutricionales."
+            },
+            {
+                "parrafo": "Este alimento nos llena de orgullo. La NASA lo incluyó en las dietas de los astronautas que realizan viajes espaciales de larga duración, pues la quinua posee una composición rica en nutrientes y permanece más tiempo en el estómago gracias a su alta absorción de agua."
+            },
+            {
+                "parrafo": "El llamado ‘grano de oro de los Andes’, también es valorado a nivel mundial por aportar más proteínas que el arroz o el trigo, y por su alto contenido de calcio que ayuda a evitar la descalcificación y osteoporosis."
+            },
+            {
+                "parrafo": "Si sufres de diabetes o conoces personas que tengan esta enfermedad, les puedes recomendar que consuman quinua regularmente, por el bajo nivel de azúcar que posee y porque ayuda en el tratamiento de reducción de peso."
+            },
+            {
+                "parrafo": "Como puedes notar, la quinua tiene un gran poder nutricional y puedes convertirla en el ingrediente principal de diversos platos. Por ejemplo, si te gusta el sabor oriental, el chaufa es una buena opción, solo debes cambiar el típico arroz por el supergrano y juntarlo en la sartén con el sillao, la cebolla china, los huevos, el kión y la carne de tu preferencia."
+            },
+            {
+                "parrafo": "Si eres vegetariano, la quinua no puede faltar en tu cocina, la puedes incluir al momento que prepares una ensalada, como el solterito, uno de los platos tradicionales de Arequipa. Primero lava bien este grano andino para quitarle el sabor amargo, luego ponlo a hervir en una olla y cuando esté listo lo mezclas con el tomate, cebolla, habas, ají amarillo, queso, culantro y huacatay. Finalmente, lo sazonas con sal, pimienta, vinagre blanco y aceite de oliva. ¡De la Sierra a tu mesa, buen provecho!"
+            },
+            {
+                "parrafo": "Vídeos de cómo preparar el solterito de quinua. Marca Perú: https://www.youtube.com/watch?v=OS4s0ZS9iAE Visit Peru: https://www.youtube.com/watch?v=_ZL1n3nsPQY "
+            }
+        ],
+        "texto2": []
+    },
+    {
+        "id": 7,
+        "titulo": "Un paseo virtual por el Perú con Google Maps",
+        "shortname": "Un paseo virtual por el Perú",
+        "imagen": "http://mmsolutions.com.pe/img/landing-reactivacion/nota7/google-maps.jpg",
+        "alt": "google-maps",
+        "tipo": "Notas",
+        "categoria": "Nota",
+        "slug": "/un-paseo-virtual-por-el-peru",
+        "date": "9 de junio, 2020",
+        "texto": [
+            {
+                "parrafo": "Estar en cualquier parte del Perú en cuestión de segundos es uno de los regalos de la tecnología que no puedes desaprovechar. En estos días en casa, date tiempo para conocer un poco más de tu país utilizando la magia del Google Maps. Prepárate para iniciar el viaje virtual con las siguientes cuatro alternativas y luego anímate a buscar más destinos."
+            },
+            {
+                "parrafo": "1. Líneas de Nasca: Échale un vistazo desde el espacio a las famosas líneas elaborados por la cultura Nasca. De forma satelital verás al mono, el cóndor, el colibrí, la araña y los demás geoglifos ubicados a lo largo de las pampas de Jumana, en el desierto de Ica. Las longitudes de las figuras oscilan entre los 50 y 300 metros, pero desde tu computadora o celular puedes verlas detalladamente y desde el ángulo que gustes."
+            },
+            {
+                "parrafo": "2. Machupicchu: Caminar por la ciudadela Inca es muy sencillo con la función Street View de Google Maps. Siéntete privilegiado de recorrer libremente por los interiores de las antiguas habitaciones, los patios y las zonas que fueron huertas. También llega hasta la Casa del Guardián, desde donde tendrás una visión panorámica de las ruinas y de la imponente montaña Huayna Picchu."
+            },
+            {
+                "parrafo": "3. Lagunas de Cusco, Áncash y San Martín: Da un paseo virtual por Cusco y encuentra la Laguna Huaypo, cubierta por un cielo azul y nubes que parecen trozos de algodón. Luego viaja hasta Áncash y observa las aguas color turquesa de la Laguna de Llanganuco, rodeada por nada más y nada menos que los nevados Huascarán y Huandoy. San Martín no se queda atrás, ve en busca de la Laguna Azul, un extenso espejo natural donde se refleja la basta vegetación selvática."
+            },
+            {
+                "parrafo": "4. Plazas de Lima: Si extrañas caminar por el Centro de Lima esta es tu oportunidad, pues Google Maps te transportará hacia el corazón de la capital para que visites sus dos principales plazas. Ubícate en la pileta de la Plaza de Armas y da un giro de 180° que te permitirá ver la catedral, el Palacio de Gobierno y la Municipalidad de Lima. Seguidamente ingresa al Jirón de la Unión y llega hasta la clásica Plaza San Martín, donde tendrás la oportunidad de acercarte a la estatua ecuestre del libertador del Perú, que se inauguró hace casi cien años."
+            },
+            {
+                "parrafo": "#PerúEstáEnNuestrosManos. Demuestra una vez más que los peruanos somos responsables y solidarios. De ti depende que más compatriotas estén libres del Coronavirus. Recuerda, #YoMeQuedoEnCasa."
             }
         ],
         "texto2": []

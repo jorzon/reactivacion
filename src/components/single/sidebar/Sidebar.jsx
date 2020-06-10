@@ -7,13 +7,16 @@ const Sidebar = ({ notes }) => {
   const checkNotes = (x) => x.categoria.includes("Nota");
   const checkInfo = (x) => x.categoria.includes("Infografía");
 
+  const shuffle = () => Math.random() - 0.5
+
   return (
     <aside className={styles.wrapper}>
       <div className={styles.content}>
         <Text className={styles.heading} content="Más notas" />
         {notes
+          .sort(shuffle)
           .filter(checkNotes)
-          .slice(0, 3)
+          .slice(0, 6)
           .map((post) => (
             <Link
               key={post.id}

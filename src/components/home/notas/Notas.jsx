@@ -17,7 +17,7 @@ const Notas = () => {
           por el Perú haciendo solo un click"
       />
       <div className={styles.card_container}>
-        {data.map((post) =>
+        {data.slice(0, 6).map((post) =>
           post.id == 1 || post.id == 6 ? (
             post.categoria === "Infografía" ? (
               <CardNotasLg
