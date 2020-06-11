@@ -12,6 +12,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import iperu from "assets/img/iperu.webp";
 import promperu from "assets/img/promperu.webp";
 import marcaperu from "assets/img/perumarca.webp";
+import mincetur from "assets/img/mincetur.png";
 import Text from "components/general/text/Text";
 import { ButtonFooter } from "components/general/button/button.stories.js";
 import LimitWrapper from "components/general/limit-wrapper/LimitWrapper";
@@ -106,6 +107,7 @@ const Footer = () => {
               <img className={styles.img_partner} src={iperu} alt="" />
               <img className={styles.img_partner} src={promperu} alt="" />
               <img className={styles.img_partner} src={marcaperu} alt="" />
+              <img className={styles.img_partner} src={mincetur} alt="" />
             </div>
           </div>
         </div>

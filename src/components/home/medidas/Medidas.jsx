@@ -10,6 +10,7 @@ import {
 } from "components/general/card/card.stories.js";
 import { ButtonHomeMedidas } from "components/general/button/button.stories.js";
 import data2 from "data/medidas.json";
+import aboutText from "data/try.json";
 import Slider from "react-slick";
 
 const Medidas = () => {
@@ -39,18 +40,26 @@ const Medidas = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const result = await axios("http://localhost:1337/notas");
+      const result = await axios(
+        "http://localhost:1337/notas"
+      );
       setData(result.data);
     };
     fetchData();
   }, []);
-  
+
   return (
     <section className={styles.wrapper}>
       <LimitWrapper>
-        {/* {data.map((post) => (
-          <Paragraph source={post.Parrafo} />
-        ))} */}
+        <div>
+          {data.map((post) => (
+            <div>
+              {/* <div>{console.log(post.Parrafo.replace(/\n/g, "<br />"))}</div> */}
+              <Paragraph source={post.Parrafo} />
+            </div>
+          ))}
+        </div>
+
         {/* <Paragraph source={source} /> */}
         <Text
           className={styles.title}
