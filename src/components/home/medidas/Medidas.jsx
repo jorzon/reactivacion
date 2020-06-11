@@ -51,14 +51,7 @@ const Medidas = () => {
   return (
     <section className={styles.wrapper}>
       <LimitWrapper>
-        <div>
-          {data.map((post) => (
-            <div>
-              {/* <div>{console.log(post.Parrafo.replace(/\n/g, "<br />"))}</div> */}
-              <Paragraph source={post.Parrafo} />
-            </div>
-          ))}
-        </div>
+
 
         {/* <Paragraph source={source} /> */}
         <Text
