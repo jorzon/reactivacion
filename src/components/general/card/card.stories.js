@@ -27,7 +27,7 @@ export const CardMedidasSm = ({
         <Card to={slug}>
             < div className={styles.wrapper_medidas_sm} >
                 <div className={styles.head_medidas_sm}>
-                    <ChipMedidas title={category} />
+                    {/*<ChipMedidas title={category} />*/}
                     <img className={styles.img_medidas} src={image} alt={alt} />
                 </div>
                 <div className={styles.content_medidas_sm}>
@@ -60,7 +60,7 @@ export const CardMedidasLg = ({
         <Card to={slug}>
             <div className={styles.wrapper_medidas_lg}>
                 <div className={styles.head_medidas_lg}>
-                    <ChipMedidas title={category} />
+                    {/*<ChipMedidas title={category} />*/}
                     <img className={styles.img_medidas} src={image} alt={alt} />
                 </div>
                 <div className={styles.content_medidas_lg}>
