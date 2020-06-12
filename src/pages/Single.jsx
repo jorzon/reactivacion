@@ -7,6 +7,18 @@ import { Route } from "react-router-dom";
 import data from "data/notas.json";
 
 const Single = () => {
+  // const [data, setData] = useState([]);
+
+  // useEffect(() => {
+  //   const fetchData = async () => {
+  //     const result = await axios(
+  //       "https://my-strapi-cms-heroku.herokuapp.com/notas"
+  //     );
+  //     setData(result.data);
+  //   };
+  //   fetchData();
+  // }, []);
+
   return (
     <Layout single to="/" content="inicio">
       {data.map((post) => (
@@ -27,9 +39,7 @@ const Single = () => {
             date={post.date}
             slug={post.slug}
             category={post.categoria}
-            content={post.texto.map((parrafo) => parrafo)}
-            content2={post.texto2.map((parrafo) => parrafo)}
-            subtitle={post.subtitle}
+            content={post.texto}
             shortname={post.shortname}
             notes={data}
             pagination={data}

@@ -1,16 +1,19 @@
-.wrapper{
-  font-family: ClanOffc;
+.wrapper {
   color: $dark-grey;
+  max-width: 697px;
+  text-align: justify;
+  font-family: ClanOffcBook;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.3;
 }
 .wrapper h2 {
   font-family: ClanOffc;
-  font-size: 16px;
   line-height: 1.3;
 }
 .wrapper p {
   margin: 1em 0;
   line-height: 1.35;
-  font-size: 12px;
 }
 .wrapper em {
   font-style: italic;
@@ -21,7 +24,7 @@
 .wrapper strong {
   font-weight: bolder;
 }
-.wrapper a{
+.wrapper a {
   color: $sky-blue;
   text-decoration: underline;
 }

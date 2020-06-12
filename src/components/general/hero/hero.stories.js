@@ -24,8 +24,8 @@ export const HeroHome = () => {
             image={banner_mobile}
         >
             <div className={styles.content_home}>
-                <img className={styles.logo} src={Logo} alt="ytuqueplanes-logo" />
                 <Text className={styles.text_home} content="Nos estamos preparando" />
+                <img className={styles.logo} src={Logo} alt="ytuqueplanes-logo" />
                 {/*<ButtonHomeHero />*/}
             </div>
         </Hero>

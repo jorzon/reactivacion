@@ -7,6 +7,7 @@ import Sidebar from "components/single/sidebar/Sidebar";
 import ShareButton from "components/general/share-button/ShareButton";
 import { ButtonSingle } from "components/general/button/button.stories.js";
 import Pagination from "components/single/pagination/Pagination";
+import Paragraph from "components/general/paragraph/Paragraph";
 
 const MainContent = ({
   banner,
@@ -22,7 +23,7 @@ const MainContent = ({
   pagination,
   previous,
   next,
-  tipo
+  tipo,
 }) => {
   return (
     <LimitWrapper>
@@ -33,19 +34,7 @@ const MainContent = ({
           <Breadcrumbs content={shortname} slug={"notas" + slug} />
           <Text className={styles.title} content={title} />
           <Text className={styles.date} content={date} />
-          {content.map((post) => (
-            <Text className={styles.text} content={post.parrafo} />
-          ))}
-          {subtitle === "" ? (
-            ""
-          ) : (
-            <Fragment>
-              <Text className={styles.subtitle} content={subtitle} />
-              {content2.map((post) => (
-                <Text className={styles.text} content={post.parrafo} />
-              ))}
-            </Fragment>
-          )}
+          <Paragraph source={content}/>
 
           {/* 
           key={post.id}
@@ -57,7 +46,12 @@ const MainContent = ({
             <ShareButton />
           </div> */}
           <hr className={styles.hr} />
-          <Pagination tipo="/notas" pagination={pagination} previous={previous} next={next}/>
+          <Pagination
+            tipo="/notas"
+            pagination={pagination}
+            previous={previous}
+            next={next}
+          />
         </div>
       </section>
     </LimitWrapper>

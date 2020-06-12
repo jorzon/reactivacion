@@ -1,16 +1,13 @@
 import React, { useState, useEffect } from "react";
 import styles from "./medidas.module.scss";
-import axios from "axios";
 import LimitWrapper from "components/general/limit-wrapper/LimitWrapper";
 import Text from "components/general/text/Text";
-import Paragraph from "components/general/paragraph/Paragraph";
 import {
   CardMedidasSm,
   CardMedidasLg,
 } from "components/general/card/card.stories.js";
 import { ButtonHomeMedidas } from "components/general/button/button.stories.js";
-import data2 from "data/medidas.json";
-import aboutText from "data/try.json";
+import data from "data/medidas.json";
 import Slider from "react-slick";
 
 const Medidas = () => {
@@ -36,31 +33,16 @@ const Medidas = () => {
     ],
   };
 
-  const [data, setData] = useState([]);
-
-  useEffect(() => {
-    const fetchData = async () => {
-      const result = await axios(
-        "http://localhost:1337/notas"
-      );
-      setData(result.data);
-    };
-    fetchData();
-  }, []);
-
   return (
     <section className={styles.wrapper}>
       <LimitWrapper>
-
-
-        {/* <Paragraph source={source} /> */}
         <Text
           className={styles.title}
           content="Conoce las nuevas medidas que se están implementando para cuando
         volvamos a viajar"
         />
         <Slider className={styles.card_container} {...settings}>
-          {data2
+          {data
             .slice(0, 5)
             .map((post) =>
               post.categoria === "Turismo" ? (
