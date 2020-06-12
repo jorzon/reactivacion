@@ -36,7 +36,7 @@ const Pagination = ({ pagination, previous, next, tipo, comunicado }) => {
                 <Text className={styles.pag_title} content={post.shortname} />
                 <Text
                   className={styles.pag_subtitle}
-                  content={comunicado ? `Anterior comunicado` : `Anterior nota`}
+                  content={comunicado ? `Siguiente comunicado` : `Siguiente nota`}
                 />
               </div>
               <button className={styles.arrow_right}>
