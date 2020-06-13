@@ -149,7 +149,7 @@ export const CardNotasLgAnchor = ({
         <Card anchor className={styles.wrapper_notas} to={slug}>
             <div className={styles.wrapper_notas_lg}>
                 <div className={styles.content_notas}>
-                    <Text className={styles.title_notas_lg} content={title} />
+                    <Text className={styles.title_notas_lg_anchor} content={title} />
                     {
                         video ? <CategoriaVideo /> :
                             picture ? <CategoriaImagen /> :

@@ -71,7 +71,7 @@ const Notas = () => {
           category=""
           slug="https://www.ytuqueplanes.com/rutas-cortas"
           alt="rutas-cortas"
-          image="http://mmsolutions.com.pe/img/landing-reactivacion/playa-piura.jpg"
+          image="http://mmsolutions.com.pe/img/landing-reactivacion/rupac-lima.jpg"
           content="Elige tu ruta"
         />
       </div>
