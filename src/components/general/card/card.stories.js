@@ -133,3 +133,31 @@ export const CardNotasLg = ({
         </Card>
     )
 }
+
+export const CardNotasLgAnchor = ({
+    slug = text("Slug", "/"),
+    title = text("Titulo", "Estás son las cinco lagunas más grandes del país"),
+    image = text("Imagen", "https://picsum.photos/400/400?random=1"),
+    alt = text("Alt", "Alt-de-la-imagen"),
+    video = boolean("Es Video", false),
+    picture = boolean("Es Imagen", false),
+    content = text("Boton", "Ver Boton")
+}) => {
+
+    return (
+
+        <Card anchor className={styles.wrapper_notas} to={slug}>
+            <div className={styles.wrapper_notas_lg}>
+                <div className={styles.content_notas}>
+                    <Text className={styles.title_notas_lg} content={title} />
+                    {
+                        video ? <CategoriaVideo /> :
+                            picture ? <CategoriaImagen /> :
+                                <CategoriaTexto content={content} />
+                    }
+                </div>
+                <img className={styles.img_medidas} src={image} alt={alt} />
+            </div>
+        </Card>
+    )
+}
