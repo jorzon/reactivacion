@@ -67,7 +67,7 @@ const Notas = () => {
           )}
         <CardNotasLgAnchor
           anchor
-          title="Estas son las rutas cortas del Perú que podrás disfrutar dentro de unos meses"
+          title="Estas son las Rutas Cortas del Perú que podrás disfrutar dentro de unos meses"
           category=""
           slug="https://www.ytuqueplanes.com/rutas-cortas"
           alt="rutas-cortas"

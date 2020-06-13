@@ -61,6 +61,18 @@
     },
     {
         "id": 6,
+        "titulo": "Cuidar tu salud es simple, incluye la granadilla en tu alimentación",
+        "shortname": "Cuidar tu salud es simple",
+        "imagen": "http://mmsolutions.com.pe/img/landing-reactivacion/nota4/granadillas-plato.jpg",
+        "alt": "quinua-en-mano",
+        "tipo": "Notas",
+        "categoria": "Nota",
+        "slug": "/incluye-la-granadilla-en-tu-alimentacion",
+        "date": "9 de junio, 2020",
+        "texto": "Llegas al mercado o supermercado, pasas por la zona de frutas y ves un gran número de granadillas debido a que es uno de los alimentos que se produce todo el año en el Perú. Si es tan fácil encontrarlas, entonces sácales el jugo literalmente. Esta superfruta no solo refresca tu garganta, también protege tu sistema digestivo.\n\nLa granadilla te puede ayudar a prevenir el estreñimiento, los malestares de la gastritis y la acidez. Además, si la consumes con sus semillas le brinda a tu cuerpo un alto contenido de fibra, potasio, calcio, fósforo, hierro, vitaminas, proteínas y carbohidratos.\n\nSi tienes hijos, la granadilla no puede faltar en tu casa. Los pediatras le dicen la fruta de los niños, gracias a que ayuda en su proceso de crecimiento, los previene de la anemia y refuerza su visión. También olvídate de los somníferos y tranquilizantes, si incluyes esta superfruta en tu dieta diaria puedes reducir el insomnio, estrés y ansiedad.\n\nLa granadilla se cultiva en Loreto, San Martín, Ucayali, Junín, Huánuco, entre otras regiones del país. En los últimos años se ha convertido en uno de los alimentos peruanos más exportados a países europeos como Holanda, España y Rusia.\n\nSu sabor dulce y rico aroma la convierten en el ingrediente ideal para postres como el mousse de granadilla. Para prepararlo en tu casa, debes licuar la pulpa de esta fruta, colarla y batirla por unos minutos en un recipiente con dos yemas de huevo, azúcar al gusto y crema de leche. Luego agrega gelatina sin sabor en polvo (grenetina) y congela la mezcla por unas dos horas hasta que cuaje.\n\nOtra alternativa es preparar un coctel. Cuela dos granadillas para obtener su jugo, viértelo en la licuadora, agrega un poco de jarabe de goma, hielo, agua, dos onzas de pisco y deja que el electrodoméstico haga el resto del trabajo. Una buena manera de hacer un brindis en el hogar.\n\n\n**#PerúEstáEnNuestrosManos.** Demuestra una vez más que los peruanos somos responsables y solidarios. De ti depende que más compatriotas estén libres del COVID-19. Recuerda, **#YoMeQuedoEnCasa.**\n"
+    },
+    {
+        "id": 7,
         "titulo": "Un paseo virtual por el Perú con Google Maps",
         "shortname": "Un paseo virtual por el Perú",
         "imagen": "http://mmsolutions.com.pe/img/landing-reactivacion/nota7/google-maps.jpg",
