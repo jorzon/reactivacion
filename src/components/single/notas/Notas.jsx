@@ -37,7 +37,7 @@ const Notas = () => {
           {data.slice(0, 4).map((post) => (
             <CardMedidasSm
               key={post.id}
-              title={post.titulo}
+              title={post.card}
               date={post.fecha}
               category={post.categoria}
               slug={"/comunicados" +post.slug}
