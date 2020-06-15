@@ -9,7 +9,8 @@
         "categoria": "Turismo",
         "slug": "/decreto-legislativo",
         "shortname": "Decreto Legislativo MINCETUR",
-        "url": "https://busquedas.elperuano.pe/normaslegales/decreto-legislativo-que-dispone-la-reactivacion-y-promocion-decreto-legislativo-n-1475-1865986-3/"
+        "url": "https://busquedas.elperuano.pe/normaslegales/decreto-legislativo-que-dispone-la-reactivacion-y-promocion-decreto-legislativo-n-1475-1865986-3/",
+        "card": "Así será la reactivación de la actividad artesanal "
     },
     {
         "id": 2,
@@ -21,7 +22,8 @@
         "categoria": "Turismo",
         "slug": "/decreto-egislativo-para-la-reactivacion-y-promoción-de-la-actividad-artesanal",
         "shortname": "Actividad artesanal",
-        "url": "https://cdn.www.gob.pe/uploads/document/file/728856/RM_N__086.pdf"
+        "url": "https://cdn.www.gob.pe/uploads/document/file/728856/RM_N__086.pdf",
+        "card": "Conoce más sobre la reactivación de la artesanía peruana"
     },
     {
         "id": 6,
@@ -33,7 +35,8 @@
         "categoria": "Reanudación",
         "slug": "/decreto-supremo-que-aprueba-la-reanudación-de-actividades",
         "shortname": "Actividades económicas",
-        "url": "https://busquedas.elperuano.pe/normaslegales/decreto-supremo-que-aprueba-la-reanudacion-de-actividades-ec-decreto-supremo-n-080-2020-pcm-1865987-1/"
+        "url": "https://busquedas.elperuano.pe/normaslegales/decreto-supremo-que-aprueba-la-reanudacion-de-actividades-ec-decreto-supremo-n-080-2020-pcm-1865987-1/",
+        "card": "Así será la reanudación de actividades económicas"
     },
     {
         "id": 9,
@@ -45,7 +48,8 @@
         "categoria": "Servicios",
         "slug": "/normatividad-para-la-reanudacion",
         "shortname": "Pasos de restaurantes y servicios afines",
-        "url": "https://www.gob.pe/institucion/minsa/normas-legales/195873-822-2018-minsa"
+        "url": "https://www.gob.pe/institucion/minsa/normas-legales/195873-822-2018-minsa",
+        "card": "Estos son los pasos para la reanudación de actividades de restaurantes y servicios afines"
     },
     {
         "id": 14,
@@ -57,7 +61,8 @@
         "categoria": "Hoteles",
         "slug": "/manual-de-usuario-del-modulo-de-registro",
         "shortname": "Manual en hoteles categorizados",
-        "url": "http://consultasenlinea.mincetur.gob.pe/ManualReanudacionActividades-Registro-V02.pdf"
+        "url": "http://consultasenlinea.mincetur.gob.pe/ManualReanudacionActividades-Registro-V02.pdf",
+        "card": "Manual de usuario para el registro de solicitudes de autorización de reanudación de actividades"
     },
     {
         "id": 3,
@@ -69,7 +74,8 @@
         "categoria": "Turismo",
         "slug": "/decreto-legislativo-que-aprueba-medidas-para-reactivar-la-actividad-turistica",
         "shortname": "Turismo Emprende",
-        "url": "https://busquedas.elperuano.pe/normaslegales/decreto-legislativo-que-modifica-el-decreto-legislativo-no-1-decreto-legislativo-n-1506-1866220-7/"
+        "url": "https://busquedas.elperuano.pe/normaslegales/decreto-legislativo-que-modifica-el-decreto-legislativo-no-1-decreto-legislativo-n-1506-1866220-7/",
+        "card": "“Turismo Emprende”: Estas son las medidas aprobadas para reactivar el turismo"
     },
     {
         "id": 4,
@@ -81,7 +87,8 @@
         "categoria": "Turismo",
         "slug": "/decreto-legislativo-mincetur",
         "shortname": "Atractivos turísticos",
-        "url": "https://busquedas.elperuano.pe/normaslegales/decreto-legislativo-que-dispone-el-acceso-gratuito-temporal-decreto-legislativo-n-1507-1866220-8/"
+        "url": "https://busquedas.elperuano.pe/normaslegales/decreto-legislativo-que-dispone-el-acceso-gratuito-temporal-decreto-legislativo-n-1507-1866220-8/",
+        "card": "Acceso gratuito a Machu Picchu y decenas de atractivos turísticos"
     },
     {
         "id": 7,
@@ -93,7 +100,8 @@
         "categoria": "Reanudación",
         "slug": "/protocolo-sanitario-de-operación-ante-el-covid-19-del-sector-producción",
         "shortname": "Protocolo sanitario en fase 1",
-        "url": "https://www.gob.pe/institucion/minsa/normas-legales/542920-239-2020-minsa"
+        "url": "https://www.gob.pe/institucion/minsa/normas-legales/542920-239-2020-minsa",
+        "card": "Conoce el protocolo sanitario de operación del sector producción"
     },
     {
         "id": 8,
@@ -105,7 +113,8 @@
         "categoria": "Reanudación",
         "slug": "/lineamientos-para-la-vigilancia-prevención-y-control-de-la-salud-de-los-trabajadores",
         "shortname": "Salud de los trabajadores",
-        "url": "https://www.gob.pe/institucion/minsa/normas-legales/564878-265-2020-minsa"
+        "url": "https://www.gob.pe/institucion/minsa/normas-legales/564878-265-2020-minsa",
+        "card": "Estos son los lineamientos para el cuidado de la salud de los trabajadores"
     },
     {
         "id": 10,
@@ -117,7 +126,8 @@
         "categoria": "Servicios",
         "slug": "/guia-tecnica-para-los-restaurantes-y-servicios-afines",
         "shortname": "Servicio a domicilio",
-        "url": "https://www.gob.pe/institucion/minsa/normas-legales/544212-250-2020-minsa"
+        "url": "https://www.gob.pe/institucion/minsa/normas-legales/544212-250-2020-minsa",
+        "card": "Guía técnica para el servicio a domicilio de restaurantes y servicios afines"
     },
     {
         "id": 11,
@@ -129,7 +139,8 @@
         "categoria": "Servicios",
         "slug": "/protocolo-de-restaurantes-y-afines-autorizados-para-entrega-a-domicilio",
         "shortname": "Protocolos de restaurantes y afines ",
-        "url": "https://www.gob.pe/institucion/produce/normas-legales/563125-142-2020-produce"
+        "url": "https://www.gob.pe/institucion/produce/normas-legales/563125-142-2020-produce",
+        "card": "Conoce el protocolo para entrega a domicilio"
     },
     {
         "id": 12,
@@ -141,7 +152,8 @@
         "categoria": "Servicios",
         "slug": "/criterios-de-focalización-territorial",
         "shortname": "Incidencias en hoteles categorizados",
-        "url": "https://www.gob.pe/institucion/produce/normas-legales/563138-153-2020-produce"
+        "url": "https://www.gob.pe/institucion/produce/normas-legales/563138-153-2020-produce",
+        "card": "Estos son los criterios para la reanudación de las actividades de los hoteles categorizados"
     },
     {
         "id": 13,
@@ -153,7 +165,8 @@
         "categoria": "Hoteles",
         "slug": "/resolucion-ministerial-mincetur",
         "shortname": "Criterios de focalización territorial",
-        "url": "https://busquedas.elperuano.pe/normaslegales/establecen-criterios-de-focalizacion-territorial-y-la-obliga-resolucion-ministerial-n-081-2020-mincetur-1866182-1/"
+        "url": "https://busquedas.elperuano.pe/normaslegales/establecen-criterios-de-focalizacion-territorial-y-la-obliga-resolucion-ministerial-n-081-2020-mincetur-1866182-1/",
+        "card": "Conoce más sobre los criterios para la reanudación de actividades en los hoteles"
     },
     {
         "id": 15,
@@ -165,7 +178,8 @@
         "categoria": "Hoteles",
         "slug": "/protocolo-sanitario-sectorial-ante-el-COVID-19-para-hoteles-categorizados",
         "shortname": "Protocolo sanitario para hoteles categorizados",
-        "url": "https://cdn.www.gob.pe/uploads/document/file/694765/RM_N__080.pdf"
+        "url": "https://cdn.www.gob.pe/uploads/document/file/694765/RM_N__080.pdf",
+        "card": "Protocolo sanitario sectorial ante el COVID-19 para hoteles categorizados"
     },
     {
         "id": 5,
@@ -177,6 +191,7 @@
         "categoria": "Turismo",
         "slug": "/reglamento-de-agencias-de-viajes-y-turismo",
         "shortname": "Reglamento de agencias de viajes y turismo",
-        "url": "https://busquedas.elperuano.pe/normaslegales/aprueban-reglamento-de-agencias-de-viajes-y-turismo-decreto-supremo-n-005-2020-mincetur-1866352-4/"
+        "url": "https://busquedas.elperuano.pe/normaslegales/aprueban-reglamento-de-agencias-de-viajes-y-turismo-decreto-supremo-n-005-2020-mincetur-1866352-4/",
+        "card": "Reglamento de agencias de viajes y turismo"
     }
 ]

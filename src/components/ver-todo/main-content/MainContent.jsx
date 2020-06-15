@@ -32,7 +32,7 @@ const Head = () => {
             post.categoria === "Turismo" ? (
               <CardMedidasSm
                 key={post.id}
-                title={post.titulo}
+                title={post.card}
                 date={post.fecha}
                 category={post.categoria}
                 slug={"/comunicados" + post.slug}
@@ -42,7 +42,7 @@ const Head = () => {
             ) : (
               <CardMedidasLg
                 key={post.id}
-                title={post.titulo}
+                title={post.card}
                 date={post.fecha}
                 category={post.categoria}
                 slug={"/comunicados" + post.slug}
