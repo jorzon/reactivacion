@@ -15,10 +15,10 @@
 
 .content_medidas_sm {
   height: 210px;
-  padding: 24px 15px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding: 17px;
 }
 
 .img_medidas {
@@ -55,7 +55,6 @@
   font-size: 10px;
   font-weight: normal;
   color: $dark-grey;
-  margin-top: 15px;
   line-height: 1.3;
 }
 
@@ -63,7 +62,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 15px;
 }
 
 .button_medidas {
@@ -99,7 +97,7 @@
 
 .content_medidas_lg {
   height: 169px;
-  padding: 24px 15px;
+  padding: 17px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -190,8 +188,8 @@
 @include respond-to("xs") {
   .wrapper_medidas_lg,
   .wrapper_medidas_sm {
-    width: 290px;
-    height: 286px;
+    width: 220px;
+    height: 339px;
   }
   .head_medidas_lg,
   .head_medidas_sm {
@@ -200,8 +198,7 @@
   }
   .content_medidas_lg,
   .content_medidas_sm {
-    height: 143px;
-    padding: 15px 15px;
+    height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

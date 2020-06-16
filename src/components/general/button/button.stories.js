@@ -27,7 +27,7 @@ export const ButtonHomeHero = () => {
 export const ButtonHomeMedidas = () => {
     return (
         <Button to="/ver-todo" className={styles.wrapper_home_medidas}>
-            Ver todas las notas
+            Ver todos los comunicados
         </Button>
     )
 }

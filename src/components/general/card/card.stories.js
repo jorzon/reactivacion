@@ -35,7 +35,7 @@ export const CardMedidasSm = ({
                         <Text className={styles.title_medidas} content={title} />
                         <Text className={styles.date_medidas} content={date} />
                     </div>
-                    {/*<Text className={styles.description_medidas} content={description} />*/}
+                    <Text className={styles.description_medidas} content={description} />
                     <div className={styles.footer_medidas}>
                         <ButtonHomeMedidasCard />
                         {/*<ShareButton />*/}
@@ -68,7 +68,7 @@ export const CardMedidasLg = ({
                         <Text className={styles.title_medidas} content={title} />
                         <Text className={styles.date_medidas} content={date} />
                     </div>
-                    {/*<Text className={styles.description_medidas} content={description} />*/}
+                    <Text className={styles.description_medidas} content={description} />
                     <div className={styles.footer_medidas}>
                         <ButtonHomeMedidasCard />
                         {/*<ShareButton />*/}

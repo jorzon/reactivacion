@@ -54,6 +54,7 @@ const Medidas = () => {
                   slug={"/comunicados" + post.slug}
                   alt={post.alt}
                   image={post.imagen}
+                  description={post.titulo}
                 />
               ) : (
                 <CardMedidasLg
@@ -64,6 +65,7 @@ const Medidas = () => {
                   slug={"/comunicados" + post.slug}
                   alt={post.alt}
                   image={post.imagen}
+                  description={post.titulo}
                 />
               )
             )}
