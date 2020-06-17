@@ -28,9 +28,33 @@ const Footer = () => {
               content="Información para tu viaje"
             />
             <ul className={styles.ul}>
-              <li className={styles.li}>Lista de Feriados 2019</li>
-              <li className={styles.li}>Clima y Pronóstico del Tiempo</li>
-              <li className={styles.li}>Áreas Naturales Protegidas</li>
+              <li className={styles.li}>
+                <a
+                  href="https://www.ytuqueplanes.com/pdf/feriados_2020.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Lista de Feriados 2019
+                </a>
+              </li>
+              <li className={styles.li}>
+                <a
+                  href="https://www.senamhi.gob.pe/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Clima y Pronóstico del Tiempo
+                </a>
+              </li>
+              <li className={styles.li}>
+                <a
+                  href="https://www.sernanp.gob.pe/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Áreas Naturales Protegidas
+                </a>
+              </li>
             </ul>
           </div>
           <div className={styles.content}>
@@ -41,7 +65,7 @@ const Footer = () => {
               />
               <ButtonFooter
                 wsp
-                url="https://ytuqueplanes.com/suscribete.aspx"
+                url="https://api.whatsapp.com/send?phone=051944492314&text=&source=&data=&app_absent="
                 icon={faWhatsapp}
                 green
                 content="944492314"

@@ -1,6 +1,5 @@
 .wrapper {
   width: 214px;
-  min-height: 605px;
   height: 60%;
   border-radius: 5px;
   box-shadow: 0 0 8px 0 rgba(219, 219, 219, 0.5);
@@ -19,7 +18,9 @@
 .note {
   margin-bottom: 18px;
 }
-
+.content :last-child hr{
+  display:none
+}
 .heading {
   font-family: BreePeru;
   font-size: 16px;
