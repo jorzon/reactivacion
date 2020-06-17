@@ -34,7 +34,7 @@ const Footer = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Lista de Feriados 2019
+                  Lista de Feriados {(new Date().getFullYear())}
                 </a>
               </li>
               <li className={styles.li}>
