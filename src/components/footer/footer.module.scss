@@ -101,15 +101,16 @@
   display: flex;
 }
 .img_partner {
-  width: 80px;
-  height: 37px;
+  max-width: 180px;
+  max-height: 34px;
   object-fit: contain;
+  margin-right: 15px;
 }
 .partner {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 90px;
+  margin-top: 76px;
 }
 .subfooter {
   display: flex;
@@ -171,6 +172,9 @@
   }
   .subfooter_link {
     margin: 0px 5px;
+  }
+  .icon_spo, .icon_twi, .icon_fb, .icon_yt, .icon_ig{
+    margin: 0px 7px;
   }
 }
 
