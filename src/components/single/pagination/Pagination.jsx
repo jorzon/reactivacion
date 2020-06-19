@@ -16,9 +16,14 @@ const Pagination = ({ pagination, previous, next, tipo, comunicado }) => {
                 <FontAwesomeIcon icon={faArrowLeft} />
               </button>
               <div>
-                <Text className={styles.pag_title} content={post.shortname} />
+                <Text
+                  className={styles.pag_title}
+                  headingLevel="h5"
+                  content={post.shortname}
+                />
                 <Text
                   className={styles.pag_subtitle}
+                  headingLevel="h6"
                   content={comunicado ? `Anterior comunicado` : `Anterior nota`}
                 />
               </div>
@@ -33,10 +38,17 @@ const Pagination = ({ pagination, previous, next, tipo, comunicado }) => {
           post.id === next ? (
             <Link className={styles.link} key={post.id} to={tipo + post.slug}>
               <div>
-                <Text className={styles.pag_title} content={post.shortname} />
+                <Text
+                  className={styles.pag_title}
+                  headingLevel="h5"
+                  content={post.shortname}
+                />
                 <Text
                   className={styles.pag_subtitle}
-                  content={comunicado ? `Siguiente comunicado` : `Siguiente nota`}
+                  headingLevel="h6"
+                  content={
+                    comunicado ? `Siguiente comunicado` : `Siguiente nota`
+                  }
                 />
               </div>
               <button className={styles.arrow_right}>

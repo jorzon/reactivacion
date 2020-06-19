@@ -14,28 +14,34 @@ const MainContent = ({
   title,
   slug,
   date,
-  category,
   content,
-  content2,
-  subtitle,
   shortname,
   notes,
   pagination,
   previous,
   next,
-  tipo,
+  footer,
+  alt_head,
+  alt_footer
 }) => {
   return (
     <LimitWrapper>
       <section className={styles.wrapper}>
         <Sidebar notes={notes} />
         <div className={styles.content}>
-          <img className={styles.img} src={banner} alt="" />
+          <img alt={alt_head} className={styles.img} src={banner} />
           <Breadcrumbs content={shortname} slug={"notas" + slug} />
           <Text className={styles.title} content={title} />
           <Text className={styles.date} content={date} />
-          <Paragraph source={content}/>
-
+          <Paragraph source={content} />
+          <img alt={alt_footer} className={styles.img} src={footer} />
+          <p className={styles.footer}>
+            <strong>#PerúEstáEnNuestrosManos.</strong>
+            {' '}
+            Demuestra una vez más que los peruanos somos responsables y
+            solidarios. De ti depende que más compatriotas estén libres del
+            COVID-19. Recuerda,<strong> #YoMeQuedoEnCasa.</strong>
+          </p>
           {/* 
           key={post.id}
           <div className={styles.tags}>

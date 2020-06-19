@@ -41,7 +41,10 @@ const Single = () => {
             category={post.categoria}
             content={post.texto}
             shortname={post.shortname}
+            footer={post.footer}
             notes={data}
+            alt_head={post.alt}
+            alt_footer={post.alt3}
             pagination={data}
             previous={post.id - 1}
             next={post.id + 1}

@@ -23,8 +23,8 @@ const Sidebar = ({ notes }) => {
               to={"/notas" + post.slug}
               className={styles.note}
             >
-              <Text className={styles.title} content={post.titulo} />
-              <Text className={styles.date} content={post.date} />
+              <Text headingLevel="h5" className={styles.title} content={post.titulo} />
+              <Text headingLevel="h6" className={styles.date} content={post.date} />
               <hr className={styles.hr} />
             </Link>
           ))}

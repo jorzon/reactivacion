@@ -58,6 +58,7 @@ ol {
 
 p {
   margin: 0;
+  cursor: default;
 }
 
 a {
@@ -79,4 +80,16 @@ div.slick-slide.slick-active.slick-current
   div
   div.wrapper-fest-module__wrapper___k_VpD {
   opacity: 1;
+}
+
+.middle-image {
+  object-fit: cover;
+  object-position: center;
+  height: 197px;
+  border-radius: 4px;
+  overflow: auto;
+  margin: auto;
+  max-width: 697px;
+  width: 100%;
+  margin-bottom: 15px;
 }

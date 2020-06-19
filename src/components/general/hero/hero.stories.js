@@ -46,5 +46,19 @@ export const HeroSingle = ({
     )
 }
 
+export const BottomHeroSingle = ({
+    alt = text("Alt", "alt-de-la-imagen"),
+    image = text("Image", banner_home)
+
+}) => {
+    return (
+        <Hero
+            className={styles.wrapper_single}
+            image={image}
+            alt={alt}
+        />
+    )
+}
+
 
 

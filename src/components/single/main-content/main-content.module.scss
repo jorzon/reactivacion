@@ -64,6 +64,20 @@
   color: $dark-grey;
   margin: 20px 0px 20px 0px;
 }
+.footer {
+  max-width: 697px;
+  margin: 1em 0;
+  line-height: 1.35;
+  color: $dark-grey;
+  max-width: 697px;
+  text-align: justify;
+  font-family: ClanOffcBook;
+  font-size: 14px;
+  font-weight: normal;
+}
+.footer strong {
+  font-weight: bolder;
+}
 @include respond-to("xs") {
   .text {
     font-size: 12px;
