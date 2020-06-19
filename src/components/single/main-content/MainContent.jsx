@@ -29,7 +29,7 @@ const MainContent = ({
       <section className={styles.wrapper}>
         <Sidebar notes={notes} />
         <div className={styles.content}>
-          <img alt={alt_head} className={styles.img} src={banner} />
+          <img alt={alt_head} className={styles.img_head} src={banner} />
           <Breadcrumbs content={shortname} slug={"notas" + slug} />
           <Text className={styles.title} content={title} />
           <Text className={styles.date} content={date} />
