@@ -9,11 +9,16 @@ const Home = () => {
   return (
     <Layout>
       <Seo
-        title=""
-        desc=""
+        title="Reactivación	del	turismo	en	Perú | Y	tú	qué	planes?"
+        desc="Muy	 pronto	 volveremos	 a	 viajar	 por	 el	 Perú	 y	 disfrutar	 de	 sus	 mejores	
+        lugares	turísticos.	Nos	estamos	preparando	para	darte	la	mejor	experiencia	en	turismo	
+        interno"
         canonical=""
-        ogTitle=""
-        ogDesc=""
+        robots="index, follow"
+        ogTitle="Reactivación	del	turismo	en	Perú | Y	tú	qué	planes?"
+        ogDesc="Muy	 pronto	 volveremos	 a	 viajar	 por	 el	 Perú	 y	 disfrutar	 de	 sus	 mejores	
+        lugares	turísticos.	Nos	estamos	preparando	para	darte	la	mejor	experiencia	en	turismo	
+        interno"
         ogUrl=""
         ogImage=""
         hashTag=""

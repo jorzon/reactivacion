@@ -14,8 +14,10 @@ const Notas = () => {
       <Text className={styles.title} content="#YoMeQuedoEnCasa" />
       <Text
         className={styles.subtitle}
-        content="Dale un vistazo a estos contenidos desde la comodidad de tu hogar. Un viaje
-          por el Perú haciendo solo un click"
+        headingLevel="h2"
+        content="Dale	un vistazo a estos contenidos	desde	la	
+        comodidad	de tu	hogar. Viaja por el Perú y descubre	sus	lugares	turísticos con un	
+        solo click"
       />
       <div className={styles.card_container}>
         {data

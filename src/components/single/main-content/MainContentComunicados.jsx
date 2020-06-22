@@ -7,6 +7,7 @@ import Sidebar from "components/single/sidebar/Sidebar";
 import ShareButton from "components/general/share-button/ShareButton";
 import { ButtonSingle } from "components/general/button/button.stories.js";
 import Pagination from "components/single/pagination/Pagination";
+import Paragraph from "components/general/paragraph/Paragraph";
 
 const MainContentComunicados = ({
   title,
@@ -29,7 +30,8 @@ const MainContentComunicados = ({
           <Breadcrumbs comunicado content={shortname} slug={"comunicados" + slug} />
           <Text className={styles.title} content={title} />
           <Text className={styles.date} content={date} />
-          <Text className={styles.text} content={parrafo} />
+          <Paragraph className={styles.text} source={parrafo} />
+          {/* <Text  content={} /> */}
           <a
             className={styles.download}
             href={url}

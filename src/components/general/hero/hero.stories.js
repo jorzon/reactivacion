@@ -24,7 +24,7 @@ export const HeroHome = () => {
             image={banner_mobile}
         >
             <div className={styles.content_home}>
-                <Text className={styles.text_home} content="Nos estamos preparando" />
+                <Text headingLevel="h1" className={styles.text_home} content="Nos estamos preparando" />
                 <img className={styles.logo} src={Logo} alt="ytuqueplanes-logo" />
                 {/*<ButtonHomeHero />*/}
             </div>

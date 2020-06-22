@@ -38,6 +38,7 @@ const Medidas = () => {
       <LimitWrapper>
         <Text
           className={styles.title}
+          headingLevel="h2"
           content="Conoce las nuevas medidas que se están implementando para cuando
         volvamos a viajar"
         />

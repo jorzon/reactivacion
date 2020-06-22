@@ -8,9 +8,10 @@ import ClanOffcNews from 'assets/fonts/ClanOffc-News.ttf';
 import ClanOffcLight from 'assets/fonts/ClanOffc-Thin.ttf';
 import ClanOffcBook from 'assets/fonts/ClanOffc-Book.ttf';
 
-const Seo = ({ title, desc, canonical, ogTitle, ogDesc, ogUrl, ogImage, hashTag }) => {
+const Seo = ({ title, desc, canonical, ogTitle, ogDesc, ogUrl, ogImage, hashTag, robots }) => {
     return (
         <Helmet>
+            <meta name="robots" content={robots} />
             <meta name="description"
                 content={desc} />
             <meta property="og:title" content={ogTitle} />
