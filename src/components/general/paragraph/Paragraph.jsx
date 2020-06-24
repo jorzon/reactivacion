@@ -8,6 +8,7 @@ const Paragraph = ({ source }) => {
       className={styles.wrapper}
       source={source}
       escapeHtml={false}
+      renderers={{link: props => <a href={props.href} target="_blank" rel="noopener noreferrer">{props.children}</a>}}
     />
   );
 };
