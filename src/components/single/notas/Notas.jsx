@@ -34,7 +34,7 @@ const Notas = () => {
       <LimitWrapper>
         <Text className={styles.title} content="Te puede interesar" />
         <Slider className={styles.cards} {...settings}>
-          {data.slice(0, 4).map((post) => (
+          {data.slice(4, 8).map((post) => (
             <CardMedidasSm
               key={post.id}
               title={post.card}

@@ -30,7 +30,32 @@ const Head = () => {
           .slice(0, numberOfItems)
           .map((post) =>
             post.categoria === "Turismo" ? (
-              <CardMedidasSm
+              post.id == 1 || post.id == 2 || post.id == 3 ? (
+                <CardMedidasSm
+                  key={post.id}
+                  title={post.card}
+                  date={post.fecha}
+                  category={post.categoria}
+                  slug={"/comunicados" + post.slug}
+                  alt={post.alt}
+                  image={post.imagen}
+                  description={post.titulo}
+                  green
+                />
+              ) : (
+                <CardMedidasSm
+                  key={post.id}
+                  title={post.card}
+                  date={post.fecha}
+                  category={post.categoria}
+                  slug={"/comunicados" + post.slug}
+                  alt={post.alt}
+                  image={post.imagen}
+                  description={post.titulo}
+                />
+              )
+            ) : post.id == 1 || post.id == 2 || post.id == 3 ? (
+              <CardMedidasLg
                 key={post.id}
                 title={post.card}
                 date={post.fecha}
@@ -39,6 +64,7 @@ const Head = () => {
                 alt={post.alt}
                 image={post.imagen}
                 description={post.titulo}
+                green
               />
             ) : (
               <CardMedidasLg
