@@ -46,7 +46,33 @@ const Medidas = () => {
           {data
             .slice(0, 5)
             .map((post) =>
-              post.categoria === "Turismo" ? (
+              post.id == 1 || post.id == 2 || post.id == 3 ? (
+                post.categoria === "Turismo" ? (
+                  <CardMedidasSm
+                    key={post.id}
+                    title={post.card}
+                    date={post.fecha}
+                    category={post.categoria}
+                    slug={"/comunicados" + post.slug}
+                    alt={post.alt}
+                    image={post.imagen}
+                    description={post.titulo}
+                    green
+                  />
+                ) : (
+                  <CardMedidasLg
+                    key={post.id}
+                    title={post.card}
+                    date={post.fecha}
+                    category={post.categoria}
+                    slug={"/comunicados" + post.slug}
+                    alt={post.alt}
+                    image={post.imagen}
+                    description={post.titulo}
+                    green
+                  />
+                )
+              ) : post.categoria === "Turismo" ? (
                 <CardMedidasSm
                   key={post.id}
                   title={post.card}

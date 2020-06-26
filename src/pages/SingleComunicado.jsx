@@ -21,17 +21,32 @@ const SingleComunicado = () => {
             ogImage=""
             hashTag=""
           />
-          <MainContentComunicados
-            title={post.titulo}
-            banner={post.imagen}
-            shortname={post.shortname}
-            parrafo={post.resumen}
-            url={post.url}
-            slug={post.slug}
-            pagination={data}
-            previous={post.id - 1}
-            next={post.id + 1}
-          />
+          {post.id == 1 || post.id == 2 || post.id == 3 ? (
+            <MainContentComunicados
+              title={post.titulo}
+              banner={post.imagen}
+              shortname={post.shortname}
+              parrafo={post.resumen}
+              url={post.url}
+              slug={post.slug}
+              pagination={data}
+              previous={post.id - 1}
+              next={post.id + 1}
+              greenbtn
+            />
+          ) : (
+            <MainContentComunicados
+              title={post.titulo}
+              banner={post.imagen}
+              shortname={post.shortname}
+              parrafo={post.resumen}
+              url={post.url}
+              slug={post.slug}
+              pagination={data}
+              previous={post.id - 1}
+              next={post.id + 1}
+            />
+          )}
         </Route>
       ))}
       <Notas />

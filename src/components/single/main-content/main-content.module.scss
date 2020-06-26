@@ -117,3 +117,28 @@
   transition: all 200ms ease-in-out;
   color: $red;
 }
+.download_green {
+  width: 180px;
+  height: 43px;
+  border-radius: 23px;
+  background-color: #84C131;
+  font-family: BreePeru;
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  border: solid 2px #84C131;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: all 200ms ease-in-out;
+  align-self: center;
+  margin: 15px 0px;
+  display: none;
+}
+.download_green:hover {
+  background-color: transparent;
+  transition: all 200ms ease-in-out;
+  color: #84C131;
+}

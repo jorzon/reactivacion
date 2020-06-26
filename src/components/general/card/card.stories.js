@@ -20,7 +20,8 @@ export const CardMedidasSm = ({
     description = text("Resumen", "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua…."),
     image = text("Imagen", "https://picsum.photos/400/400?random=1"),
     alt = text("Alt", "Alt-de-la-imagen"),
-    category = text("Categoría", "Nuevo")
+    category = text("Categoría", "Nuevo"),
+    green
 }) => {
 
     return (
@@ -37,7 +38,7 @@ export const CardMedidasSm = ({
                     </div>
                     <Text className={styles.description_medidas} content={description} />
                     <div className={styles.footer_medidas}>
-                        <ButtonHomeMedidasCard />
+                        <ButtonHomeMedidasCard green={green}/>
                         {/*<ShareButton />*/}
                     </div>
                 </div>
@@ -53,7 +54,8 @@ export const CardMedidasLg = ({
     description = text("Resumen", "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua…."),
     image = text("Imagen", "https://picsum.photos/400/400?random=1"),
     alt = text("Alt", "Alt-de-la-imagen"),
-    category = text("Categoría", "Nuevo")
+    category = text("Categoría", "Nuevo"),
+    green
 }) => {
 
     return (
@@ -70,7 +72,7 @@ export const CardMedidasLg = ({
                     </div>
                     <Text className={styles.description_medidas} content={description} />
                     <div className={styles.footer_medidas}>
-                        <ButtonHomeMedidasCard />
+                        <ButtonHomeMedidasCard green={green}/>
                         {/*<ShareButton />*/}
                     </div>
                 </div>

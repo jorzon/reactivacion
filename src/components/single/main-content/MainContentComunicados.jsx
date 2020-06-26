@@ -20,6 +20,7 @@ const MainContentComunicados = ({
   pagination,
   previous,
   next,
+  greenbtn
 }) => {
   return (
     <LimitWrapper>
@@ -33,7 +34,7 @@ const MainContentComunicados = ({
           <Paragraph className={styles.text} source={parrafo} />
           {/* <Text  content={} /> */}
           <a
-            className={styles.download}
+            className={greenbtn ? styles.download_green : styles.download}
             href={url}
             target="_blank"
             rel="noopener noreferrer"
