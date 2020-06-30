@@ -22,7 +22,7 @@ const MainContent = ({
   next,
   footer,
   alt_head,
-  alt_footer
+  alt_footer,
 }) => {
   return (
     <LimitWrapper>
@@ -36,11 +36,9 @@ const MainContent = ({
           <Paragraph source={content} />
           <img alt={alt_footer} className={styles.img} src={footer} />
           <p className={styles.footer}>
-            <strong>#PerúEstáEnNuestrosManos.</strong>
-            {' '}
             Demuestra una vez más que los peruanos somos responsables y
             solidarios. De ti depende que más compatriotas estén libres del
-            COVID-19. Recuerda,<strong> #YoMeQuedoEnCasa.</strong>
+            COVID-19. Recuerda, <strong>#PrimeroMiSalud</strong>.
           </p>
           {/* 
           key={post.id}

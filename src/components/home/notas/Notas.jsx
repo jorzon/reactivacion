@@ -11,7 +11,7 @@ import data from "data/notas.json";
 const Notas = () => {
   return (
     <section className={styles.wrapper}>
-      <Text className={styles.title} content="#YoMeQuedoEnCasa" />
+      <Text className={styles.title} content="#PrimeroMiSalud #VamosAVolver" />
       <Text
         className={styles.subtitle}
         headingLevel="h2"
@@ -69,7 +69,7 @@ const Notas = () => {
           )}
         <CardNotasLgAnchor
           anchor
-          title="Estas son las Rutas Cortas del Perú que podrás disfrutar dentro de unos meses"
+          title="Estas son las Rutas Cortas del Perú que podrás disfrutar pronto"
           category=""
           slug="https://www.ytuqueplanes.com/rutas-cortas"
           alt="rutas-cortas"

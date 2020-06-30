@@ -8,6 +8,7 @@ import banner_home from 'assets/img/slider.jpg'
 import banner_mobile from 'assets/img/banner.jpeg'
 import video_home from 'assets/img/paisajes-del-peru.mp4'
 import Logo from "assets/img/ytqp-logo.png";
+import promperu from 'assets/img/logo-promperu.png'
 
 export default {
     title: 'Hero',
@@ -24,7 +25,8 @@ export const HeroHome = () => {
             image={banner_mobile}
         >
             <div className={styles.content_home}>
-                <Text headingLevel="h1" className={styles.text_home} content="Nos estamos preparando" />
+                <img className={styles.promperu} src={promperu} alt="promperu-logo"/>
+                <Text headingLevel="h1" className={styles.text_home} content="Vamos a volver" />
                 <img className={styles.logo} src={Logo} alt="ytuqueplanes-logo" />
                 {/*<ButtonHomeHero />*/}
             </div>
