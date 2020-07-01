@@ -102,9 +102,16 @@
 }
 .img_partner {
   max-width: 180px;
-  max-height: 34px;
+  max-height: 30px;
   object-fit: contain;
   margin-right: 15px;
+}
+.img_partner_wsp{
+  max-width: 180px;
+  max-height: 30px;
+  object-fit: contain;
+  margin-right: 15px;
+  margin-bottom: 6px;
 }
 .partner {
   display: flex;
@@ -138,6 +145,12 @@
   border: none;
   border-bottom: solid 1px #ededed;
   margin: 15px 0px 0px 0px;
+}
+.separator{
+  height: 40px;
+  object-fit: contain;
+  margin: 0px 25px 0px 14px;
+  border-right: solid 1px #d8d8d8;
 }
 @include respond-to("md") {
   .content_container {
@@ -176,10 +189,27 @@
   .icon_spo, .icon_twi, .icon_fb, .icon_yt, .icon_ig{
     margin: 0px 7px;
   }
+  .separator{
+    margin: 0px 25px;
+  }
+  .title{
+    text-align: center;
+  }
 }
 
 @include respond-to("xs") {
   .hr {
     margin: 15px 0px 15px 0px;
+  }
+  .img_partner{
+    max-width: 93px;
+    max-height: 25px;
+  }
+  .separator{
+    margin: 0px 15px;
+  }
+  .img_partner_wsp{
+    max-width: 93px;
+    max-height: 25px;
   }
 }

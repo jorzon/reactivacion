@@ -34,7 +34,7 @@ const Footer = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Lista de Feriados {(new Date().getFullYear())}
+                  Lista de Feriados {new Date().getFullYear()}
                 </a>
               </li>
               <li className={styles.li}>
@@ -63,13 +63,16 @@ const Footer = () => {
                 className={styles.title}
                 content="Asistencia al viajero 24 horas"
               />
-              <ButtonFooter
-                wsp
-                url="https://api.whatsapp.com/send?phone=051944492314&text=&source=&data=&app_absent="
-                icon={faWhatsapp}
-                green
-                content="944492314"
-              />
+              <div style={{display: "flex", alignItems: "flex-end", justifyContent: "space-between", maxWidth: 305, minWidth: 308}}>
+                <ButtonFooter
+                  wsp
+                  url="https://api.whatsapp.com/send?phone=051944492314&text=&source=&data=&app_absent="
+                  icon={faWhatsapp}
+                  green
+                  content="944492314"
+                />
+                <img className={styles.img_partner_wsp} src={iperu} alt="" />
+              </div>
             </div>
             <div className={styles.content_contact}>
               <Text
@@ -128,10 +131,10 @@ const Footer = () => {
               </a>
             </div>
             <div className={styles.partner}>
-              <img className={styles.img_partner} src={iperu} alt="" />
               <img className={styles.img_partner} src={promperu} alt="" />
-              <img className={styles.img_partner} src={marcaperu} alt="" />
               <img className={styles.img_partner} src={mincetur} alt="" />
+              <div className={styles.separator}></div>
+              <img className={styles.img_partner} src={marcaperu} alt="" />
             </div>
           </div>
         </div>
