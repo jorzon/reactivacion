@@ -39,7 +39,7 @@
         "alt3": "viajes-peru",
         "tipo": "Notas",
         "categoria": "Nota",
-        "slug": "/agencias-de-viaje-listas2",
+        "slug": "/agencias-de-viaje-listas",
         "date": "1 de julio, 2020",
         "texto": "Las agencias de viaje, uno de los pilares del turismo interno, actualmente juegan su partido más complicado; sin embargo, no piensan tirar la toalla. Son empresas importantes en la etapa de reactivación del sector, con la experiencia en la gestión de líneas aéreas, hoteles y compañías de transporte; para que sea más sencillo el proceso vacacional por el Perú.\n\nEsta coyuntura es la oportunidad que tienen para demostrar que pueden seguir siendo la mano derecha de los viajeros peruanos, analizando sus exigencias y ofreciéndoles el mejor paquete turístico en el futuro, con vuelos disponibles, alojamiento y transporte. \n\nDurante el confinamiento es importante mantener la comunicación con los clientes a través de las redes sociales. Esta temporada es una oportunidad para compartir anécdotas turísticas, fotos, videos, anuncios de las nuevas ideas que se van a poner en marcha en los próximos meses y hasta recorridos digitales guiados por algunas zonas del país.\n\n<img alt='turismo interno' src='http://mmsolutions.com.pe/img/landing-reactivacion/nota3/turistas-mochileros.jpg' class='middle-image'/>\n\n\n\nSe calcula que en el Perú operan cerca de 11 mil agencias de viaje, muchas son virtuales y desde el 15 de mayo deben formalizarse para garantizar la identificación de la empresa y su representante legal, de esta manera conseguirán ser inscritas en el Directorio Nacional de Prestadores de Servicios Turísticos Calificados (https://goo.gl/cGf6P3), según el nuevo reglamento del Ministerio de Comercio Exterior y Turismo (Mincetur).\n\nAdemás, con la formalización estos negocios van a tener la oportunidad de acceder a los programas de financiamiento que ofrece el gobierno peruano, como, por ejemplo, el Fondo de Apoyo Empresarial Mype. Llegó el momento del cambio, súmate a este esfuerzo en beneficio de la actividad turística del país.\n\n"
     },
@@ -117,5 +117,20 @@
         "slug": "/me-cuido-hoy-para-viajar-despues",
         "date": "1 de julio, 2020",
         "texto": "Tras más de tres meses sin viajar por el país seguro ya deseas volver a coger tu maleta y salir a la aventura. Más adelante lo podrás concretar, por ahora debes cuidarte y tener en cuenta: #PrimeroMiSalud, por ti, por mí, por el Perú. Lema de la campaña que acaba de poner en marcha el Gobierno. \n\nAntes de que el sector turismo se reactive, primero debes cumplir las nuevas normas conductuales: lavarse las manos, guardar la distancia social, no ir parado en el bus, usar correctamente la mascarilla, desinfectar los productos que compres, hacer deporte, entre otras recomendaciones. Solo así ayudarás a consolidar el cambio y habrá luz verde para que pronto te enrumbes por el Perú.\n\n<img alt='envios-desinfectados' src='http://mmsolutions.com.pe/img/landing-reactivacion/nota8/limpieza-de-productos.jpg' class='middle-image'/>\n\n\n\nToda espera tiene un sacrificio, pero no te desesperes, por ahora aprovecha tu tiempo en casa para buscar información sobre los destinos que quieres conocer. Recuerda, debes mantenerte sano y listo para tus futuros viajes, solo debes evitar las reuniones sociales, comprar rápidamente en el mercado, emplear correctamente el servicio del delivery y si tienes que ir a un lugar alejado de tu vivienda usa la bicicleta.\n\nDebes saber que cuando recorras otra vez el país, vas a tener que seguir empleando las nuevas normas conductuales. A pesar de que más del 90% de la población indica que no dejará las medidas de prevención una vez culminada la cuarentena, lo mejor es que tomes tus precauciones y te mantengas seguro al momento de que retomes tu estilo turístico.\n\nDe ti depende que la vida saludable se convierta en un hábito de ahora en adelante, el\nlevantamiento de la cuarentena conlleva a una responsabilidad mucho mayor por\nparte de todos, para no perder todo lo avanzado. ¡Juntos podemos vencer cualquier adversidad y sacar adelante al Perú!\n\n\n\n"
+    },
+    {
+        "id": 9,
+        "titulo": "Viajar por el Perú: otra forma de ayudar a tu país",
+        "shortname": "Viajar por el Perú",
+        "imagen": "http://mmsolutions.com.pe/img/landing-reactivacion/nota9/viaje_maleta.png",
+        "footer": "",
+        "alt": "viaje_maleta",
+        "alt2": "",
+        "alt3": "",
+        "tipo": "Notas",
+        "categoria": "Nota",
+        "slug": "/viajar-por-el-peru",
+        "date": "1 de julio, 2020",
+        "texto": "El aporte del turismo interno genera un movimiento económico que mejora la calidad de vida de muchas personas y comunidades. Mientras viajas estás contribuyendo al crecimiento nacional.\n\n<img class='middle-image' src='http://mmsolutions.com.pe/img/landing-reactivacion/nota9/reactivacion-turismo.jpg' alt='reactivacion-turismo'/>\n\n\n\n"
     }
 ]

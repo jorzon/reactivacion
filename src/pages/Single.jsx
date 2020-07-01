@@ -49,6 +49,7 @@ const Single = () => {
             previous={post.id - 1}
             next={post.id + 1}
           />
+          {console.log(post.footer)}
         </Route>
       ))}
       <Notas />
