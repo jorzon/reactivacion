@@ -46,7 +46,7 @@ const Medidas = () => {
           {data
             .slice(0, 5)
             .map((post) =>
-              post.id == 1 || post.id == 2 || post.id == 3 ? (
+              post.id == 1 ? (
                 post.categoria === "Turismo" ? (
                   <CardMedidasSm
                     key={post.id}

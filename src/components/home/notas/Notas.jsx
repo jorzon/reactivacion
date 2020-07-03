@@ -21,7 +21,6 @@ const Notas = () => {
       />
       <div className={styles.card_container}>
         <CardNotasLg
-          anchor
           title="Ejercicio y comida saludable: el secreto para estar listo antes del viaje"
           category="Nota"
           slug="/notas/ejercicio-y-comida-saludable"

@@ -30,7 +30,7 @@ const Head = () => {
           .slice(0, numberOfItems)
           .map((post) =>
             post.categoria === "Turismo" ? (
-              post.id == 1 || post.id == 2 || post.id == 3 ? (
+              post.id == 1 ? (
                 <CardMedidasSm
                   key={post.id}
                   title={post.card}
@@ -54,7 +54,7 @@ const Head = () => {
                   description={post.titulo}
                 />
               )
-            ) : post.id == 1 || post.id == 2 || post.id == 3 ? (
+            ) : post.id == 1 ? (
               <CardMedidasLg
                 key={post.id}
                 title={post.card}
