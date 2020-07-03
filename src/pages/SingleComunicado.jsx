@@ -21,7 +21,7 @@ const SingleComunicado = () => {
             ogImage=""
             hashTag=""
           />
-          {post.id == 2 || post.id == 3 ? (
+          {post.id == 1 ? (
             <MainContentComunicados
               title={post.titulo}
               banner={post.imagen}
