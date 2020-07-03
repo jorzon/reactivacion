@@ -1,19 +1,6 @@
 [
     {
         "id": 1,
-        "titulo": "Aprueban el Protocolo Sanitario Sectorial ante el COVID-19 para agencias de viaje y turismo",
-        "fecha": "1 de julio, 2020",
-        "resumen": "Esto permitirá una reactivación segura y dinámica del turismo y dará las herramientas necesarias a dos de sus principales actores.",
-        "imagen": "http://mmsolutions.com.pe/img/landing-reactivacion/medidas/2-desinfeccion-de-manos.jpg",
-        "alt": "desinfeccion-de-manos",
-        "categoria": "Turismo",
-        "slug": "/protocolos-sanitarios",
-        "shortname": "Protocolos sanitarios",
-        "url": "https://ytuqueplanes.com/pdf/protocolo-sanitario-ante-covid19-R-M-N-112-2020-mincetur.pdf",
-        "card": "¡Ya se aprobaron los protocolos sanitarios para agencias de viaje y guiado!"
-    },
-    {
-        "id": 2,
         "titulo": "Las nuevas reglas que el público deberá cumplir cuando visite un destino turístico",
         "fecha": "1 de julio, 2020",
         "resumen": "**Consideraciones generales:**\n\n- Uso obligatorio de la mascarilla durante toda la visita turística (antes, durante y después).\n- Cumplir con el distanciamiento social obligatorio.\n- Mantener un comportamiento oportuno que evite el contagio del COVID-19. No tocarse los ojos, nariz y boca sin lavarse las manos previamente.\n- Cumplir con los procedimientos establecidos por los sitios turísticos para realizar la visita turística.\n- El Ministerio de Comercio Exterior y Turismo recomienda a las personas abstenerse de realizar visitas turísticas en caso presenten alguna sintomatología del COVID-19. \n\n**Otras consideraciones:**\n\n- Informarse previamente, en los medios oficiales del sitio turístico, sobre las medidas preventivas y operativas para la visita.\n- Respetar los horarios establecidos de los servicios comunes y de la atención en el sitio turístico.\n- Permitir la toma de temperatura al ingreso, durante su estancia y a la salida, en caso de pernoctar en el lugar, usar un termómetro clínico infrarrojo.\n- Cumplir con el procedimiento y frecuencia del lavado o desinfección de manos (antes, durante y después, y cuando el caso lo amerite).\n- Permitir la desinfección del calzado (suela) al ingreso de los ambientes cerrados del sitio turístico o cada vez que sea necesario. Asimismo, permitir la desinfección de los artículos personales, si el caso lo amerita.\n- El ingreso de los niños y niñas será con un acompañante mayor de edad, quien será la persona responsable de asegurar el cumplimiento de las medidas de prevención establecidas. \n- El visitante solo debe desplazarse por los espacios delimitados, desarrollar las actividades permitidas y cumplir con las condiciones para la visita, principalmente el distanciamiento social y las previstas en el protocolo del sitio turístico; caso contrario, la administración del sitio turístico aplicará las medidas correctivas correspondientes.\n- No se brindará atención a los visitantes que incumplan con las medidas preventivas sanitarias establecidas y detalladas previamente, o si presentan alguna sintomatología del COVID-19.\n\n\nFuente: Ministerio de Comercio Exterior y Turismo\n\n\n",
@@ -24,6 +11,19 @@
         "shortname": "Recomendaciones en sitios turísticos culturales y naturales",
         "url": "https://www.gob.pe/institucion/minsa/normas-legales/195873-822-2018-minsa",
         "card": "Recomendaciones en sitios turísticos culturales y naturales"
+    },
+    {
+        "id": 2,
+        "titulo": "Aprueban el Protocolo Sanitario Sectorial ante el COVID-19 para agencias de viaje y turismo",
+        "fecha": "1 de julio, 2020",
+        "resumen": "Esto permitirá una reactivación segura y dinámica del turismo y dará las herramientas necesarias a dos de sus principales actores.",
+        "imagen": "http://mmsolutions.com.pe/img/landing-reactivacion/medidas/2-desinfeccion-de-manos.jpg",
+        "alt": "desinfeccion-de-manos",
+        "categoria": "Turismo",
+        "slug": "/protocolos-sanitarios",
+        "shortname": "Protocolos sanitarios",
+        "url": "https://www.gob.pe/institucion/mincetur/normas-legales/762043-112-2020-mincetur",
+        "card": "¡Ya se aprobaron los protocolos sanitarios para agencias de viaje y guiado!"
     },
     {
         "id": 3,
