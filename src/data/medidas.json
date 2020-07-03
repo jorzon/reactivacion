@@ -8,13 +8,13 @@
         "alt": "desinfeccion-de-manos",
         "categoria": "Turismo",
         "slug": "/protocolos-sanitarios",
-        "shortname": "Recomendaciones en servicios de transporte aéreo",
+        "shortname": "Protocolos sanitarios",
         "url": "https://ytuqueplanes.com/pdf/protocolo-sanitario-ante-covid19-R-M-N-112-2020-mincetur.pdf",
         "card": "¡Ya se aprobaron los protocolos sanitarios para agencias de viaje y guiado!"
     },
     {
         "id": 2,
-        "titulo": "Las nuevas reglas que el público deberá cumplir cuando visite un destino turístico.",
+        "titulo": "Las nuevas reglas que el público deberá cumplir cuando visite un destino turístico",
         "fecha": "1 de julio, 2020",
         "resumen": "**Consideraciones generales:**\n\n- Uso obligatorio de la mascarilla durante toda la visita turística (antes, durante y después).\n- Cumplir con el distanciamiento social obligatorio.\n- Mantener un comportamiento oportuno que evite el contagio del COVID-19. No tocarse los ojos, nariz y boca sin lavarse las manos previamente.\n- Cumplir con los procedimientos establecidos por los sitios turísticos para realizar la visita turística.\n- El Ministerio de Comercio Exterior y Turismo recomienda a las personas abstenerse de realizar visitas turísticas en caso presenten alguna sintomatología del COVID-19. \n\n**Otras consideraciones:**\n\n- Informarse previamente, en los medios oficiales del sitio turístico, sobre las medidas preventivas y operativas para la visita.\n- Respetar los horarios establecidos de los servicios comunes y de la atención en el sitio turístico.\n- Permitir la toma de temperatura al ingreso, durante su estancia y a la salida, en caso de pernoctar en el lugar, usar un termómetro clínico infrarrojo.\n- Cumplir con el procedimiento y frecuencia del lavado o desinfección de manos (antes, durante y después, y cuando el caso lo amerite).\n- Permitir la desinfección del calzado (suela) al ingreso de los ambientes cerrados del sitio turístico o cada vez que sea necesario. Asimismo, permitir la desinfección de los artículos personales, si el caso lo amerita.\n- El ingreso de los niños y niñas será con un acompañante mayor de edad, quien será la persona responsable de asegurar el cumplimiento de las medidas de prevención establecidas. \n- El visitante solo debe desplazarse por los espacios delimitados, desarrollar las actividades permitidas y cumplir con las condiciones para la visita, principalmente el distanciamiento social y las previstas en el protocolo del sitio turístico; caso contrario, la administración del sitio turístico aplicará las medidas correctivas correspondientes.\n- No se brindará atención a los visitantes que incumplan con las medidas preventivas sanitarias establecidas y detalladas previamente, o si presentan alguna sintomatología del COVID-19.\n\n\nFuente: Ministerio de Comercio Exterior y Turismo\n\n\n",
         "imagen": "http://mmsolutions.com.pe/img/landing-reactivacion/medidas/3-control-de-tempertura.jpg",
@@ -27,7 +27,7 @@
     },
     {
         "id": 3,
-        "titulo": "Manual del usuario para el registro de solicitudes de autorización de la reanudación de actividades.",
+        "titulo": "Manual del usuario para el registro de solicitudes de autorización de la reanudación de actividades",
         "fecha": "1 de julio, 2020",
         "resumen": "El protocolo sanitario para la reactivación de la actividad hotelera permitirá su funcionamiento durante la Fase 1 de la Reanudación de Actividades.\n\n [Resolución Ministerial N° 080-2020-MINCETUR](https://cdn.www.gob.pe/uploads/document/file/694765/RM_N__080.pdf)\n\n [Resolución Ministerial N° 081-2020-MINCETUR](https://busquedas.elperuano.pe/normaslegales/establecen-criterios-de-focalizacion-territorial-y-la-obliga-resolucion-ministerial-n-081-2020-mincetur-1866182-1/)\n\n",
         "imagen": "http://mmsolutions.com.pe/img/landing-reactivacion/medidas/5.jpg",
@@ -40,7 +40,7 @@
     },
     {
         "id": 4,
-        "titulo": "Decreto Legislativo que aprueba medidas para reactivar la actividad turística a través de “Turismo Emprende”.",
+        "titulo": "Decreto Legislativo que aprueba medidas para reactivar la actividad turística a través de “Turismo Emprende”",
         "fecha": "1 de julio, 2020",
         "resumen": "Esta norma tiene por objeto permitir la reactivación económica y promoción del turismo, la artesanía y otros afines, así como de las micro y pequeñas empresas. Adicionalmente, busca facultar al Comité Multisectorial de Selección del Programa “Turismo Emprende“ para aprobar medidas que contribuyan a mitigar el impacto generado por la emergencia sanitaria por el COVID -19",
         "imagen": "http://mmsolutions.com.pe/img/landing-reactivacion/medidas/6.jpg",
@@ -53,7 +53,7 @@
     },
     {
         "id": 5,
-        "titulo": "Reglamento de agencias de viajes y turismo.",
+        "titulo": "Reglamento de agencias de viajes y turismo",
         "fecha": "1 de julio, 2020",
         "resumen": "Con la finalidad de establecer las disposiciones administrativas que regulan a las agencias de viajes y turismo, su inscripción en el Directorio Nacional de Prestadores de Servicios Turísticos Calificados; y las funciones del órgano competente en dicha materia, se ha elaborado el siguiente reglamento.",
         "imagen": "http://mmsolutions.com.pe/img/landing-reactivacion/medidas/15.jpg",
@@ -66,7 +66,7 @@
     },    
     {
         "id": 6,
-        "titulo": "Decreto Legislativo que dispone la reactivación y promoción de la actividad artesanal.",
+        "titulo": "Decreto Legislativo que dispone la reactivación y promoción de la actividad artesanal",
         "fecha": "1 de julio, 2020",
         "resumen": "El Decreto Legislativo que puedes ver a continuación tiene por objeto establecer medidas que permitan la reactivación y promoción económica de la actividad artesanal a cargo del Ministerio de Comercio Exterior y Turismo, en el marco de la emergencia sanitaria por el COVID-19.",
         "imagen": "http://mmsolutions.com.pe/img/landing-reactivacion/medidas/1-mujer-artesana.jpg",
@@ -79,7 +79,7 @@
     },
     {
         "id": 7,
-        "titulo": "Decreto Legislativo que dispone el acceso gratuito temporal a ciertos atractivos turísticos.",
+        "titulo": "Decreto Legislativo que dispone el acceso gratuito temporal a ciertos atractivos turísticos",
         "fecha": "1 de julio, 2020",
         "resumen": "Como medida de reactivación y promoción económica del turismo en el marco de la emergencia sanitaria por el COVID-19, se ha dispuesto el acceso gratuito, del 1 de julio al 31 de diciembre de 2020, para todos los servidores públicos así como para las niñas, niños y adolescentes, y personas adultas mayores. Este decreto favorece a peruanos y extranjeros, quienes podrán visitar los sitios arqueológicos, museos, lugares históricos y áreas naturales protegidas por el Estado, abiertos al público y administrados por el Ministerio de Cultura y el Servicio Nacional de Áreas Naturales Protegidas por el Estado – SERNANP.",
         "imagen": "http://mmsolutions.com.pe/img/landing-reactivacion/medidas/7.jpg",
@@ -92,7 +92,7 @@
     },
     {
         "id": 8,
-        "titulo": "Normatividad para la reanudación de actividades para restaurantes y servicios afines para el reparto a domicilio y recojo del local.",
+        "titulo": "Normatividad para la reanudación de actividades para restaurantes y servicios afines para el reparto a domicilio y recojo del local",
         "fecha": "1 de julio, 2020",
         "resumen": "A través del servicio de entrega a domicilio y recojo en el local, los restaurantes y servicios afines podrán reanudar sus actividades. Conoce los protocolos que deberán seguir.\n\n[Resolución Ministerial N° 250-2020-MINSA](https://www.gob.pe/institucion/minsa/normas-legales/544212-250-2020-minsa)\n\n [Resolución Ministerial N° 142-2020-PRODUCE](https://www.gob.pe/institucion/produce/normas-legales/563125-142-2020-produce)",
         "imagen": "http://mmsolutions.com.pe/img/landing-reactivacion/medidas/4.jpg",
