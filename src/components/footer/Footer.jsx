@@ -9,9 +9,9 @@ import {
   faSpotify,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import iperu from "assets/img/iperu.webp";
-import promperu from "assets/img/promperu.webp";
-import marcaperu from "assets/img/perumarca.webp";
+import iperu from "assets/img/iperu.png";
+import promperu from "assets/img/promperu.png";
+import marcaperu from "assets/img/perumarca.png";
 import mincetur from "assets/img/mincetur.png";
 import Text from "components/general/text/Text";
 import { ButtonFooter } from "components/general/button/button.stories.js";
