@@ -11,6 +11,7 @@
   text-align: center;
   margin-top: 150px;
   text-shadow: 2px 6px 8px black;
+  cursor: default;
 }
 .content_home {
   position: absolute;
@@ -20,6 +21,7 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  z-index: 2;
 }
 .img,
 .video, .img_home {

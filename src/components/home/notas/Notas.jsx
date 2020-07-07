@@ -25,7 +25,7 @@ const Notas = () => {
           category="Nota"
           slug="/notas/ejercicio-y-comida-saludable"
           alt="rutas-cortas"
-          image="http://mmsolutions.com.pe/img/landing-reactivacion/nota1/mujer-saludable-card.jpg"
+          image="./src/assets/img/nota1/mujer-saludable-card.jpg"
           content="Ver nota"
         />
         <CardNotasSm
@@ -33,7 +33,7 @@ const Notas = () => {
           category="Nota"
           slug="/notas/un-viaje-virtual-con-tus-lentes-de-realidad-virtual"
           alt="vista-aerea-kuelap"
-          image="http://mmsolutions.com.pe/img/landing-reactivacion/nota2/montanas-kuelap.jpg"
+          image="./src/assets/img/nota2/montanas-kuelap.jpg"
           content="Ver nota"
         />
         <CardNotasSm
@@ -41,7 +41,7 @@ const Notas = () => {
           category="Nota"
           slug="/notas/agencias-de-viaje-listas"
           alt="operadores-de-viaje"
-          image="http://mmsolutions.com.pe/img/landing-reactivacion/nota3/agencia-de-viajes.jpg"
+          image="./src/assets/img/nota3/agencia-de-viajes.jpg"
           content="Ver nota"
         />
         <CardNotasSm
@@ -49,7 +49,7 @@ const Notas = () => {
           category="Nota"
           slug="/notas/quinua-superalimento-andino"
           alt="superalimento-andino"
-          image="http://mmsolutions.com.pe/img/landing-reactivacion/nota6/quinua-en-mano.jpg"
+          image="./src/assets/img/nota6/quinua-en-mano.jpg"
           content="Ver nota"
         />
         <CardNotasSm
@@ -57,7 +57,7 @@ const Notas = () => {
           category="Nota"
           slug="/notas/viaja-a-ica-y-callao"
           alt="momentos-en-familia"
-          image="http://mmsolutions.com.pe/img/landing-reactivacion/nota5/familia-pelicula.jpg"
+          image="./src/assets/img/nota5/familia-pelicula.jpg"
           content="Ver nota"
         />
         <CardNotasLgAnchor
@@ -66,7 +66,7 @@ const Notas = () => {
           category=""
           slug="https://www.ytuqueplanes.com/rutas-cortas"
           alt="rutas-cortas"
-          image="http://mmsolutions.com.pe/img/landing-reactivacion/rupac-lima.jpg"
+          image="./src/assets/img/rupac-lima.jpg"
           content="Elige tu ruta"
         />
       </div>
