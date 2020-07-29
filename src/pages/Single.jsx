@@ -33,6 +33,7 @@ const Single = () => {
             ogImage=""
             hashTag=""
           />
+
           <MainContent
             title={post.titulo}
             banner={post.imagen}
