@@ -17,7 +17,7 @@ const Notas = () => {
         headingLevel="h2"
         content="Dale	un vistazo a estos contenidos	desde	la	
         comodidad	de tu	hogar. Viaja por el Perú y descubre	sus	lugares	turísticos con un	
-        solo click"
+        solo clic"
       />
       <div className={styles.card_container}>
         <CardNotasLg

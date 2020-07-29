@@ -26,7 +26,7 @@ export const HeroHome = () => {
         >
             <div className={styles.content_home}>
                 <img className={styles.promperu} src={promperu} alt="promperu-logo" />
-                <Text headingLevel="h1" className={styles.text_home} content="Vamos a volver" />
+                <Text headingLevel="h1" className={styles.text_home} content="¡Vamos a volver!" />
                 <a href="https://ytuqueplanes.com/" target="_blank" rel="noopener noreferrer"><img className={styles.logo} src={Logo} alt="ytuqueplanes-logo" /></a>
                 {/*<ButtonHomeHero />*/}
             </div>

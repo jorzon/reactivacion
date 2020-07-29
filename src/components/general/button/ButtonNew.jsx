@@ -1,11 +1,11 @@
 import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
 
-const Button = ({ children, className, url, action, onClick, anchor, to }) => {
+const Button = ({ children, className, url, action, onClick, anchor, to, name }) => {
   return (
     <Fragment>
       {action ? (
-        <button onClick={onClick} className={className}>
+        <button name={name} onClick={onClick} className={className}>
           {children}
         </button>
       ) : anchor ? (

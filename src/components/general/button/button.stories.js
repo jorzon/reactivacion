@@ -34,7 +34,7 @@ export const ButtonHomeMedidas = () => {
 
 export const ButtonHomeMedidasCard = ({green}) => {
     return (
-        <Button action className={green ? styles.wrapper_home_medidas_card_green : styles.wrapper_home_medidas_card}>
+        <Button name="Leer más" action className={green ? styles.wrapper_home_medidas_card_green : styles.wrapper_home_medidas_card}>
             Leer más
         </Button>
     )

@@ -34,11 +34,16 @@ const MainContent = ({
           <Text className={styles.title} content={title} />
           <Text className={styles.date} content={date} />
           <Paragraph source={content} />
-          <img alt={alt_footer} className={ footer === '' ? styles.date : styles.img } src={footer} />
+          <img
+            alt={alt_footer}
+            className={footer === "" ? styles.date : styles.img}
+            src={footer}
+          />
           <p className={styles.footer}>
-            Demuestra una vez más que los peruanos somos responsables y
-            solidarios. De ti depende que más compatriotas estén libres del
-            COVID-19. Recuerda, <strong>#PrimeroMiSalud</strong>.
+            Vamos a volver. Cuando lo hagamos, seremos los protagonistas de la
+            reactivación económica del Perú. <strong>#VamosaVolver</strong>{" "}
+            <strong>#PrimeroMiSalud</strong>{" "}
+            <strong>#YTúQuéPlanes</strong>.
           </p>
           {/* 
           key={post.id}
