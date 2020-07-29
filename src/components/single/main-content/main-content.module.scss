@@ -14,7 +14,14 @@
   max-width: 697px;
   width: 100%;
 }
-.img_head{
+
+.imgtype2 {
+  margin: auto;
+  max-width: 697px;
+  width: 100%;
+}
+
+.img_head {
   object-fit: cover;
   object-position: center;
   height: 197px;
@@ -121,14 +128,14 @@
   width: 180px;
   height: 43px;
   border-radius: 23px;
-  background-color: #84C131;
+  background-color: #84c131;
   font-family: BreePeru;
   font-size: 14px;
   font-weight: 500;
   color: white;
   cursor: pointer;
   display: flex;
-  border: solid 2px #84C131;
+  border: solid 2px #84c131;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -140,5 +147,5 @@
 .download_green:hover {
   background-color: transparent;
   transition: all 200ms ease-in-out;
-  color: #84C131;
+  color: #84c131;
 }

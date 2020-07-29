@@ -9,7 +9,7 @@ import data from "data/medidas.json";
 const SingleComunicado = () => {
   return (
     <Layout single to="/ver-todo" content="comunicados">
-      {data.map((post) => (
+      {data.map(post => (
         <Route key={post.id} path={"/comunicados" + post.slug}>
           <Seo
             title={post.titulo}
@@ -25,6 +25,7 @@ const SingleComunicado = () => {
             <MainContentComunicados
               title={post.titulo}
               banner={post.imagen}
+              banner2={post.imagenInfo}
               shortname={post.shortname}
               parrafo={post.resumen}
               url={post.url}
@@ -38,6 +39,7 @@ const SingleComunicado = () => {
             <MainContentComunicados
               title={post.titulo}
               banner={post.imagen}
+              banner2={post.imagenInfo}
               shortname={post.shortname}
               parrafo={post.resumen}
               url={post.url}

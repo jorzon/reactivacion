@@ -21,7 +21,7 @@ const Single = () => {
 
   return (
     <Layout single to="/" content="inicio">
-      {data.map((post) => (
+      {data.map(post => (
         <Route key={post.id} path={"/notas" + post.slug}>
           <Seo
             title={post.titulo}
@@ -36,6 +36,7 @@ const Single = () => {
           <MainContent
             title={post.titulo}
             banner={post.imagen}
+            banner2={post.imagenInfo}
             date={post.date}
             slug={post.slug}
             category={post.categoria}

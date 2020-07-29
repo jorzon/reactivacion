@@ -12,6 +12,7 @@ import Paragraph from "components/general/paragraph/Paragraph";
 const MainContentComunicados = ({
   title,
   banner,
+  banner2,
   shortname,
   slug,
   date,
@@ -28,11 +29,17 @@ const MainContentComunicados = ({
         {/* <Sidebar notes={notes} /> */}
         <div className={styles.content}>
           <img className={styles.img} src={banner} alt="" />
-          <Breadcrumbs comunicado content={shortname} slug={"comunicados" + slug} />
+
+          <Breadcrumbs
+            comunicado
+            content={shortname}
+            slug={"comunicados" + slug}
+          />
           <Text className={styles.title} content={title} />
           <Text className={styles.date} content={date} />
           <Paragraph className={styles.text} source={parrafo} />
           {/* <Text  content={} /> */}
+          <img className={styles.imgtype2} src={banner2} alt="" />
           <a
             className={greenbtn ? styles.download_green : styles.download}
             href={url}
@@ -43,7 +50,13 @@ const MainContentComunicados = ({
             Ver comunicado completo
           </a>
           <hr className={styles.hr} />
-          <Pagination comunicado tipo="/comunicados" pagination={pagination} previous={previous} next={next}/>
+          <Pagination
+            comunicado
+            tipo="/comunicados"
+            pagination={pagination}
+            previous={previous}
+            next={next}
+          />
         </div>
       </section>
     </LimitWrapper>

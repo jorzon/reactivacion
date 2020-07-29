@@ -22,7 +22,7 @@ const MainContent = ({
   next,
   footer,
   alt_head,
-  alt_footer,
+  alt_footer
 }) => {
   return (
     <LimitWrapper>
@@ -42,8 +42,7 @@ const MainContent = ({
           <p className={styles.footer}>
             Vamos a volver. Cuando lo hagamos, seremos los protagonistas de la
             reactivación económica del Perú. <strong>#VamosaVolver</strong>{" "}
-            <strong>#PrimeroMiSalud</strong>{" "}
-            <strong>#YTúQuéPlanes</strong>.
+            <strong>#PrimeroMiSalud</strong> <strong>#YTúQuéPlanes</strong>.
           </p>
           {/* 
           key={post.id}
