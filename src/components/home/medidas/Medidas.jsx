@@ -4,7 +4,7 @@ import LimitWrapper from "components/general/limit-wrapper/LimitWrapper";
 import Text from "components/general/text/Text";
 import {
   CardMedidasSm,
-  CardMedidasLg,
+  CardMedidasLg
 } from "components/general/card/card.stories.js";
 import { ButtonHomeMedidas } from "components/general/button/button.stories.js";
 import data from "data/medidas.json";
@@ -15,7 +15,7 @@ const Medidas = () => {
     responsive: [
       {
         breakpoint: 999999,
-        settings: "unslick",
+        settings: "unslick"
       },
       {
         breakpoint: 769,
@@ -27,10 +27,10 @@ const Medidas = () => {
           variableWidth: true,
           speed: 400,
           infinite: true,
-          arrows: false,
-        },
-      },
-    ],
+          arrows: false
+        }
+      }
+    ]
   };
 
   return (
@@ -45,7 +45,7 @@ const Medidas = () => {
         <Slider className={styles.card_container} {...settings}>
           {data
             .slice(0, 5)
-            .map((post) =>
+            .map(post =>
               post.id == 1 ? (
                 post.categoria === "Turismo" ? (
                   <CardMedidasSm

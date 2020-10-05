@@ -123,7 +123,7 @@
 
 .title_notas_sm {
   font-family: ClanOffc;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: bold;
   color: white;
   line-height: 1.2;
@@ -131,14 +131,14 @@
 
 .title_notas_lg {
   font-family: ClanOffc;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: bold;
   color: white;
-  width: 69%;
+  width: 100%;
   line-height: 1.2;
 }
 
-.title_notas_lg_anchor{
+.title_notas_lg_anchor {
   font-family: ClanOffc;
   font-size: 30px;
   font-weight: bold;
@@ -177,7 +177,7 @@
     margin: 20px 5px 0px 5px;
   }
   .title_notas_sm {
-    font-size: 15px;
+    font-size: 20px;
   }
 }
 @media (max-width: 953px) and (min-width: 477px) {
@@ -206,7 +206,7 @@
   .title_medidas {
     font-size: 11px;
   }
-  .title_notas_lg_anchor{
+  .title_notas_lg_anchor {
     font-size: 22px;
   }
 }

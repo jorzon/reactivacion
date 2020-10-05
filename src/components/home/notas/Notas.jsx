@@ -4,7 +4,7 @@ import Text from "components/general/text/Text";
 import {
   CardNotasSm,
   CardNotasLg,
-  CardNotasLgAnchor,
+  CardNotasLgAnchor
 } from "components/general/card/card.stories.js";
 import data from "data/notas.json";
 
@@ -19,45 +19,47 @@ const Notas = () => {
         comodidad	de tu	hogar. Viaja por el Perú y descubre	sus	lugares	turísticos con un	
         solo clic"
       />
+
       <div className={styles.card_container}>
         <CardNotasLg
-          title="Ejercicio y comida saludable: el secreto para estar listo antes del viaje"
+          title="Yo me protejo usando mi mochila de emergencia"
           category="Nota"
-          slug="/notas/ejercicio-y-comida-saludable"
+          slug="/notas/yo-me-protejo-usando-mi-mochila-de-emergencia"
+          alt="mochila-de-emergencia"
+          image="./src/assets/img/nota15/mochila-de-emergencia.jpg"
+          content="Ver nota"
+        />
+
+        <CardNotasSm
+          title="Cuidar tu salud es simple, incluye la granadilla en tu alimentación"
+          category="Nota"
+          slug="/notas/incluye-la-granadilla-en-tu-alimentacion"
           alt="rutas-cortas"
-          image="./src/assets/img/nota1/mujer-saludable-card.jpg"
+          image="./src/assets/img/nota4/granadillas-plato.jpg"
           content="Ver nota"
         />
         <CardNotasSm
-          title="Un viaje virtual con tus lentes de realidad virtual hechos en casa"
+          title="#PrimeroMiSalud, me cuido hoy para viajar después"
           category="Nota"
-          slug="/notas/un-viaje-virtual-con-tus-lentes-de-realidad-virtual"
-          alt="vista-aerea-kuelap"
-          image="./src/assets/img/nota2/montanas-kuelap.jpg"
-          content="Ver nota"
-        />
-        <CardNotasSm
-          title="Agencias de viaje listas para sacar a flote al turismo interno"
-          category="Nota"
-          slug="/notas/agencias-de-viaje-listas"
+          slug="/notas/me-cuido-hoy-para-viajar-despues"
           alt="operadores-de-viaje"
-          image="./src/assets/img/nota3/agencia-de-viajes.jpg"
+          image="./src/assets/img/nota8/limpieza-de-manos.jpg"
           content="Ver nota"
         />
         <CardNotasSm
-          title="Quinua, superalimento andino que nutre al mundo"
+          title="Viajar por el Perú: otra forma de ayudar a tu país"
           category="Nota"
-          slug="/notas/quinua-superalimento-andino"
+          slug="/notas/viajar-por-el-peru"
           alt="superalimento-andino"
-          image="./src/assets/img/nota6/quinua-en-mano.jpg"
+          image="./src/assets/img/nota9/viaje_maleta.png"
           content="Ver nota"
         />
         <CardNotasSm
-          title="¡Como si estuvieras allí! Viaja a Ica y Callao sin salir de casa!"
+          title="¡A calentar el cuerpo con una patasca!"
           category="Nota"
-          slug="/notas/viaja-a-ica-y-callao"
+          slug="/notas/a-calentar-el-cuerpo"
           alt="momentos-en-familia"
-          image="./src/assets/img/nota5/familia-pelicula.jpg"
+          image="./src/assets/img/nota5/patasca-peru.jpg"
           content="Ver nota"
         />
         <CardNotasLgAnchor
